@@ -1,0 +1,13 @@
+{
+    "version": "1.0.5",
+    "build_time": 1781747415,
+    "message": "Ban cap nhat moi",
+    "files": [
+        "scripts/bot_core.pyc",
+        "scripts/gui_core.pyc",
+        "scripts/tra_tao_doi_chau.pyc",
+        "scripts/cay_sao_5tang.pyc",
+        "scripts/vai_do_2.pyc",
+        "scripts/hong_say_4.pyc"
+    ]
+}
