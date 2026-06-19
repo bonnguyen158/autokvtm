@@ -1,7 +1,7 @@
 {
     "version": "1.0.7",
-    "build_time": 1781782476,
-    "message": "Chỉnh lại vuốt đa điểm sử dụng truyền dữ liệu theo thời gian thực",
+    "build_time": 1781844635,
+    "message": "Ban cap nhat moi",
     "files": [
         "scripts/bot_core.pyc",
         "scripts/gui_core.pyc",
