@@ -1,7 +1,7 @@
 {
     "version": "1.0.8",
-    "build_time": 1781964434,
-    "message": "Tính năng nâng cấp kho",
+    "build_time": 1781964573,
+    "message": "Ban cap nhat moi",
     "files": [
         "scripts/bot_core.pyc",
         "scripts/gui_core.pyc",
