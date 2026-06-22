@@ -1,7 +1,7 @@
 {
     "version": "1.0.9",
-    "build_time": 1782117262,
-    "message": "Mã hóa mới",
+    "build_time": 1782119591,
+    "message": "Ban cap nhat moi",
     "files": [
         "scripts/bot_core.pyd",
         "scripts/gui_core.pyd",
