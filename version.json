@@ -1,6 +1,6 @@
 {
     "version": "1.0.9",
-    "build_time": 1782120199,
+    "build_time": 1782120666,
     "message": "Ban cap nhat moi",
     "files": [
         "scripts/bot_core.pyd",
