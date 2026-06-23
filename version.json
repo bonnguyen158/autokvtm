@@ -1,7 +1,7 @@
 {
-    "version": "1.0.9",
-    "build_time": 1782147793,
-    "message": "Ban cap nhat moi",
+    "version": "1.1.0",
+    "build_time": 1782196916,
+    "message": "Thêm kiểm tra số lượng cây",
     "files": [
         "scripts/bot_core.pyd",
         "scripts/gui_core.pyd",
