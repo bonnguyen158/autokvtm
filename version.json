@@ -1,7 +1,7 @@
 {
     "version": "1.1.1",
-    "build_time": 1782290757,
-    "message": "Thêm kịch bản Mua nước táo friend và sx vải vàng",
+    "build_time": 1782291539,
+    "message": "Ban cap nhat moi",
     "files": [
         "scripts/bot_core.pyd",
         "scripts/gui_core.pyd",
