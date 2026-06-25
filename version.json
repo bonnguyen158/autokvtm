@@ -1,7 +1,7 @@
 {
-    "version": "1.1.1",
-    "build_time": 1782350437,
-    "message": "Ban cap nhat moi",
+    "version": "1.1.2",
+    "build_time": 1782357643,
+    "message": "Thêm cài đặt riêng cho từng tab",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -411,14 +411,14 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "3811a388684e090a9ca7bc7c287894ef",
-        "scripts/cay_sao_5tang.pyd": "827d7867643b343f87b3a81aca0a1522",
-        "scripts/gui_core.pyd": "22b899d376824ab641cc2cfdab8c8427",
-        "scripts/hong_say_4.pyd": "b251f0cb22aede6041520f8ed3d7da2b",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "01b934d2ac2afde847db56636bdd7c89",
-        "scripts/san_chuonchuon.pyd": "2cba3f82a40b78306a01ebb91dd1cf50",
-        "scripts/startup_manager.pyd": "843466803fa4315ebbeb69e69e179289",
-        "scripts/tra_tao_doi_chau.pyd": "e429fb509ebbe1c09686e20d076e5cbb",
-        "scripts/vai_do_2.pyd": "cd60272178a66c5488f32b5e69c4fb9a"
+        "scripts/bot_core.pyd": "82f4064f42c598087e275cd210494582",
+        "scripts/cay_sao_5tang.pyd": "e13b013608a7420a71bc59ceef2c7579",
+        "scripts/gui_core.pyd": "8addac7321c7c9b2a4a52953cd59f0fb",
+        "scripts/hong_say_4.pyd": "466f0c50473e62f4606971738190ead3",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "fbb45de0968c3a1dab824beb3fc200de",
+        "scripts/san_chuonchuon.pyd": "98b22c3356951f7409ffd91ecd0f365e",
+        "scripts/startup_manager.pyd": "e796cceb85ca7c7a4d6c2496958ffae4",
+        "scripts/tra_tao_doi_chau.pyd": "69cef2a4d1f2c292ce805593a7a6aa42",
+        "scripts/vai_do_2.pyd": "1df63911b4dd935726c7b8720e056ce8"
     }
 }
