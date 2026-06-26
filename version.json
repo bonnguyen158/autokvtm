@@ -1,7 +1,7 @@
 {
     "version": "1.1.3",
-    "build_time": 1782460685,
-    "message": "Thêm kiểm tra thiếu nguyên liệu sản xuất",
+    "build_time": 1782461893,
+    "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -412,15 +412,15 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "17457d3b8adac8bc8278eff38e09f17e",
-        "scripts/cay_sao_5tang.pyd": "4b861be1a22f927ae433919f5feceefd",
-        "scripts/gui_core.pyd": "7fbad84f012a7ea1b462f8b7ba89c555",
-        "scripts/hong_say_4.pyd": "c1fb34822293045c1515c7b13c4b6f48",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "4d39c2eea8ab4968262d1fe86dff53b6",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "8a8a5dbf73bbfeeb6d36a71be46e2953",
-        "scripts/san_chuonchuon.pyd": "17f3d876fbd6777b1ea210340fd55ad8",
-        "scripts/startup_manager.pyd": "ecd17cd3d9224a0336622cf3661919fe",
-        "scripts/tra_tao_doi_chau.pyd": "efd1b6cd6046082d8bd34c49c5df8717",
-        "scripts/vai_do_2.pyd": "03d78d26f56f9e4bd253441d6bee8d43"
+        "scripts/bot_core.pyd": "0f74ce4fe0a7d07520f326bb3ade6baf",
+        "scripts/cay_sao_5tang.pyd": "ef159c475c4da8415f9a200b3ae86e18",
+        "scripts/gui_core.pyd": "c6a2d3559d34caf3dc8e79102323346f",
+        "scripts/hong_say_4.pyd": "80ba2b3d2d2d8229ce2042b0dd82115e",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "c7170748e9955996c6ef2944b97d4e7b",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "ecea7df0e8c88ffafea8f2b68e00b76f",
+        "scripts/san_chuonchuon.pyd": "ec8da3a3ae77b4161ed871b3aa51b167",
+        "scripts/startup_manager.pyd": "0efed5d8fb2d8550b94bddb02e43735d",
+        "scripts/tra_tao_doi_chau.pyd": "a86091e9b70252f36f7a0e887f1ac94a",
+        "scripts/vai_do_2.pyd": "b7bf809cc361ff76813999d9da95dc63"
     }
 }
