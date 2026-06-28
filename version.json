@@ -1,6 +1,6 @@
 {
     "version": "1.1.4",
-    "build_time": 1782615985,
+    "build_time": 1782616721,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -412,15 +412,15 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "cd50c47c47d7f3f4e75b5490bef34324",
-        "scripts/cay_sao_5tang.pyd": "c142b9510483f0941dacc71dc81e7a8b",
-        "scripts/gui_core.pyd": "08e484acb9fc5daf64ab58282c6cbb0b",
-        "scripts/hong_say_4.pyd": "695ccbf69e548df5803b7008745ab044",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "f42e57029f3f65a715868ade7c8ea7ee",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "40dada3e6d1b7bbed0adc9c4e9260a19",
-        "scripts/san_chuonchuon.pyd": "1e3e9a23f1b4f1b15dd366170b5d0f3f",
-        "scripts/startup_manager.pyd": "71af0d0c907809b0bc6594857779d88d",
-        "scripts/tra_tao_doi_chau.pyd": "b951036318af9176ba6f1ce96f4860b9",
-        "scripts/vai_do_2.pyd": "a3206f09e6dcaa472f2a3662f9806143"
+        "scripts/bot_core.pyd": "a7267c966c35c55b5a636c980057a319",
+        "scripts/cay_sao_5tang.pyd": "13e5d1088a10084c07d72d91bf8fd3df",
+        "scripts/gui_core.pyd": "ae8c9f737511339bfc752fa1ca811bc2",
+        "scripts/hong_say_4.pyd": "afc1512d6649cbbec9a1b52129b9cefc",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "378e5d8812f125a43d27b0d432e1582d",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "3a665c60bd8fd9407db97d6cbcda5c00",
+        "scripts/san_chuonchuon.pyd": "e373441b476e6f14150a4f54fbba825e",
+        "scripts/startup_manager.pyd": "ab122192108e1132302d4121485c7f19",
+        "scripts/tra_tao_doi_chau.pyd": "4e23a81966bed63ce770a7d27c85a2dd",
+        "scripts/vai_do_2.pyd": "09b254c37399178c74c3c07a4534dfdb"
     }
 }
