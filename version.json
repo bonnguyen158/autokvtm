@@ -1,6 +1,6 @@
 {
     "version": "1.1.4",
-    "build_time": 1782720300,
+    "build_time": 1782720504,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -414,16 +414,16 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "354b8a1902a8ccd5c55b9f8c17f1bd6a",
-        "scripts/cay_sao_5tang.pyd": "ea8430e4620957f4ad1ae788a103062e",
-        "scripts/empty.pyd": "5702b3d8c4be0c912d36380dd55243e9",
-        "scripts/gui_core.pyd": "cde22fd3c2aac8e3416283daf0322343",
-        "scripts/hong_say_4.pyd": "911706f12e6cc17365ff78a1f02712f8",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "d3f9098edac223d832205ed7cc03cbf3",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "97ff71f4fe664b88d9fcd8433c86984c",
-        "scripts/san_chuonchuon.pyd": "a7ec9ded182db22b1f7ad9330e793b3f",
-        "scripts/startup_manager.pyd": "b50edf80f44965df0d446fdf040bfb27",
-        "scripts/tra_tao_doi_chau.pyd": "274452aef7f1cb298c521c2704d2d8f0",
-        "scripts/vai_do_2.pyd": "3c4b2108bee605c2426df34d1c7158f0"
+        "scripts/bot_core.pyd": "d9b2322bd1ee064741fee8f5a6d8fa76",
+        "scripts/cay_sao_5tang.pyd": "540102b53600c6df5948b8e48ce47ca4",
+        "scripts/empty.pyd": "5f99916531ae2d2737a681d4cd03ccfa",
+        "scripts/gui_core.pyd": "30bf7d70407e90807fe40cf151282ad8",
+        "scripts/hong_say_4.pyd": "c3471f6277a0a0a8720f68a09625b9b7",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "86d6992b5d66d392854345e6bcd62559",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "7debcb125d6f648e034f5e7436187d23",
+        "scripts/san_chuonchuon.pyd": "b0590122c1e4a3db4650c3830a6eab23",
+        "scripts/startup_manager.pyd": "c1ef7e427ea4140f2f134ebb6f6d7c87",
+        "scripts/tra_tao_doi_chau.pyd": "3c9a9f556e32f43d735334e692ca9b97",
+        "scripts/vai_do_2.pyd": "3c91ce57d93c05aa19406b6472641eaa"
     }
 }
