@@ -1,6 +1,6 @@
 {
     "version": "1.1.4",
-    "build_time": 1782719681,
+    "build_time": 1782719994,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -414,16 +414,16 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "b9ee416de4d3c67e6bea4da468078360",
-        "scripts/cay_sao_5tang.pyd": "0bb4040a387e743ade751312f7ca0b81",
-        "scripts/empty.pyd": "f4d0ffc5c1afd51e746cc54f0365117b",
-        "scripts/gui_core.pyd": "e938450ece9ea4fe478995d8f4dc48fe",
-        "scripts/hong_say_4.pyd": "d12e238500853c183e8f5389ab9777e5",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "9b1766a4120fcbca3164559f5d4b7dd8",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "6d5b1ed8c7fa9deb972ea4ef2b9ab753",
-        "scripts/san_chuonchuon.pyd": "9476b042e9f6f84e0fe032852bd37803",
-        "scripts/startup_manager.pyd": "a37edf21f898940cc58d9f9ff3669eda",
-        "scripts/tra_tao_doi_chau.pyd": "99b4fc787bff0ecd66014a7e8fe06e81",
-        "scripts/vai_do_2.pyd": "72f8bf26798afcfc9bb6112236eeb760"
+        "scripts/bot_core.pyd": "287860c17ac5d314609f2be37c5d0603",
+        "scripts/cay_sao_5tang.pyd": "c9f2b16865e62ea19ab49607d9ad5350",
+        "scripts/empty.pyd": "f59b2053cecf415bf9684cf63762da4b",
+        "scripts/gui_core.pyd": "27d7f97e4b1a3bd77955b466c6cfe6b1",
+        "scripts/hong_say_4.pyd": "45780cdc9933593519b575351fd1a984",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "5b9c4e143e35f6c4e6047e2912b6a886",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "0ff53c49226c9f59b0936d2208f94d4c",
+        "scripts/san_chuonchuon.pyd": "16b1372b61eb00328d4930d7f4931b67",
+        "scripts/startup_manager.pyd": "6fbe4b8234a8ca14217cf7502ca728c7",
+        "scripts/tra_tao_doi_chau.pyd": "40cfd25f118319cb54fe469e481e85ec",
+        "scripts/vai_do_2.pyd": "ddd4c1913ea1ff59e51b43c7e6e71f0e"
     }
 }
