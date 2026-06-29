@@ -1,6 +1,6 @@
 {
     "version": "1.1.4",
-    "build_time": 1782720504,
+    "build_time": 1782720813,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -414,16 +414,16 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bot_core.pyd": "d9b2322bd1ee064741fee8f5a6d8fa76",
-        "scripts/cay_sao_5tang.pyd": "540102b53600c6df5948b8e48ce47ca4",
-        "scripts/empty.pyd": "5f99916531ae2d2737a681d4cd03ccfa",
-        "scripts/gui_core.pyd": "30bf7d70407e90807fe40cf151282ad8",
-        "scripts/hong_say_4.pyd": "c3471f6277a0a0a8720f68a09625b9b7",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "86d6992b5d66d392854345e6bcd62559",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "7debcb125d6f648e034f5e7436187d23",
-        "scripts/san_chuonchuon.pyd": "b0590122c1e4a3db4650c3830a6eab23",
-        "scripts/startup_manager.pyd": "c1ef7e427ea4140f2f134ebb6f6d7c87",
-        "scripts/tra_tao_doi_chau.pyd": "3c9a9f556e32f43d735334e692ca9b97",
-        "scripts/vai_do_2.pyd": "3c91ce57d93c05aa19406b6472641eaa"
+        "scripts/bot_core.pyd": "2079c50f37b973f1a17d1c7130189e5f",
+        "scripts/cay_sao_5tang.pyd": "a0fb0289b2e84bbc543f3614ed026e02",
+        "scripts/empty.pyd": "67bf7152df62584aeac3ff68f892123f",
+        "scripts/gui_core.pyd": "5c20c169b71dcd1448dc3fe096870917",
+        "scripts/hong_say_4.pyd": "1d2bcafa27d156e1cdf619207a4d3abc",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "e7fe9afa91a11cd7201a09db15f99144",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "4126a7f86833954c61761cbb6b6582b1",
+        "scripts/san_chuonchuon.pyd": "dec802a7727a0ef8a79face5e3d480c8",
+        "scripts/startup_manager.pyd": "b13fc7faeb590d20a684645b901ca007",
+        "scripts/tra_tao_doi_chau.pyd": "cd2341388b4ef6dcf793eec6c64fb59b",
+        "scripts/vai_do_2.pyd": "b82ce9145314fbe6de903c08d145cb6e"
     }
 }
