@@ -1,7 +1,7 @@
 {
     "version": "1.1.5",
-    "build_time": 1782727095,
-    "message": "Thêm giới hạn lượt bán",
+    "build_time": 1782727386,
+    "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -414,18 +414,18 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/auth_gui.pyd": "76d922cc385a0a2022656aa6d74489e0",
-        "scripts/bot_core.pyd": "0a91f3e83f374b61e61dd6d7d63ccf85",
-        "scripts/cay_sao_5tang.pyd": "780beb08558e2fe2708c19bc47d601b3",
-        "scripts/empty.pyd": "562e3f50e2c95c73776df5d2fbef7170",
-        "scripts/gui_core.pyd": "604d7d87e0906010e27d8f98bf8ee513",
-        "scripts/hong_say_4.pyd": "16ff4f5f75a5f9363df04425c0cb1fa0",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "2d1078ec907b1bb0348a5e5e80cf262d",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "36e99ec2b0c6a0a20c505bf3df7ee0ae",
-        "scripts/san_chuonchuon.pyd": "3076b8fa226efbad8ffa2c624eb99572",
-        "scripts/startup_manager.pyd": "c02e4c55e8afd7dbeefd6a99934ab9dc",
-        "scripts/sys_utils.pyd": "af0362e2e8ab80661a7a38868f996ec8",
-        "scripts/tra_tao_doi_chau.pyd": "d072844a025406812e3d1eee35327e45",
-        "scripts/vai_do_2.pyd": "7e31af08b0f53e0004b5dba0ee4c79c0"
+        "scripts/auth_gui.pyd": "a85ee42048daf34d9c4e059876006167",
+        "scripts/bot_core.pyd": "1238d7385b48e3009fb363818ffa1e84",
+        "scripts/cay_sao_5tang.pyd": "af3d442454225a60e6e60c4b296f30f4",
+        "scripts/empty.pyd": "0936ada53647fbcf9c58874462b61e5a",
+        "scripts/gui_core.pyd": "33a22ed5c4912459df8c5ad43b8bc314",
+        "scripts/hong_say_4.pyd": "98ea7035cc6103f7c9f8d7a036ffae99",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "c8e29ba828ebc324200c00bb00d938a2",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "0fa563561d2863bc7e82ab7ffd616588",
+        "scripts/san_chuonchuon.pyd": "c775c0a503c8f4ff5e2ff35ce562faad",
+        "scripts/startup_manager.pyd": "f03d6aba61d0ccc8cab06514d7acd1f7",
+        "scripts/sys_utils.pyd": "a8fed3509130bce08658810b2b2c30cc",
+        "scripts/tra_tao_doi_chau.pyd": "28a87a5dd799d4f3d6a8ab6a285120a8",
+        "scripts/vai_do_2.pyd": "7b2d3cc4795cb96b54d8cc7f5477b073"
     }
 }
