@@ -1,6 +1,6 @@
 {
     "version": "1.1.5",
-    "build_time": 1782789360,
+    "build_time": 1782789793,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -414,18 +414,18 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/auth_gui.pyd": "5ce0b267a0bc02685b584c6639be3c9e",
-        "scripts/bot_core.pyd": "08f0c9dabf672f1736dddb76fae9240a",
-        "scripts/cay_sao_5tang.pyd": "65d4c45b764e9850e7d78c3126d6d14a",
-        "scripts/empty.pyd": "5b44cb65d24ded92f3e1b5dc77844aec",
-        "scripts/gui_core.pyd": "fc5902ff3019bad0c3ddd7498764e718",
-        "scripts/hong_say_4.pyd": "223d1cbf83e7846ef6e399fcc55cbd34",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "038e745198d31136f07ff074f6465cb2",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "c3d95b8432197d8d1384a778d002a4ba",
-        "scripts/san_chuonchuon.pyd": "778d31ace989f63e96e3e1dcea275f6f",
-        "scripts/startup_manager.pyd": "cd49f3e399a081a2b41840400055d7d7",
-        "scripts/sys_utils.pyd": "e61c634fe674fd23aeffe1068835e5e8",
-        "scripts/tra_tao_doi_chau.pyd": "9a451136d2f7611e3d2d79c731984f9b",
-        "scripts/vai_do_2.pyd": "93108278a492becea32108029d607fcf"
+        "scripts/auth_gui.pyd": "76623c42135d7689b3e7f3ade2ee237c",
+        "scripts/bot_core.pyd": "760bd0c24bb626b69ad0e457b5c08f2a",
+        "scripts/cay_sao_5tang.pyd": "e93ab44ac558351df71462d37014534b",
+        "scripts/empty.pyd": "d3d209e4d504f17554003cccfac68d8b",
+        "scripts/gui_core.pyd": "2fedb0c32729bb5e226b33d4e9c27874",
+        "scripts/hong_say_4.pyd": "9aad84df53bf96f1c2fe1984ba8ded14",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "660e5926216b336103b3c33589e1b56a",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "f4173b050ecd98f50b997f1a5b75cd1c",
+        "scripts/san_chuonchuon.pyd": "068e630452966e1477b2fd33f5c86a37",
+        "scripts/startup_manager.pyd": "9f8cbc9eee58a1de2813104d3b8a0249",
+        "scripts/sys_utils.pyd": "62e23d405bd0fc60b62570a218efc4f4",
+        "scripts/tra_tao_doi_chau.pyd": "8fe761ea5bb47fb0ea5da66b2b8464ce",
+        "scripts/vai_do_2.pyd": "1d9f764715e76e26158ed65952f54eec"
     }
 }
