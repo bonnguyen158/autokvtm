@@ -1,6 +1,6 @@
 {
     "version": "1.1.7",
-    "build_time": 1783060764,
+    "build_time": 1783062019,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -428,19 +428,19 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/auth_gui.pyd": "9215c713a0a44c5a8ece11e49a45a789",
-        "scripts/bat_bo_nha_ban.pyd": "0b08160e6773238ac12f8b08f6b5d3e1",
-        "scripts/bot_core.pyd": "48c60fe87de6092b67f224858104ad4f",
-        "scripts/cay_sao_5tang.pyd": "98a5dd69b81de60fc246afeb038440be",
-        "scripts/empty.pyd": "71d9c9539b0c5e17be77aa1148c5f3d0",
-        "scripts/gui_core.pyd": "17b427a277ee29a89094dabbcbddf996",
-        "scripts/hong_say_4.pyd": "17778a5d41c9018de98178cc40d4ac34",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "62d5c1ba1091a1ea4e034e8c953ec24b",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "7d87d28748be810f6f1fccd10be6f19d",
-        "scripts/startup_manager.pyd": "1b7fa9493b64e48a23d5fff5f33d006a",
-        "scripts/sys_utils.pyd": "fb07f868c55c07ad33ae99a4a288cfee",
-        "scripts/tra_tao_doi_chau.pyd": "0a5c6488c74a1fc336dc67f6eb8a91d8",
-        "scripts/tra_tao_doi_chau_540tra.pyd": "21f73e24c06a96c6441d6310a9bb5fb9",
-        "scripts/vai_do_2.pyd": "2b32827729327ef5013a29ad8fe4850c"
+        "scripts/auth_gui.pyd": "23838d94b291e2c43108ec6e4fe11a88",
+        "scripts/bat_bo_nha_ban.pyd": "79f0fdcdf7a8515cb8bdf03119c4733b",
+        "scripts/bot_core.pyd": "d0848270a52174669ca36daaf47061a3",
+        "scripts/cay_sao_5tang.pyd": "c86832f68bfbae775046566fbebb51b8",
+        "scripts/empty.pyd": "1bf8c354ba23a784b06dae681745fbec",
+        "scripts/gui_core.pyd": "ba6800c2744e29504619ed98bad2188f",
+        "scripts/hong_say_4.pyd": "45ee0c429e1f6077a0bf303c7b8e7f83",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "98f710aefec9e7e1fa0dbe0a2d0fc13d",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "27b5b73bd1ee3a93e9d51206b282fd01",
+        "scripts/startup_manager.pyd": "88d3b4df9438a6c3e60f3f03a8347c79",
+        "scripts/sys_utils.pyd": "f88917cd1d07e252a4c55d36cb15f964",
+        "scripts/tra_tao_doi_chau.pyd": "b59994da92f4a87af8e1f258672d1e23",
+        "scripts/tra_tao_doi_chau_540tra.pyd": "6e5964f33f3d2d6177b6b2bb6eb1d386",
+        "scripts/vai_do_2.pyd": "15c8a4504d80b5c75c1830dfe3bbe65d"
     }
 }
