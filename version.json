@@ -1,7 +1,7 @@
 {
     "version": "1.1.6",
-    "build_time": 1783041549,
-    "message": "Ban cap nhat moi",
+    "build_time": 1783047651,
+    "message": "Chỉnh lai hàm trồng thêm cây để người dùng tự chọn ",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -428,19 +428,19 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/auth_gui.pyd": "c3c00efa4843f895888477a89cbb7d33",
-        "scripts/bat_bo_nha_ban.pyd": "3a77202d55f87185943bfa137f7f7289",
-        "scripts/bot_core.pyd": "646fcf80afdd4345b333a3ea96ab21dc",
-        "scripts/cay_sao_5tang.pyd": "77e6ff734cada6db52e56149d461bd04",
-        "scripts/empty.pyd": "9c6da279792ed6780b4a4761d33f6a1c",
-        "scripts/gui_core.pyd": "3fb24589162d96529eb95df0b48b0ae3",
-        "scripts/hong_say_4.pyd": "4976de586b1c6db91f7f6a4a25b796a2",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "35d5b3b345254ef1a861fa7f374ff4eb",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "0cf1ae080dac1cb3bc74984bf994be6a",
-        "scripts/startup_manager.pyd": "836776161124b7b127729cf6c860fbeb",
-        "scripts/sys_utils.pyd": "136b47224e72b7b80aa10b5cb67db94a",
-        "scripts/tra_tao_doi_chau.pyd": "e6d5603b76a0271f468a84d36272cb2e",
-        "scripts/tra_tao_doi_chau_540tra.pyd": "4fd9ca25916afe97906d8edf1e01eb41",
-        "scripts/vai_do_2.pyd": "4bbf316220de6fb10294112bc6d1d800"
+        "scripts/auth_gui.pyd": "b1b674dd17ab94bff33ae22c3e4a53a1",
+        "scripts/bat_bo_nha_ban.pyd": "28bd7f078d0a78f00d80e2ba2d5eb71c",
+        "scripts/bot_core.pyd": "e4beb9ed7e1fceead1161c00fc77c4af",
+        "scripts/cay_sao_5tang.pyd": "662f48a6c11ea5aecde6a7bf290b82c7",
+        "scripts/empty.pyd": "21b456f502565afcc7ed8849456c417a",
+        "scripts/gui_core.pyd": "3c1007a011e0b5765171c257b2fdc9d4",
+        "scripts/hong_say_4.pyd": "064b2179244812f2ef842a9dc8ec80bd",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "49d307afab343329fae4de592b28f6c3",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "fed9f0ea5d8f00e962cd7138a86fd0d3",
+        "scripts/startup_manager.pyd": "91568d4738cbb6255c2e4a09511b7960",
+        "scripts/sys_utils.pyd": "faf4fc00cb45ffdd7fa57a0ef9e00ef9",
+        "scripts/tra_tao_doi_chau.pyd": "8e2f6a88db203eabccd26584efa41fad",
+        "scripts/tra_tao_doi_chau_540tra.pyd": "86731ad10b1965b24127d49450d8a843",
+        "scripts/vai_do_2.pyd": "0a091e4399309084c628ee5ec2a3c3aa"
     }
 }
