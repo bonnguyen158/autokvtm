@@ -1,7 +1,7 @@
 {
     "version": "1.1.8",
-    "build_time": 1783168914,
-    "message": "Hien thi dung form chon so nha ban cho kich ban Vai vang",
+    "build_time": 1783169272,
+    "message": "Sua loi bot chi mua do o nha dau tien ma khong chuyen sang nha ke tiep",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -438,8 +438,8 @@
         "scripts/empty.pyd": "44f13fc5645ae659506716678c1aeb0f",
         "scripts/gui_core.pyd": "e190296ed2a5d850b6241ab4ee2f0384",
         "scripts/hong_say_4.pyd": "cd7c9a20dd7aa751818ecbd5db614c98",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "514c0c9fc74d98b36f706cb19e5bdd97",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "99ea765dd1c97b48805bd5489837beec",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "feee2ee7e4686655ea76151d2bfd8dca",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "6280ee4809c59f848ff4a0224e583f94",
         "scripts/startup_manager.pyd": "c636acbe9d5346734e4048f4f975ecbf",
         "scripts/sys_utils.pyd": "ffa0da3ed11f99c4647126e52405dc6c",
         "scripts/tra_tao_doi_chau.pyd": "a3d2b3f9219ab247531f6ab25bd09b2c",
