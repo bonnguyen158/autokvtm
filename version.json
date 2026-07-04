@@ -1,6 +1,6 @@
 {
     "version": "1.1.8",
-    "build_time": 1783144597,
+    "build_time": 1783144841,
     "message": "Ban cap nhat moi",
     "files": {
         "AutoKVTM.exe": "56a9a703af80b74d1877c5a35770c9f3",
@@ -437,7 +437,7 @@
         "scripts/bot_core.pyd": "a9d501be051cf1f425aa82a3d01f2ca5",
         "scripts/cay_sao_5tang.pyd": "fff4172416d28ec60cdf1aee9f59c5a7",
         "scripts/empty.pyd": "44f13fc5645ae659506716678c1aeb0f",
-        "scripts/gui_core.pyd": "66810b8c2203a23c88faaf5d33a1c2e6",
+        "scripts/gui_core.pyd": "61d9e697b8131315283e7af855938e6e",
         "scripts/hong_say_4.pyd": "cd7c9a20dd7aa751818ecbd5db614c98",
         "scripts/muanctao_friend_sx_tra_tao.pyd": "f2ad556451c867b1d938b7f933f7ad9d",
         "scripts/mua_nctao_friend_sx_vai_vang.pyd": "46e2e66b5242fd0084eeb76779f41903",
