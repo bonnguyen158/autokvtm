@@ -1,9 +1,8 @@
 {
     "version": "1.1.8",
-    "build_time": 1783145543,
-    "message": "Fix loi khoi dong lai",
+    "build_time": 1783145652,
+    "message": "Fix loi thieu thu vien",
     "files": {
-        "AutoKVTM.exe": "56a9a703af80b74d1877c5a35770c9f3",
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
         "pic/0_3.png": "b76be3f4b51d977203c383c0feb8d430",
