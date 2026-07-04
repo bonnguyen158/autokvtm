@@ -1,7 +1,7 @@
 {
     "version": "1.1.8",
-    "build_time": 1783169661,
-    "message": "Sua lai thanh vong lap vo tan khi mua do tren nhieu nha",
+    "build_time": 1783170177,
+    "message": "Toi uu logic mua do de sx khi khong tim thay do",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -438,8 +438,8 @@
         "scripts/empty.pyd": "44f13fc5645ae659506716678c1aeb0f",
         "scripts/gui_core.pyd": "e190296ed2a5d850b6241ab4ee2f0384",
         "scripts/hong_say_4.pyd": "cd7c9a20dd7aa751818ecbd5db614c98",
-        "scripts/muanctao_friend_sx_tra_tao.pyd": "0b5ed0d18b4db4381fde7b29c0f4135e",
-        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "74c30095904935000048ed0876c1cfa2",
+        "scripts/muanctao_friend_sx_tra_tao.pyd": "a56464b64f0b12184b2fdaff05224d16",
+        "scripts/mua_nctao_friend_sx_vai_vang.pyd": "f5fc54e42cd3cea5cb0bbf25115a2529",
         "scripts/startup_manager.pyd": "c636acbe9d5346734e4048f4f975ecbf",
         "scripts/sys_utils.pyd": "ffa0da3ed11f99c4647126e52405dc6c",
         "scripts/tra_tao_doi_chau.pyd": "a3d2b3f9219ab247531f6ab25bd09b2c",
