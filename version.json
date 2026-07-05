@@ -1,7 +1,7 @@
 {
     "version": "1.1.8",
-    "build_time": 1783238536,
-    "message": "Them log ra file txt theo tung lan chay",
+    "build_time": 1783239343,
+    "message": "Khoi tao log o lan chay dau tien",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -436,7 +436,7 @@
         "scripts/bot_core.pyd": "28775889c52dea3d95fceb1f9e679d0b",
         "scripts/cay_sao_5tang.pyd": "fff4172416d28ec60cdf1aee9f59c5a7",
         "scripts/empty.pyd": "44f13fc5645ae659506716678c1aeb0f",
-        "scripts/gui_core.pyd": "d61fdb34e002884d1a1c3d7e9b346ed7",
+        "scripts/gui_core.pyd": "b7937364554e311a87e2267150bdb603",
         "scripts/hong_say_4.pyd": "cd7c9a20dd7aa751818ecbd5db614c98",
         "scripts/muanctao_friend_sx_tra_tao.pyd": "e6a4da0d40da912484e36a6aa6149e52",
         "scripts/mua_nctao_friend_sx_vai_vang.pyd": "c450767027b083ea9a034093ca8880bd",
