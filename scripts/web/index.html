@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoKVTM Web Controller</title>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --surface-color: rgba(30, 41, 59, 0.7);
+            --surface-hover: rgba(51, 65, 85, 0.8);
+            --accent-primary: #3b82f6;
+            --accent-success: #10b981;
+            --accent-warning: #f59e0b;
+            --accent-danger: #ef4444;
+            --text-primary: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            background-image: radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.15), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(16, 185, 129, 0.1), transparent 25%);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+
+        .glass-panel {
+            background: var(--surface-color);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .app-header {
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            background: rgba(15, 23, 42, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .header-title {
+            font-weight: 800;
+            background: linear-gradient(135deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+
+        /* LDPlayer Grid */
+        .ld-card {
+            background: var(--surface-color);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 1.25rem;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .ld-card:hover {
+            transform: translateY(-4px);
+            background: var(--surface-hover);
+            border-color: rgba(255, 255, 255, 0.15);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .ld-card.selected {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 1px var(--accent-primary), 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .ld-card.selected::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+        }
+
+        .ld-icon {
+            font-size: 2rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+        }
+
+        .ld-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            color: var(--text-primary);
+        }
+
+        .ld-script {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            flex-grow: 1;
+            margin-bottom: 1rem;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        /* Card States */
+        .state-inactive .ld-icon {
+            color: rgba(148, 163, 184, 0.3);
+        }
+
+        .state-active .ld-icon {
+            color: var(--accent-primary);
+        }
+
+        /* Action Buttons */
+        .btn-action {
+            border-radius: 8px;
+            padding: 0.375rem 0.75rem;
+            font-weight: 600;
+            font-size: 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.375rem;
+            transition: all 0.2s;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: auto;
+        }
+
+        .card-actions .btn {
+            flex: 1;
+            padding: 0.4rem 0;
+        }
+
+        /* Status Badge */
+        .status-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Logs Panel */
+        .log-panel {
+            height: calc(100vh - 120px);
+            position: sticky;
+            top: 100px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .log-header {
+            padding: 1rem 1.25rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .log-content {
+            flex-grow: 1;
+            background: #020617;
+            color: #34d399;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 0.85rem;
+            padding: 1rem;
+            overflow-y: auto;
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
+            line-height: 1.5;
+        }
+
+        .log-content::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .log-content::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .log-content::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+
+        /* Modal Customization */
+        .modal-content {
+            background: #1e293b;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .modal-header {
+            border-bottom-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .modal-footer {
+            border-top-color: rgba(255, 255, 255, 0.05);
+        }
+
+        .form-select,
+        .form-control {
+            background-color: #0f172a;
+            border-color: rgba(255, 255, 255, 0.1);
+            color: #f8fafc;
+        }
+
+        .form-select:focus,
+        .form-control:focus {
+            background-color: #0f172a;
+            border-color: var(--accent-primary);
+            color: #f8fafc;
+            box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25);
+        }
+
+        .form-switch .form-check-input {
+            width: 2.5em;
+            height: 1.25em;
+        }
+
+        .form-switch .form-check-input:checked {
+            background-color: var(--accent-primary);
+            border-color: var(--accent-primary);
+        }
+
+        /* Empty State */
+        .empty-state {
+            padding: 3rem 1rem;
+            text-align: center;
+            color: var(--text-muted);
+        }
+
+        .empty-state i {
+            font-size: 3rem;
+            opacity: 0.5;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        /* Toast lỗi kết nối */
+        #networkToast {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 9999;
+            min-width: 320px;
+            max-width: 420px;
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            backdrop-filter: blur(12px);
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            display: none;
+            animation: slideInToast 0.3s ease;
+        }
+
+        @keyframes slideInToast {
+            from {
+                transform: translateX(120%);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        #networkToast .toast-icon {
+            font-size: 1.4rem;
+            color: #ef4444;
+        }
+
+        #networkToast .toast-msg {
+            font-size: 0.88rem;
+            color: #fca5a5;
+            line-height: 1.4;
+        }
+
+        #networkToast .toast-close {
+            cursor: pointer;
+            color: #94a3b8;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Toast lỗi kết nối -->
+    <div id="networkToast">
+        <div class="d-flex align-items-start gap-3">
+            <span class="toast-icon"><i class="bi bi-wifi-off"></i></span>
+            <div class="flex-grow-1">
+                <div class="fw-bold text-danger mb-1">Mất kết nối</div>
+                <div class="toast-msg">Không kết nối được phần mềm. Có thể do mạng hoặc phần mềm đã bị tắt.</div>
+            </div>
+            <span class="toast-close" onclick="hideNetworkToast()"><i class="bi bi-x-lg"></i></span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="app-header">
+        <div class="container-fluid px-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                    <i class="bi bi-robot fs-2 text-primary"></i>
+                    <h2 class="header-title">AutoKVTM Center</h2>
+                </div>
+                <div>
+                    <button class="btn btn-outline-light btn-sm" onclick="fetchAllData()">
+                        <i class="bi bi-arrow-clockwise me-1"></i> Làm mới
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid px-4">
+        <div class="row g-4">
+            <!-- Left: Grid LDPlayers -->
+            <div class="col-xl-8 col-lg-7">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4 class="mb-0 fw-bold">Danh Sách Giả Lập</h4>
+                    <span class="badge bg-primary rounded-pill px-3 py-2" id="statsCounter">Tổng: 0</span>
+                </div>
+
+                <!-- Bulk Actions Toolbar -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center mb-4 p-3 glass-panel gap-3">
+                    <div class="form-check mb-0">
+                        <input class="form-check-input" type="checkbox" id="chkSelectAll"
+                            onchange="toggleSelectAll(this)">
+                        <label class="form-check-label fw-bold" for="chkSelectAll">Chọn tất cả</label>
+                    </div>
+                    <div class="d-flex flex-wrap gap-2">
+                        <button class="btn btn-success btn-sm fw-bold" onclick="sendBulkCommand('start')"><i
+                                class="bi bi-play-fill"></i> Bắt đầu</button>
+                        <button class="btn btn-warning btn-sm text-dark fw-bold" onclick="sendBulkCommand('pause')"><i
+                                class="bi bi-pause-fill"></i> Tạm dừng</button>
+                        <button class="btn btn-danger btn-sm fw-bold" onclick="sendBulkCommand('stop')"><i
+                                class="bi bi-stop-fill"></i> Dừng</button>
+                        <button class="btn btn-outline-danger btn-sm fw-bold" onclick="sendBulkCommand('delete')"><i
+                                class="bi bi-trash-fill"></i> Xóa kịch bản</button>
+                    </div>
+                </div>
+
+                <div id="ldGrid" class="row g-4">
+                    <!-- Loading state -->
+                    <div class="col-12 text-center py-5">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Log Viewer -->
+            <div class="col-xl-4 col-lg-5">
+                <div class="glass-panel log-panel">
+                    <div class="log-header">
+                        <h6 class="mb-0 fw-bold d-flex align-items-center gap-2">
+                            <i class="bi bi-terminal"></i> Live Logs
+                        </h6>
+                        <span id="currentLogTarget" class="badge bg-secondary">Tất cả</span>
+                    </div>
+                    <div id="logWindow" class="log-content">
+                        <!-- Logs will appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Thêm/Cấu Hình Tài Khoản -->
+    <div class="modal fade" id="addAccountModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title fw-bold" id="modalTitle">Cấu hình kịch bản</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" id="targetLDName">
+
+                    <div class="mb-4">
+                        <label class="form-label text-muted small fw-bold text-uppercase">Giả lập đang chọn</label>
+                        <div class="fs-5 fw-bold text-primary" id="displayLDName">LDPlayer-1</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Chọn Kịch Bản</label>
+                        <select id="scriptSelect" class="form-select form-select-lg">
+                            <option value="">-- Đang tải --</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-4" id="startStepContainer" style="display: none;">
+                        <label class="form-label fw-bold">Bước bắt đầu</label>
+                        <select id="startStepSelect" class="form-select form-select-lg">
+                        </select>
+                    </div>
+
+                    <label class="form-label fw-bold mb-3">Tùy chọn bổ sung</label>
+
+                    <div class="glass-panel p-3 mb-2 bg-opacity-50">
+                        <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
+                            <label class="form-check-label mb-0" for="chkMoRuong">Tự mở rương gỗ</label>
+                            <input class="form-check-input m-0" type="checkbox" id="chkMoRuong">
+                        </div>
+                    </div>
+
+                    <div class="glass-panel p-3 mb-2 bg-opacity-50">
+                        <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
+                            <label class="form-check-label mb-0" for="chkSanXuatCam">Tự sản xuất cám</label>
+                            <input class="form-check-input m-0" type="checkbox" id="chkSanXuatCam">
+                        </div>
+                    </div>
+
+                    <!-- Cân bằng kho -->
+                    <div class="glass-panel p-3 mb-2 bg-opacity-50">
+                        <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
+                            <label class="form-check-label mb-0" for="chkCanBangKho">Cân bằng kho</label>
+                            <input class="form-check-input m-0" type="checkbox" id="chkCanBangKho"
+                                onchange="togglePanel('panelCanBang', this)">
+                        </div>
+                        <!-- Sub-panel cân bằng kho -->
+                        <div id="panelCanBang" class="mt-3 pt-3 border-top border-secondary" style="display:none;">
+                            <div class="mb-2">
+                                <label class="form-label small text-muted mb-1">Chọn kho</label>
+                                <div class="d-flex gap-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="khoType" id="radioKho1"
+                                            value="1" checked>
+                                        <label class="form-check-label" for="radioKho1">Kho 1</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="khoType" id="radioKho2"
+                                            value="2">
+                                        <label class="form-check-label" for="radioKho2">Kho 2</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-check mb-2">
+                                <input class="form-check-input" type="checkbox" id="chkXoaKho">
+                                <label class="form-check-label small" for="chkXoaKho">Xóa hết kho còn lại</label>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <label class="form-label small text-muted mb-0">Lặp lại sau mỗi (giờ):</label>
+                                <input type="number" id="canBangInterval" class="form-control form-control-sm"
+                                    style="width:80px;" value="0" min="0" max="24" step="0.5">
+                            </div>
+                            <div class="small text-muted mt-1">(Nhập 0 để chỉ chạy 1 lần lúc bật)</div>
+                        </div>
+                    </div>
+
+                    <!-- Giao đơn hàng Cú -->
+                    <div class="glass-panel p-3 bg-opacity-50">
+                        <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
+                            <label class="form-check-label mb-0" for="chkGiaoCu">Giao đơn hàng Cú</label>
+                            <input class="form-check-input m-0" type="checkbox" id="chkGiaoCu"
+                                onchange="togglePanel('panelGiaoCu', this)">
+                        </div>
+                        <!-- Sub-panel giao hàng cú -->
+                        <div id="panelGiaoCu" class="mt-3 pt-3 border-top border-secondary" style="display:none;">
+                            <!-- Toolbar -->
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <label class="form-label small text-muted mb-0">Bỏ qua vật phẩm (không giao)</label>
+                                <div class="d-flex gap-1">
+                                    <button type="button" class="btn btn-success btn-sm py-0 px-2"
+                                        onclick="selectAllNgoc(true)" style="font-size:0.7rem;">Chọn tất cả</button>
+                                    <button type="button" class="btn btn-secondary btn-sm py-0 px-2"
+                                        onclick="selectAllNgoc(false)" style="font-size:0.7rem;">Bỏ chọn</button>
+                                </div>
+                            </div>
+                            <div class="row g-1 mb-3" id="giaoCuItemsContainer">
+                                <!-- Dynamic items will be injected here -->
+                            </div>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                                <label class="form-label small text-muted mb-0">Lặp lại sau (phút):</label>
+                                <input type="number" id="giaoCuInterval" class="form-control form-control-sm"
+                                    style="width:80px;" value="60" min="1">
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="chkGiaoDonFree">
+                                <label class="form-check-label small" for="chkGiaoDonFree">Giao đơn hàng Free</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0 pt-0 pb-4 px-4">
+                    <button type="button" class="btn btn-outline-secondary px-4" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-primary px-4 fw-bold" onclick="submitAddAccount()">Xác nhận &
+                        Thêm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+        // Tắt bật tính năng chọn bước bắt đầu (dễ dàng chỉnh sửa để tắt tính năng này)
+        const ENABLE_START_STEP_SELECTION = true;
+
+        const API_URL = "http://" + window.location.host;
+        let selectedLDId = null;
+        let allScripts = [];
+        let configModal = null;
+
+        // Trạng thái LDPlayers: Map từ Tên -> Thông tin
+        let ldStateMap = new Map();
+
+        // Toggle ẩn/hiện sub-panel khi tick checkbox tùy chọn bổ sung
+        function togglePanel(panelId, checkbox) {
+            const panel = document.getElementById(panelId);
+            if (panel) panel.style.display = checkbox.checked ? 'block' : 'none';
+        }
+
+        // Chọn tất cả / Bỏ chọn các checkbox ngọc trong panel Giao đơn hàng Cú
+        function selectAllNgoc(checked) {
+            document.querySelectorAll('.ngoc-checkbox').forEach(cb => cb.checked = checked);
+        }
+
+        // Hiển thị / ẩn toast lỗi kết nối
+        let _toastTimer = null;
+        function showNetworkError() {
+            const toast = document.getElementById('networkToast');
+            toast.style.display = 'block';
+            if (_toastTimer) clearTimeout(_toastTimer);
+            _toastTimer = setTimeout(hideNetworkToast, 6000);
+        }
+        function hideNetworkToast() {
+            document.getElementById('networkToast').style.display = 'none';
+        }
+        function isNetworkError(e) {
+            return !e.response || e.code === 'ERR_NETWORK' || e.message === 'Network Error';
+        }
+
+        // Khởi tạo Modal
+        document.addEventListener('DOMContentLoaded', () => {
+            configModal = new bootstrap.Modal(document.getElementById('addAccountModal'));
+            fetchAllData();
+
+            // Auto refresh state every 3s
+            setInterval(fetchActiveStates, 3000);
+        });
+
+        // WebSocket Logs
+        const socket = io(API_URL);
+        const logWindow = document.getElementById('logWindow');
+
+        socket.on('new_log', function (data) {
+            if (!selectedLDId || data.ld_name === selectedLDId || data.ld_name.includes(selectedLDId)) {
+                const time = new Date().toLocaleTimeString('vi-VN', { hour12: false });
+                const logEntry = document.createElement('div');
+                logEntry.innerHTML = `<span style="color:#64748b">[${time}]</span> <span style="color:#38bdf8">[${data.ld_name}]</span> ${data.log}`;
+                logWindow.appendChild(logEntry);
+
+                // Auto scroll
+                if (logWindow.childElementCount > 200) logWindow.removeChild(logWindow.firstChild);
+                logWindow.scrollTop = logWindow.scrollHeight;
+            }
+        });
+
+        function clearLogs() {
+            logWindow.innerHTML = '';
+        }
+
+        async function fetchAllData() {
+            await fetchScripts();
+            await fetchAvailableLDs();
+            await fetchGiaoCuItems();
+            await fetchActiveStates();
+        }
+
+        async function fetchScripts() {
+            try {
+                const res = await axios.get(`${API_URL}/api/scripts`);
+                allScripts = res.data;
+                const select = document.getElementById('scriptSelect');
+                select.innerHTML = '<option value="">-- Chọn kịch bản --</option>';
+                allScripts.forEach(s => {
+                    select.innerHTML += `<option value="${s.name}">${s.name}</option>`;
+                });
+
+                if (ENABLE_START_STEP_SELECTION) {
+                    document.getElementById('startStepContainer').style.display = 'block';
+                    select.addEventListener('change', updateStartSteps);
+                }
+            } catch (e) {
+                console.error("Lỗi tải kịch bản:", e);
+            }
+        }
+
+        function updateStartSteps() {
+            const scriptName = document.getElementById('scriptSelect').value;
+            const stepSelect = document.getElementById('startStepSelect');
+            stepSelect.innerHTML = '';
+
+            const scriptData = allScripts.find(s => s.name === scriptName);
+            if (scriptData && scriptData.steps && scriptData.steps.length > 0) {
+                scriptData.steps.forEach(step => {
+                    stepSelect.innerHTML += `<option value="${step}">${step}</option>`;
+                });
+            }
+        }
+
+        async function fetchGiaoCuItems() {
+            try {
+                const res = await axios.get(`${API_URL}/api/giao_cu_items`);
+                const itemsMap = res.data;
+                const container = document.getElementById('giaoCuItemsContainer');
+                container.innerHTML = '';
+                Object.keys(itemsMap).forEach((name, index) => {
+                    const id = `chkNgoc_${index}`;
+                    const picPath = itemsMap[name].replace(/\\/g, '\\\\'); // Escape backslashes for JS attribute
+                    container.innerHTML += `
+                        <div class="col-6">
+                            <div class="form-check">
+                                <input class="form-check-input ngoc-checkbox" type="checkbox" id="${id}" data-picpath="${picPath}">
+                                <label class="form-check-label small" for="${id}">${name}</label>
+                            </div>
+                        </div>
+                    `;
+                });
+            } catch (e) {
+                console.error("Lỗi tải danh sách ngọc/vật phẩm:", e);
+            }
+        }
+
+        async function fetchAvailableLDs() {
+            try {
+                const res = await axios.get(`${API_URL}/api/available_lds?t=${Date.now()}`);
+                // Khởi tạo map cho các LD có sẵn
+                res.data.forEach(ldName => {
+                    if (!ldStateMap.has(ldName)) {
+                        ldStateMap.set(ldName, {
+                            id: null,
+                            name: ldName,
+                            script: null,
+                            status: 'Chưa thêm',
+                            isActive: false
+                        });
+                    }
+                });
+                renderGrid();
+            } catch (e) {
+                console.error("Lỗi tải danh sách có sẵn:", e);
+            }
+        }
+
+        async function fetchActiveStates() {
+            try {
+                const res = await axios.get(`${API_URL}/api/ldplayers?t=${Date.now()}`);
+
+                // Reset active flag cho tất cả
+                for (let [name, info] of ldStateMap.entries()) {
+                    info.isActive = false;
+                    info.status = 'Chưa thêm';
+                }
+
+                let shouldRender = false;
+
+                // Đánh dấu những cái đang hoạt động
+                res.data.forEach(activeLD => {
+                    // Nếu GUI đã chọn 1 cái mà web đang chọn cái khác, đồng bộ web theo GUI
+                    if (activeLD.is_selected && activeLD.name !== selectedLDId) {
+                        selectedLDId = activeLD.name;
+                        document.getElementById('currentLogTarget').innerText = selectedLDId;
+                        fetchLogs(selectedLDId);
+                        shouldRender = true;
+                    }
+
+                    // Tên từ treeview (activeLD.name) là khóa chính
+                    ldStateMap.set(activeLD.name, {
+                        id: activeLD.id,
+                        name: activeLD.name,
+                        script: activeLD.script,
+                        status: activeLD.status,
+                        isActive: true
+                    });
+                });
+
+                renderGrid();
+            } catch (e) {
+                console.error("Lỗi tải trạng thái active:", e);
+            }
+        }
+
+        async function selectLD(ldName, ldId, event) {
+            // Toggle checkbox if user didn't click on a button or the checkbox directly
+            if (ldId && event && event.target.tagName !== 'INPUT' && !event.target.closest('button')) {
+                const cb = document.querySelector(`.ld-checkbox[value="${ldId}"]`);
+                if (cb) {
+                    cb.checked = !cb.checked;
+                    checkSelectAllState();
+                }
+            }
+
+            selectedLDId = ldName;
+            document.getElementById('currentLogTarget').innerText = ldName;
+            clearLogs();
+            renderGrid();
+            fetchLogs(ldName);
+
+            // Đồng bộ sang GUI (chỉ để select xem log)
+            const ldInfo = ldStateMap.get(ldName);
+            if (ldInfo && ldInfo.id) {
+                try {
+                    await axios.post(`${API_URL}/api/select`, { ld_id: ldInfo.id });
+                } catch (e) { }
+            }
+        }
+
+        async function fetchLogs(ldName) {
+            try {
+                const res = await axios.get(`${API_URL}/api/logs/${ldName}?t=${Date.now()}`);
+                const logs = res.data.logs;
+                if (logs) {
+                    const lines = logs.split('\n');
+                    lines.forEach(line => {
+                        if (line.trim() === '') return;
+                        const logEntry = document.createElement('div');
+                        logEntry.innerHTML = `<span style="color:#34d399">${line}</span>`;
+                        logWindow.appendChild(logEntry);
+                    });
+                    logWindow.scrollTop = logWindow.scrollHeight;
+                }
+            } catch (e) {
+                console.error("Lỗi tải logs cũ:", e);
+            }
+        }
+
+        function openConfigModal(ldName) {
+            document.getElementById('targetLDName').value = ldName;
+            document.getElementById('displayLDName').innerText = ldName;
+            configModal.show();
+        }
+
+        async function submitAddAccount() {
+            const ldName = document.getElementById('targetLDName').value;
+            const script = document.getElementById('scriptSelect').value;
+
+            if (!script) {
+                alert("Vui lòng chọn Kịch bản!");
+                return;
+            }
+
+            let startStep = 1;
+            if (ENABLE_START_STEP_SELECTION) {
+                const stepStr = document.getElementById('startStepSelect').value;
+                if (stepStr) {
+                    const parsed = parseInt(stepStr.split('.')[0]);
+                    if (!isNaN(parsed)) {
+                        startStep = parsed;
+                    }
+                }
+            }
+
+            const options = {
+                start_step: startStep,
+                enable_mo_ruong_go: document.getElementById('chkMoRuong').checked,
+                enable_auto_cam: document.getElementById('chkSanXuatCam').checked,
+                enable_can_bang_kho: document.getElementById('chkCanBangKho').checked,
+                can_bang_kho_type: parseInt(document.querySelector('input[name="khoType"]:checked')?.value || '1'),
+                xoa_kho_khac: document.getElementById('chkXoaKho').checked,
+                can_bang_interval: parseFloat(document.getElementById('canBangInterval').value || '0'),
+                enable_giao_cu: document.getElementById('chkGiaoCu').checked,
+                giao_cu_interval: parseInt(document.getElementById('giaoCuInterval').value || '60'),
+                giao_don_free_enabled: document.getElementById('chkGiaoDonFree').checked,
+                giao_cu_skip_items: Array.from(document.querySelectorAll('.ngoc-checkbox:checked')).map(cb => cb.dataset.picpath)
+            };
+
+            try {
+                const btn = document.querySelector('.modal-footer .btn-primary');
+                btn.disabled = true;
+                btn.innerHTML = '<span class="spinner-border spinner-border-sm me-2"></span>Đang xử lý...';
+
+                await axios.post(`${API_URL}/api/add_ldplayer`, {
+                    ld_name: ldName,
+                    script: script,
+                    options: options
+                });
+
+                configModal.hide();
+                setTimeout(fetchActiveStates, 500);
+            } catch (e) {
+                if (isNetworkError(e)) {
+                    showNetworkError();
+                } else {
+                    alert("Lỗi: " + (e.response?.data?.error || e.message));
+                }
+            } finally {
+                const btn = document.querySelector('.modal-footer .btn-primary');
+                btn.disabled = false;
+                btn.innerHTML = 'Xác nhận & Thêm';
+            }
+        }
+
+        async function sendCommand(command, treeviewId) {
+            try {
+                if (command === 'start') {
+                    await axios.post(`${API_URL}/api/start`, { ld_id: treeviewId });
+                } else if (command === 'pause') {
+                    await axios.post(`${API_URL}/api/pause`, { ld_id: treeviewId });
+                } else if (command === 'stop') {
+                    await axios.post(`${API_URL}/api/stop`, { ld_id: treeviewId });
+                } else if (command === 'delete') {
+                    await axios.post(`${API_URL}/api/delete`, { ld_id: treeviewId });
+                }
+                setTimeout(fetchActiveStates, 500);
+            } catch (e) {
+                if (isNetworkError(e)) showNetworkError();
+                else console.error("Lệnh thất bại:", e);
+            }
+        }
+
+        function checkSelectAllState() {
+            const allCheckboxes = document.querySelectorAll('.ld-checkbox');
+            const checkedBoxes = document.querySelectorAll('.ld-checkbox:checked');
+            const chkAll = document.getElementById('chkSelectAll');
+            if (chkAll && allCheckboxes.length > 0) {
+                chkAll.checked = (allCheckboxes.length === checkedBoxes.length);
+            }
+        }
+
+        function toggleSelectAll(checkbox) {
+            document.querySelectorAll('.ld-checkbox').forEach(cb => cb.checked = checkbox.checked);
+        }
+
+        async function sendBulkCommand(command) {
+            const checkedBoxes = document.querySelectorAll('.ld-checkbox:checked');
+            if (checkedBoxes.length === 0) {
+                alert("Vui lòng chọn ít nhất 1 giả lập!");
+                return;
+            }
+            const ld_ids = Array.from(checkedBoxes).map(cb => cb.value);
+
+            try {
+                await axios.post(`${API_URL}/api/${command}`, { ld_ids: ld_ids });
+                setTimeout(fetchActiveStates, 500);
+            } catch (e) {
+                if (isNetworkError(e)) showNetworkError();
+                else alert("Lỗi: " + (e.response?.data?.error || e.message));
+            }
+        }
+
+        function renderGrid() {
+            // Lưu lại các checkbox đang được chọn
+            const checkedIds = new Set(Array.from(document.querySelectorAll('.ld-checkbox:checked')).map(cb => cb.value));
+
+            const grid = document.getElementById('ldGrid');
+            grid.innerHTML = '';
+
+            if (ldStateMap.size === 0) {
+                grid.innerHTML = `
+                    <div class="col-12 empty-state">
+                        <i class="bi bi-display"></i>
+                        <h5>Không tìm thấy giả lập nào</h5>
+                        <p>Vui lòng đảm bảo LDPlayer đã được cài đặt và cấu hình đúng.</p>
+                    </div>`;
+                document.getElementById('statsCounter').innerText = 'Tổng: 0';
+                return;
+            }
+
+            document.getElementById('statsCounter').innerText = `Tổng: ${ldStateMap.size}`;
+
+            // Sắp xếp: Active lên đầu
+            const sortedLDs = Array.from(ldStateMap.values()).sort((a, b) => {
+                if (a.isActive && !b.isActive) return -1;
+                if (!a.isActive && b.isActive) return 1;
+                // Có thể parse số ở đuôi để sort chuẩn hơn
+                return a.name.localeCompare(b.name, undefined, { numeric: true });
+            });
+
+            sortedLDs.forEach(ld => {
+                const isSelected = selectedLDId === ld.name;
+
+                // Status Badge Color
+                let badgeClass = "bg-secondary";
+                let statusIcon = "bi-circle-fill";
+                let statusText = ld.status;
+
+                if (ld.status === "Đang chạy") {
+                    badgeClass = "bg-success text-white";
+                    statusIcon = "bi-play-circle-fill";
+                }
+                else if (ld.status === "Tạm dừng") {
+                    badgeClass = "bg-warning text-dark";
+                    statusIcon = "bi-pause-circle-fill";
+                }
+                else if (ld.status === "Dừng...") {
+                    badgeClass = "bg-danger text-white";
+                    statusIcon = "bi-hourglass-split";
+                    statusText = "Đang dừng...";
+                }
+                else if (ld.status === "Đã dừng" || ld.status === "Sẵn sàng") {
+                    badgeClass = "bg-primary text-white";
+                    statusIcon = "bi-check-circle-fill";
+                }
+
+                // Button states
+                let isStartDisabled = !["Sẵn sàng", "Đã dừng"].includes(ld.status);
+                let isPauseDisabled = !["Đang chạy", "Tạm dừng"].includes(ld.status);
+                let isStopDisabled = !["Đang chạy", "Tạm dừng"].includes(ld.status);
+                let isConfigDisabled = ["Đang chạy", "Tạm dừng", "Dừng..."].includes(ld.status);
+
+                // Toggle Pause/Resume icon
+                let pauseIcon = ld.status === "Tạm dừng" ? "bi-play-circle-fill" : "bi-pause-fill";
+                let pauseTooltip = ld.status === "Tạm dừng" ? "Tiếp tục" : "Tạm dừng";
+
+                // Trạng thái thẻ HTML
+                let html = '';
+
+                if (!ld.isActive) {
+                    // Thẻ "Chưa thêm"
+                    html = `
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="glass-panel ld-card state-inactive ${isSelected ? 'selected' : ''}" onclick="selectLD('${ld.name}', null, event)">
+                                <span class="status-badge bg-secondary opacity-75">
+                                    <i class="bi bi-dash-circle me-1"></i>Chưa kích hoạt
+                                </span>
+                                
+                                <div class="d-flex align-items-center gap-3 mb-3">
+                                    <i class="bi bi-phone ld-icon"></i>
+                                    <div>
+                                        <div class="ld-name">${ld.name}</div>
+                                        <div class="text-muted small">Cần cấu hình kịch bản</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="card-actions mt-auto">
+                                    <button class="btn btn-outline-primary btn-sm w-100 fw-bold" onclick="event.stopPropagation(); openConfigModal('${ld.name}')">
+                                        <i class="bi bi-plus-lg"></i> Thêm vào hệ thống
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    // Thẻ "Đã thêm / Đang chạy"
+                    html = `
+                        <div class="col-xl-4 col-lg-6 col-md-6">
+                            <div class="glass-panel ld-card state-active ${isSelected ? 'selected' : ''}" onclick="selectLD('${ld.name}', '${ld.id}', event)">
+                                <div class="position-absolute top-0 start-0 m-3 z-3">
+                                    <input class="form-check-input ld-checkbox fs-5" type="checkbox" value="${ld.id}" ${checkedIds.has(ld.id) ? 'checked' : ''} onclick="event.stopPropagation(); checkSelectAllState()">
+                                </div>
+                                <span class="status-badge ${badgeClass} shadow-sm">
+                                    <i class="bi ${statusIcon} me-1"></i>${statusText}
+                                </span>
+                                
+                                <div class="d-flex align-items-center gap-3 mb-2">
+                                    <i class="bi bi-phone-fill ld-icon"></i>
+                                    <div>
+                                        <div class="ld-name">${ld.name}</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="ld-script" title="${ld.script}">
+                                    <i class="bi bi-journal-code text-primary me-1"></i> 
+                                    ${ld.script || 'Chưa chọn'}
+                                </div>
+                                
+                                <div class="card-actions">
+                                    <button class="btn btn-sm btn-outline-info btn-action" onclick="event.stopPropagation(); openConfigModal('${ld.name}')" title="Cấu hình" ${isConfigDisabled ? 'disabled' : ''}>
+                                        <i class="bi bi-gear-fill fs-6"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-success btn-action" onclick="event.stopPropagation(); sendCommand('start', '${ld.id}')" title="Bắt đầu" ${isStartDisabled ? 'disabled' : ''}>
+                                        <i class="bi bi-play-fill fs-6"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-warning btn-action text-dark" onclick="event.stopPropagation(); sendCommand('pause', '${ld.id}')" title="${pauseTooltip}" ${isPauseDisabled ? 'disabled' : ''}>
+                                        <i class="bi ${pauseIcon} fs-6"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-danger btn-action" onclick="event.stopPropagation(); sendCommand('stop', '${ld.id}')" title="Dừng lại" ${isStopDisabled ? 'disabled' : ''}>
+                                        <i class="bi bi-stop-fill fs-6"></i>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-danger btn-action" onclick="event.stopPropagation(); sendCommand('delete', '${ld.id}')" title="Xóa kịch bản" ${isConfigDisabled ? 'disabled' : ''}>
+                                        <i class="bi bi-trash-fill fs-6"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }
+
+                grid.innerHTML += html;
+            });
+
+            // Khôi phục lại trạng thái của nút "Chọn tất cả"
+            checkSelectAllState();
+        }
+    </script>
+</body>
+
+</html>
