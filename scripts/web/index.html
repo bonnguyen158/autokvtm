@@ -416,22 +416,25 @@
                 </div>
                 <div class="modal-body">
                     <input type="hidden" id="targetLDName">
-                    <div class="row">
-                        <!-- Cột trái -->
-                        <div class="col-md-6 border-end border-secondary">
-                            <div class="mb-4">
-                                <label class="form-label text-muted small fw-bold text-uppercase">Giả lập đang chọn</label>
-                                <div class="fs-5 fw-bold text-primary" id="displayLDName">LDPlayer-1</div>
-                            </div>
+                    <div class="mb-4">
+                        <label class="form-label text-muted small fw-bold text-uppercase">Giả lập đang chọn</label>
+                        <div class="fs-5 fw-bold text-primary" id="displayLDName">LDPlayer-1</div>
+                    </div>
 
-                            <div class="mb-4">
-                                <label class="form-label fw-bold">Chọn Kịch Bản</label>
-                                <select id="scriptSelect" class="form-select form-select-lg">
-                                    <option value="">-- Đang tải --</option>
-                                </select>
-                            </div>
+                    <div class="mb-4">
+                        <label class="form-label fw-bold">Chọn Kịch Bản</label>
+                        <select id="scriptSelect" class="form-select form-select-lg">
+                            <option value="">-- Đang tải --</option>
+                        </select>
+                    </div>
 
-                            <label class="form-label fw-bold mb-3">Tùy chọn bổ sung</label>
+                    <div class="mb-4" id="startStepContainer" style="display: none;">
+                        <label class="form-label fw-bold">Bước bắt đầu</label>
+                        <select id="startStepSelect" class="form-select form-select-lg">
+                        </select>
+                    </div>
+
+                    <label class="form-label fw-bold mb-3">Tùy chọn bổ sung</label>
 
                     <div class="glass-panel p-3 mb-2 bg-opacity-50">
                         <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
@@ -684,15 +687,18 @@
             try {
                 const res = await axios.get(`${API_URL}/api/available_lds?t=${Date.now()}`);
                 // Khởi tạo map cho các LD có sẵn
-                res.data.forEach(ldName => {
+                res.data.forEach((ldName, index) => {
                     if (!ldStateMap.has(ldName)) {
                         ldStateMap.set(ldName, {
                             id: null,
                             name: ldName,
                             script: null,
                             status: 'Chưa thêm',
-                            isActive: false
+                            isActive: false,
+                            orderIndex: index
                         });
+                    } else {
+                        ldStateMap.get(ldName).orderIndex = index;
                     }
                 });
                 renderGrid();
@@ -714,7 +720,7 @@
                 let shouldRender = false;
 
                 // Đánh dấu những cái đang hoạt động
-                res.data.forEach(activeLD => {
+                res.data.forEach((activeLD, index) => {
                     // Nếu GUI đã chọn 1 cái mà web đang chọn cái khác, đồng bộ web theo GUI
                     if (activeLD.is_selected && activeLD.name !== selectedLDId) {
                         selectedLDId = activeLD.name;
@@ -729,7 +735,8 @@
                         name: activeLD.name,
                         script: activeLD.script,
                         status: activeLD.status,
-                        isActive: true
+                        isActive: true,
+                        orderIndex: index
                     });
                 });
 
@@ -917,11 +924,13 @@
 
             document.getElementById('statsCounter').innerText = `Tổng: ${ldStateMap.size}`;
 
-            // Sắp xếp: Active lên đầu
+            // Sắp xếp: Active lên đầu, sau đó tuân thủ orderIndex từ backend GUI
             const sortedLDs = Array.from(ldStateMap.values()).sort((a, b) => {
                 if (a.isActive && !b.isActive) return -1;
                 if (!a.isActive && b.isActive) return 1;
-                // Có thể parse số ở đuôi để sort chuẩn hơn
+                if (a.orderIndex !== undefined && b.orderIndex !== undefined) {
+                    return a.orderIndex - b.orderIndex;
+                }
                 return a.name.localeCompare(b.name, undefined, { numeric: true });
             });
 
