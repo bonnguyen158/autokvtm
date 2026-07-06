@@ -1,6 +1,6 @@
 {
     "version": "1.1.9",
-    "build_time": 1783330786,
+    "build_time": 1783331784,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -441,12 +441,12 @@
         "scripts/tra_tao_doi_chau_540tra.pyd": "af9a438131b62553403fb515aec17052",
         "scripts/vai_do_2.pyd": "7e2736a44f4a980315b198fa6faa180e",
         "scripts/core/adb_capture.pyd": "cfe5b905d1b763922fe2e2c4cb6e43ba",
-        "scripts/core/api_server.pyd": "a4cbcc4b971f9e2960c343aed759a366",
+        "scripts/core/api_server.pyd": "f75cb9d9a8660326583184bf48368936",
         "scripts/core/auth_gui.pyd": "257f9c13b37cd12b572010ccfd17aa8b",
         "scripts/core/bot_core.pyd": "3f599ffac591d3e6924bf243c38d2330",
         "scripts/core/gui_core.pyd": "bde9137a309669c954994eeed00bfbcb",
         "scripts/core/startup_manager.pyd": "192428473bfd3b648267d810b002e5a7",
         "scripts/core/sys_utils.pyd": "593c37d3e52f2cc2fa5f693544ef46c5",
-        "scripts/web/index.html": "ef3cb6268bf58fd71b8bc59a8a1d5fd8"
+        "scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
 }

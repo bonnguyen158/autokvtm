@@ -641,6 +641,8 @@
                 if (ENABLE_START_STEP_SELECTION) {
                     document.getElementById('startStepContainer').style.display = 'block';
                     select.addEventListener('change', updateStartSteps);
+                    // Also trigger it once to populate it initially
+                    updateStartSteps();
                 }
             } catch (e) {
                 console.error("Lỗi tải kịch bản:", e);
@@ -790,9 +792,46 @@
             }
         }
 
-        function openConfigModal(ldName) {
+        async function openConfigModal(ldName) {
             document.getElementById('targetLDName').value = ldName;
             document.getElementById('displayLDName').innerText = ldName;
+            
+            // Fetch configuration for this LD
+            try {
+                const res = await axios.get(`${API_URL}/api/config/${ldName}?t=${Date.now()}`);
+                const cfg = res.data;
+                if (cfg) {
+                    document.getElementById('chkMoRuong').checked = cfg.enable_mo_ruong_go || false;
+                    document.getElementById('chkSanXuatCam').checked = cfg.enable_auto_cam || false;
+                    
+                    document.getElementById('chkCanBangKho').checked = cfg.enable_can_bang_kho || false;
+                    togglePanel('panelCanBang', document.getElementById('chkCanBangKho'));
+                    if (cfg.can_bang_kho_type === 2) {
+                        document.getElementById('radioKho2').checked = true;
+                    } else {
+                        document.getElementById('radioKho1').checked = true;
+                    }
+                    document.getElementById('chkXoaKho').checked = cfg.xoa_kho_khac || false;
+                    document.getElementById('canBangInterval').value = cfg.can_bang_interval || 0;
+                    
+                    document.getElementById('chkGiaoCu').checked = cfg.enable_giao_cu || false;
+                    togglePanel('panelGiaoCu', document.getElementById('chkGiaoCu'));
+                    
+                    // Set dropdown value if we have a saved start_step
+                    if (cfg.start_step && ENABLE_START_STEP_SELECTION) {
+                        const stepSelect = document.getElementById('startStepSelect');
+                        for (let i = 0; i < stepSelect.options.length; i++) {
+                            if (stepSelect.options[i].value.startsWith(cfg.start_step + ".")) {
+                                stepSelect.selectedIndex = i;
+                                break;
+                            }
+                        }
+                    }
+                }
+            } catch (e) {
+                console.error("Lỗi lấy cấu hình:", e);
+            }
+            
             configModal.show();
         }
 
