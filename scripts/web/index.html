@@ -413,26 +413,22 @@
                 </div>
                 <div class="modal-body">
                     <input type="hidden" id="targetLDName">
+                    <div class="row">
+                        <!-- Cột trái -->
+                        <div class="col-md-6 border-end border-secondary">
+                            <div class="mb-4">
+                                <label class="form-label text-muted small fw-bold text-uppercase">Giả lập đang chọn</label>
+                                <div class="fs-5 fw-bold text-primary" id="displayLDName">LDPlayer-1</div>
+                            </div>
 
-                    <div class="mb-4">
-                        <label class="form-label text-muted small fw-bold text-uppercase">Giả lập đang chọn</label>
-                        <div class="fs-5 fw-bold text-primary" id="displayLDName">LDPlayer-1</div>
-                    </div>
+                            <div class="mb-4">
+                                <label class="form-label fw-bold">Chọn Kịch Bản</label>
+                                <select id="scriptSelect" class="form-select form-select-lg">
+                                    <option value="">-- Đang tải --</option>
+                                </select>
+                            </div>
 
-                    <div class="mb-4">
-                        <label class="form-label fw-bold">Chọn Kịch Bản</label>
-                        <select id="scriptSelect" class="form-select form-select-lg">
-                            <option value="">-- Đang tải --</option>
-                        </select>
-                    </div>
-
-                    <div class="mb-4" id="startStepContainer" style="display: none;">
-                        <label class="form-label fw-bold">Bước bắt đầu</label>
-                        <select id="startStepSelect" class="form-select form-select-lg">
-                        </select>
-                    </div>
-
-                    <label class="form-label fw-bold mb-3">Tùy chọn bổ sung</label>
+                            <label class="form-label fw-bold mb-3">Tùy chọn bổ sung</label>
 
                     <div class="glass-panel p-3 mb-2 bg-opacity-50">
                         <div class="form-check form-switch d-flex align-items-center justify-content-between p-0">
