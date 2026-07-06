@@ -352,9 +352,12 @@
         <div class="row g-4">
             <!-- Left: Grid LDPlayers -->
             <div class="col-xl-8 col-lg-7">
-                <div class="d-flex justify-content-between align-items-center mb-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
                     <h4 class="mb-0 fw-bold">Danh Sách Giả Lập</h4>
-                    <span class="badge bg-primary rounded-pill px-3 py-2" id="statsCounter">Tổng: 0</span>
+                    <div class="d-flex align-items-center gap-3">
+                        <input type="text" id="searchInput" class="form-control form-control-sm border-secondary" placeholder="🔍 Tìm thiết bị..." onkeyup="filterDevices()" style="background: rgba(255,255,255,0.05); color: white; width: 200px;">
+                        <span class="badge bg-primary rounded-pill px-3 py-2" id="statsCounter">Tổng: 0</span>
+                    </div>
                 </div>
 
                 <!-- Bulk Actions Toolbar -->
@@ -530,6 +533,24 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script>
+        function filterDevices() {
+            const searchInput = document.getElementById('searchInput');
+            if (!searchInput) return;
+            const query = searchInput.value.toLowerCase();
+            const cards = document.querySelectorAll('.ld-card-col');
+            cards.forEach(card => {
+                const nameEl = card.querySelector('.ld-name');
+                if (nameEl) {
+                    const name = nameEl.innerText.toLowerCase();
+                    if (name.includes(query)) {
+                        card.style.display = '';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                }
+            });
+        }
+
         // Tắt bật tính năng chọn bước bắt đầu (dễ dàng chỉnh sửa để tắt tính năng này)
         const ENABLE_START_STEP_SELECTION = true;
 
@@ -946,7 +967,7 @@
                 if (!ld.isActive) {
                     // Thẻ "Chưa thêm"
                     html = `
-                        <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="col-xl-4 col-lg-6 col-md-6 ld-card-col">
                             <div class="glass-panel ld-card state-inactive ${isSelected ? 'selected' : ''}" onclick="selectLD('${ld.name}', null, event)">
                                 <span class="status-badge bg-secondary opacity-75">
                                     <i class="bi bi-dash-circle me-1"></i>Chưa kích hoạt
@@ -971,7 +992,7 @@
                 } else {
                     // Thẻ "Đã thêm / Đang chạy"
                     html = `
-                        <div class="col-xl-4 col-lg-6 col-md-6">
+                        <div class="col-xl-4 col-lg-6 col-md-6 ld-card-col">
                             <div class="glass-panel ld-card state-active ${isSelected ? 'selected' : ''}" onclick="selectLD('${ld.name}', '${ld.id}', event)">
                                 <div class="position-absolute top-0 start-0 m-3 z-3">
                                     <input class="form-check-input ld-checkbox fs-5" type="checkbox" value="${ld.id}" ${checkedIds.has(ld.id) ? 'checked' : ''} onclick="event.stopPropagation(); checkSelectAllState()">
@@ -1019,6 +1040,9 @@
 
             // Khôi phục lại trạng thái của nút "Chọn tất cả"
             checkSelectAllState();
+            
+            // Áp dụng bộ lọc tìm kiếm
+            filterDevices();
         }
     </script>
 </body>
