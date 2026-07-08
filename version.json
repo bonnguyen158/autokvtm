@@ -1,6 +1,6 @@
 {
     "version": "1.1.10",
-    "build_time": 1783486337,
+    "build_time": 1783488795,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -446,8 +446,9 @@
         "scripts/core/adb_capture.pyd": "3fd0d2d7de1058095937f4cc8a7b6512",
         "scripts/core/api_server.pyd": "7ae2867b19903df6754414853757b5fa",
         "scripts/core/auth_gui.pyd": "bd51ba61d91565c83cc82abaa3a39d39",
-        "scripts/core/bot_core.pyd": "e99a43c84452998d266304faf795f507",
-        "scripts/core/gui_core.pyd": "1ac3874d6ae4f2f80cf8ed7fbe0b66a9",
+        "scripts/core/bot_core.pyd": "a6166d52620c552f967d5979982fb192",
+        "scripts/core/bot_core.pyi": "6a836b392c70cfab85941c6b569ea9dc",
+        "scripts/core/gui_core.pyd": "1c4340e20e9af24aa31a17795df00f11",
         "scripts/core/startup_manager.pyd": "7f021c5fbaac737c73d611340701f665",
         "scripts/core/sys_utils.pyd": "2fa4055f6fd699fe01b9d5d421ac7016",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
