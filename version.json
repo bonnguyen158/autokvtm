@@ -1,7 +1,7 @@
 {
     "version": "1.1.13",
-    "build_time": 1783569600,
-    "message": "Thêm bán giới hạn ô và xóa kc khi nâng cấp kho",
+    "build_time": 1783570139,
+    "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -447,7 +447,7 @@
         "scripts/core/api_server.pyd": "c77702e0e3d7975f5b611a18fbb4dc35",
         "scripts/core/auth_gui.pyd": "5ac0e18877ed6f293bde6276b0bedeae",
         "scripts/core/bot_core.pyd": "91391c0357d4d6e4e134a5f4fac64676",
-        "scripts/core/gui_core.pyd": "0c250738d1db3fd00c40bb386f6332a9",
+        "scripts/core/gui_core.pyd": "7f0145b9331f8e40197030d02ace3fd6",
         "scripts/core/startup_manager.pyd": "54677ee213683d50ee45549b83a38305",
         "scripts/core/sys_utils.pyd": "1c0e4f628d3ffe896ca2c37ad6f4c4f9",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
