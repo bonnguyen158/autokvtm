@@ -1,6 +1,6 @@
 {
     "version": "1.1.17",
-    "build_time": 1784206929,
+    "build_time": 1784208847,
     "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
@@ -433,7 +433,7 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bat_bo_nha_ban.pyd": "366d3f2dfad6dc2bc152bccd604cd202",
+        "scripts/bat_bo_nha_ban.pyd": "94b2fcd3f0c2a86662383780e24a31cb",
         "scripts/cay_sao_5tang.pyd": "ce0d3876605cd295d48617aa6cd55554",
         "scripts/empty.pyd": "a18478e47559e3d2672965baaffdd501",
         "scripts/hau_say_8.pyd": "3681397e060046bc54dee9e3fac0a996",
