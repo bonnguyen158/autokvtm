@@ -1,7 +1,7 @@
 {
     "version": "1.1.20",
-    "build_time": 1784682647,
-    "message": "giao diện mới",
+    "build_time": 1784682964,
+    "message": "Ban cap nhat moi",
     "files": {
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
@@ -478,7 +478,7 @@
         "scripts/core/api_server.pyd": "f774839ecfa10f5fe9b98d57b73b2f6e",
         "scripts/core/auth_gui.pyd": "5ac0e18877ed6f293bde6276b0bedeae",
         "scripts/core/bot_core.pyd": "c1710506fed82951aa58e29d5be939db",
-        "scripts/core/gui_core.pyd": "221117447005fbbadb58e30649eeacf0",
+        "scripts/core/gui_core.pyd": "fe7e6897b0c4e43ff3977f8ff94b13a3",
         "scripts/core/gui_core_scripts.pyd": "004c371019c91d13af5d49456d95629f",
         "scripts/core/startup_manager.pyd": "54677ee213683d50ee45549b83a38305",
         "scripts/core/sys_utils.pyd": "1c0e4f628d3ffe896ca2c37ad6f4c4f9",
