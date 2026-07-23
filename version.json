@@ -1,6 +1,6 @@
 {
     "version": "1.1.20",
-    "build_time": 1784787033,
+    "build_time": 1784787431,
     "message": "Ban cap nhat moi",
     "files": {
         "assets/delete_icon.png": "7b06d3bd4b2e4214f3c12666b0b3f112",
@@ -479,8 +479,8 @@
         "scripts/oai_say_8.pyd": "96acaa622769553cbf9763dc0129258b",
         "scripts/tao_say_2.pyd": "e9786b2d770f58f6186ac7646eead156",
         "scripts/tra_say_8.pyd": "15ceeb07fb0d6ad49ce9f0cee3a767e3",
-        "scripts/tra_tao_doi_chau.pyd": "1e96a664621eaa1caf35c6f3b6a6267a",
-        "scripts/tra_tao_doi_chau_540tra.pyd": "3d436215241f95d8db13d66ab6fd0e54",
+        "scripts/tra_tao_doi_chau.pyd": "8121cdc8186e565f394791dc05d74956",
+        "scripts/tra_tao_doi_chau_540tra.pyd": "aefbc584cff3fa10be349a13935cd3e2",
         "scripts/vaido2_ntao3.pyd": "08df34527da9d693ed8acbef59cf9af2",
         "scripts/vaido2_ntao6.pyd": "b8feb4a92301d644cabd5e977bb76d16",
         "scripts/vaido4_ntao6.pyd": "9013dddf31af9430645078273617cc1a",
@@ -498,7 +498,7 @@
         "scripts/core/adb_capture.pyd": "e631a09ce7c4e0848b1db559f992f213",
         "scripts/core/api_server.pyd": "f774839ecfa10f5fe9b98d57b73b2f6e",
         "scripts/core/auth_gui.pyd": "720ce3c5a9812aedc4afd8dad4194c87",
-        "scripts/core/bot_core.pyd": "1d4cdb58dca2b9413f3d421a192ea362",
+        "scripts/core/bot_core.pyd": "d66b61f001a0d76f40f63f94cbb0ab10",
         "scripts/core/gui_core.pyd": "d0db5e3cc4402639074873e3283fc2eb",
         "scripts/core/gui_core_scripts.pyd": "004c371019c91d13af5d49456d95629f",
         "scripts/core/startup_manager.pyd": "54677ee213683d50ee45549b83a38305",
