@@ -1,6 +1,6 @@
 {
     "version": "1.1.21",
-    "build_time": 1785335792,
+    "build_time": 1785341262,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -499,7 +499,7 @@
         "scripts/gui/main_window.pyd": "c30b9ce819336ce1424c46d6467d7027",
         "scripts/gui/components/config_modal.pyd": "196d362e49f5b6da14520394dcdaf843",
         "scripts/gui/components/custom_settings_modal.pyd": "863bea5bd7c0ac55987eb793c0502701",
-        "scripts/gui/components/log_viewer.pyd": "f97820f511df874939b79105ceeafd77",
+        "scripts/gui/components/log_viewer.pyd": "85815e24059a092dee399e5c0ac80cf1",
         "scripts/gui/components/menu_button.pyd": "76c7cc83d4b701b28f2c42448f8cb2d2",
         "scripts/gui/components/sidebar.pyd": "63dcba88799dc1a90541b1c9fe28abc5",
         "scripts/gui/components/title_bar.pyd": "d6b990e596548b0b1eaca86ba8bba606",
