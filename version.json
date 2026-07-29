@@ -1,6 +1,6 @@
 {
     "version": "1.1.21",
-    "build_time": 1785309493,
+    "build_time": 1785310208,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -333,7 +333,7 @@
         "pic/region_x96b.png": "bcefc09a184ec261465fef9a13649acc",
         "pic/reset_giao_bo.png": "b0327057425c3be4384822d26852b429",
         "pic/ruong_go.png": "76cde6a0f4841050e98639dbc5b02aeb",
-        "pic/ruong_trong.png": "67a9395aee540de2bcfa6eb61a0370d1",
+        "pic/ruong_trong.png": "0684c0c992cac01ef7e825f36c7a3ab8",
         "pic/sell_max.png": "4fc24380cb8b9e8d0754deabcfa8ade1",
         "pic/sell_min.png": "019f718a5c90a6904df03578ee7de4e6",
         "pic/settings_icon.png": "3a8849bca506cd46b1447aa89ff02916",
