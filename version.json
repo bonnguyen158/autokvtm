@@ -1,6 +1,6 @@
 {
     "version": "1.1.21",
-    "build_time": 1785341262,
+    "build_time": 1785376247,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -269,7 +269,7 @@
         "pic/mit_say.png": "06f1dc92f608de32a4a3c6622510c676",
         "pic/mo_ruong.png": "4df890883e64d951a1a0ecb2798dfcc1",
         "pic/nang_cap_kho.png": "7adb1147c84a533d8b6b5aeca88fcfa4",
-        "pic/nang_kho.png": "761a20c5e7622900cb205e4ecf868c7b",
+        "pic/nang_kho.png": "62bdba67b9338f0d2e7c5b0223857158",
         "pic/next_gieo.png": "9d9f2e4455e3293ea9a19b7f5b055a9b",
         "pic/next_gieo_trai.png": "418bd43bb3b542085c53909fc0a7c905",
         "pic/nhan_mo_ruong.png": "972bfc1e0348d699064005f978a57090",
@@ -488,7 +488,7 @@
         "scripts/core/adb_capture.pyd": "50a8fbca6b2378ddcb0bf20f649e56d1",
         "scripts/core/api_server.pyd": "c3281461d68ba4d537e1add2602eeab5",
         "scripts/core/auth_gui.pyd": "d097cefddaeea5fb3953c1830049866c",
-        "scripts/core/bot_core.pyd": "0a98fccf55419ab4fee4b1a98e82da3d",
+        "scripts/core/bot_core.pyd": "bc57d06b084901b2daa116239e8e1242",
         "scripts/core/config_manager.pyd": "60b14670cd21cd94cce438b584cb2595",
         "scripts/core/database_manager.pyd": "930531db88a877655f2981371723b875",
         "scripts/core/gui_core_scripts.pyd": "e6721cfeb156ab144219e5ceee9fca8c",
