@@ -1,7 +1,7 @@
 {
     "version": "1.1.22",
-    "build_time": 1785832609,
-    "message": "Cơ chế bán phân theo hàng trên và dưới",
+    "build_time": 1785841612,
+    "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
@@ -299,7 +299,7 @@
         "pic/nuoc_tao.png": "4ae308bb81a2c4b7ceeea27f180c47f9",
         "pic/nuoc_thom.png": "9b441c3d50229b541ea8dc96831f3b5a",
         "pic/nuoc_tuyet.png": "e3f6e5cb8ef7d20c5473479043c00e46",
-        "pic/oai_huong.png": "6eac5242de1460da7bdbba3cd9f7916b",
+        "pic/oai_huong.png": "2e1b2929c675f1e7b63fe19b46ed2d69",
         "pic/oai_huong_say.png": "c690575a5c246c2f8275a6cb2dea4121",
         "pic/ong_giua.png": "a1c89743e492cf1a0e2c87c392492603",
         "pic/ong_phai.png": "8a8c469c75003cea3ea3f4ee38e42e5c",
@@ -504,7 +504,7 @@
         "scripts/core/adb_capture.pyd": "50a8fbca6b2378ddcb0bf20f649e56d1",
         "scripts/core/api_server.pyd": "c3281461d68ba4d537e1add2602eeab5",
         "scripts/core/auth_gui.pyd": "d097cefddaeea5fb3953c1830049866c",
-        "scripts/core/bot_core.pyd": "5d2c148e6a6af15f3f7880ed6d8fb7fb",
+        "scripts/core/bot_core.pyd": "d4e827a54ddb7ab974d2fa608222d4e5",
         "scripts/core/config_manager.pyd": "60b14670cd21cd94cce438b584cb2595",
         "scripts/core/database_manager.pyd": "930531db88a877655f2981371723b875",
         "scripts/core/gui_core_scripts.pyd": "36bfa5a9f08b0794fd105e340d3e54ed",
