@@ -1,7 +1,7 @@
 {
     "version": "1.1.25",
-    "build_time": 1786006990,
-    "message": "Chỉnh giao diện mới",
+    "build_time": 1786007104,
+    "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
@@ -539,7 +539,7 @@
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "766c11f7f516e8e619e4bbedd9509934",
         "scripts/gui/pages/tools_page.pyd": "f54874894770e1bd60208830ed00120d",
-        "scripts/gui/pages/update_page.pyd": "1b55ba318acab804773a943dba0a345d",
+        "scripts/gui/pages/update_page.pyd": "527033ecdf7652bf56530206f2d00663",
         "scripts/web/index.html": "1617945eefec698fe655598a0541c453",
         "scripts/__pycache__/__init__.cpython-311.pyc": "65850f7e77a792e6be8daf5ed24f9817"
     }
