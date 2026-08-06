@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786007104,
+    "build_time": 1786007887,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -524,7 +524,7 @@
         "scripts/core/gui_core_scripts.pyd": "456f6d173a55e9b07c489c04692777ee",
         "scripts/core/startup_manager.pyd": "e1995f57af88d029aff54c092143f9d6",
         "scripts/core/sys_utils.pyd": "a468a7a8db7252f3f685525c7c1f93b1",
-        "scripts/core/update_manager.pyd": "a682440cd87168ec404071862f7f7597",
+        "scripts/core/update_manager.pyd": "55bfbc14295dd1f0216a5ce00a4aea61",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
         "scripts/gui/main_window.pyd": "c30b9ce819336ce1424c46d6467d7027",
         "scripts/gui/components/config_modal.pyd": "c35005ada2d2ef582cd20cd75b7b2bbd",
@@ -539,7 +539,7 @@
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "766c11f7f516e8e619e4bbedd9509934",
         "scripts/gui/pages/tools_page.pyd": "f54874894770e1bd60208830ed00120d",
-        "scripts/gui/pages/update_page.pyd": "527033ecdf7652bf56530206f2d00663",
+        "scripts/gui/pages/update_page.pyd": "10f7c19fb380b6d63bfe07547181ba98",
         "scripts/web/index.html": "1617945eefec698fe655598a0541c453",
         "scripts/__pycache__/__init__.cpython-311.pyc": "65850f7e77a792e6be8daf5ed24f9817"
     }
