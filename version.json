@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786008422,
+    "build_time": 1786011069,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -158,7 +158,6 @@
         "pic/da_vang.png": "ffbdc9f5e1e02832bd5b6a69110223e2",
         "pic/da_xb.png": "076faef351ccd445a08da6cec283d89e",
         "pic/da_xl.png": "f5e5ffc42392aeabd5b8799699e23a64",
-        "pic/debug_roi_kho_dinh.png": "a3c20a1dd2237f90e2f21436e5a56de2",
         "pic/dinh.png": "30e251e7533582ed87431a7d74d18679",
         "pic/dong_bao_hang.png": "b488b2fed6ea8350960110d5d9a841cf",
         "pic/dong_y.png": "49749f1ff763298d87507788716c4cf5",
@@ -534,7 +533,7 @@
         "scripts/gui/components/sidebar.pyd": "cba6c317dd6ff9aef1e3944ed93f5ccb",
         "scripts/gui/components/title_bar.pyd": "86e62615294f2bf0ab9f35357cb176b1",
         "scripts/gui/pages/account_page.pyd": "dfa7532312607a6d924b1f1ff3d7bf2a",
-        "scripts/gui/pages/control_page.pyd": "a468f305340cfc79fd6985842815f9b5",
+        "scripts/gui/pages/control_page.pyd": "b47c7e66670d14e5c9d67a1655c8744c",
         "scripts/gui/pages/custom_page.pyd": "aa44215769d32c542ed1bf83035fcc76",
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "766c11f7f516e8e619e4bbedd9509934",
