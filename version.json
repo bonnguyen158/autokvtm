@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786011069,
+    "build_time": 1786070833,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -482,7 +482,7 @@
         "scripts/hong_say_2.pyd": "c7963a879ca45af34a03cde444c327c6",
         "scripts/hong_say_4.pyd": "a3a3f2f47cb5cc585d6920c5e352750d",
         "scripts/muanctao_friend_sx_tra_tao.pyd": "497cffc8ad22f669bc2b9b22cfbf2782",
-        "scripts/muantao_ban_sx_ttao_540tra.pyd": "3d3b55e6c282c71397ba1518ecd96dff",
+        "scripts/muantao_ban_sx_ttao_540tra.pyd": "ba67b6f146ae18f47299c304d2e15fae",
         "scripts/mua_nctao_friend_sx_vai_vang.pyd": "fae73841be9cb4a61c601eabbe23faad",
         "scripts/nchanh9_oaisay8.pyd": "2c20d6eb52aaca7079a754ede64e50ad",
         "scripts/nuoc_chanh_9.pyd": "591360f3f6b09be48d7387b38862e9e8",
@@ -533,7 +533,7 @@
         "scripts/gui/components/sidebar.pyd": "cba6c317dd6ff9aef1e3944ed93f5ccb",
         "scripts/gui/components/title_bar.pyd": "86e62615294f2bf0ab9f35357cb176b1",
         "scripts/gui/pages/account_page.pyd": "dfa7532312607a6d924b1f1ff3d7bf2a",
-        "scripts/gui/pages/control_page.pyd": "b47c7e66670d14e5c9d67a1655c8744c",
+        "scripts/gui/pages/control_page.pyd": "49c728b3dbdc42fcae2c7b7f9b5db17d",
         "scripts/gui/pages/custom_page.pyd": "aa44215769d32c542ed1bf83035fcc76",
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "766c11f7f516e8e619e4bbedd9509934",
