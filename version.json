@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786078425,
+    "build_time": 1786198129,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -501,9 +501,9 @@
         "scripts/trong_cay_su_kien.pyd": "5a656a919b91ca9d216a3ed8060ce87f",
         "scripts/vaido2_ntao3.pyd": "b93b5816dd9aaaa382ab22435ca86d7d",
         "scripts/vaido2_ntao6.pyd": "bbe3f5c27a9dac62ad88d1b4f13258df",
-        "scripts/vaido2_ntao6_6nhh.pyd": "eb48fc7ecec721835ac36c56e13583e1",
-        "scripts/vaido4_ntao6.pyd": "7206bd9a7664361e6e6cf9e0c10b46c7",
-        "scripts/vaido6_ntao9.pyd": "443db50f3a1cdb5fa63856a913e2550a",
+        "scripts/vaido2_ntao6_6nhh.pyd": "4c82a0cd8eb6e4e2ff99a07bcb246b60",
+        "scripts/vaido4_ntao6.pyd": "7cee0ac9ae6687ef4629d021333c694b",
+        "scripts/vaido6_ntao9.pyd": "189ee4543ad4c2c86e993e612d416b2b",
         "scripts/vaitim8_nchanh9.pyd": "99b37c3c9cb5a24a8278251a40c231b1",
         "scripts/vaitim8_nhau9.pyd": "1ae72832e2434ea5803fc6d941116d0e",
         "scripts/vaivang3_taosay2.pyd": "c2a36dc68df22f5f8c0d7a86373031f6",
