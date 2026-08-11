@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786441366,
+    "build_time": 1786441383,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -158,12 +158,6 @@
         "pic/da_vang.png": "ffbdc9f5e1e02832bd5b6a69110223e2",
         "pic/da_xb.png": "076faef351ccd445a08da6cec283d89e",
         "pic/da_xl.png": "f5e5ffc42392aeabd5b8799699e23a64",
-        "pic/debug_crop_144.png": "3b7defc2eb3d0e0c7c8cd237fd9d2dda",
-        "pic/debug_crop_147.png": "281aafb7266747a088f5a4b80205cac3",
-        "pic/debug_crop_256.png": "40c8eccd53f4b28b66e495879b95d34f",
-        "pic/debug_crop_260.png": "37dbc436c6e5d2ed6577b955856c49c2",
-        "pic/debug_crop_370.png": "20a800279fb53475dd1c30ecbb1aa795",
-        "pic/debug_crop_372.png": "e4848fdf9c1534d626832178e4f3e1d0",
         "pic/dinh.png": "30e251e7533582ed87431a7d74d18679",
         "pic/dong_bao_hang.png": "b488b2fed6ea8350960110d5d9a841cf",
         "pic/dong_y.png": "49749f1ff763298d87507788716c4cf5",
