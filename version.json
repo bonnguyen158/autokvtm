@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786528518,
+    "build_time": 1786532351,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -24,6 +24,11 @@
         "assets/search_icon.png": "a3bd3d799e5ebca37a79abda22a37bc0",
         "assets/shop.svg": "285d6c4d582fff81f47d9152d186e1e1",
         "assets/status.svg": "3e387be91d332aa41a3e5b6a8196768a",
+        "assets/status_not_added.svg": "38ef61c424cbd1dbbfa751a512b5c8f6",
+        "assets/status_paused.svg": "be8198979a13be6a0afa0d02d766de19",
+        "assets/status_ready.svg": "adb7f0da7ef0636bc9469cf9d1ac88ae",
+        "assets/status_running.svg": "e4fcc9ebce8d64aad3bd509e8b5eb0a4",
+        "assets/status_stopped.svg": "259032971ad16868da55068770fc8c76",
         "assets/stop.svg": "db1597d33dfbdffdaad9d109008daf72",
         "assets/toolbox.svg": "128b8ceeeab98b65d49258e7f3567a69",
         "assets/trash.svg": "fc97be3f104f288c4b626b49899fad85",
@@ -538,7 +543,7 @@
         "scripts/gui/components/sidebar.pyd": "cba6c317dd6ff9aef1e3944ed93f5ccb",
         "scripts/gui/components/title_bar.pyd": "86e62615294f2bf0ab9f35357cb176b1",
         "scripts/gui/pages/account_page.pyd": "dfa7532312607a6d924b1f1ff3d7bf2a",
-        "scripts/gui/pages/control_page.pyd": "619e14291caeeac0e75073c948321857",
+        "scripts/gui/pages/control_page.pyd": "89028ebee18ffb9f15c2333ac7110688",
         "scripts/gui/pages/custom_page.pyd": "aa44215769d32c542ed1bf83035fcc76",
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "766c11f7f516e8e619e4bbedd9509934",
