@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786616751,
+    "build_time": 1786619964,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -519,6 +519,7 @@
         "scripts/vaitim8_nchanh9.pyd": "99b37c3c9cb5a24a8278251a40c231b1",
         "scripts/vaitim8_nhau9.pyd": "1ae72832e2434ea5803fc6d941116d0e",
         "scripts/vaivang3_taosay2.pyd": "c2a36dc68df22f5f8c0d7a86373031f6",
+        "scripts/vaivang5_duasay7.pyd": "595314a1bcbb359db45fe7dba106f209",
         "scripts/vaivang6_oaisay8.pyd": "df6f3942885af7deb3b4849d23cabdc0",
         "scripts/vai_do_2.pyd": "66328ec3698f5ba0edc0afce4970ccdb",
         "scripts/vai_do_8.pyd": "c6adc5b2e92d4a5e8e05d52620491000",
@@ -532,7 +533,7 @@
         "scripts/core/bot_core.pyd": "ff3eb57e210402072e8e362c4b985366",
         "scripts/core/config_manager.pyd": "60b14670cd21cd94cce438b584cb2595",
         "scripts/core/database_manager.pyd": "930531db88a877655f2981371723b875",
-        "scripts/core/gui_core_scripts.pyd": "502195e553cfdf72a3845da215d75fe9",
+        "scripts/core/gui_core_scripts.pyd": "d753c3b50c808f60b6c6ed1026b6121e",
         "scripts/core/startup_manager.pyd": "e1995f57af88d029aff54c092143f9d6",
         "scripts/core/sys_utils.pyd": "a468a7a8db7252f3f685525c7c1f93b1",
         "scripts/core/update_manager.pyd": "55bfbc14295dd1f0216a5ce00a4aea61",
