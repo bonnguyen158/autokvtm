@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786718181,
+    "build_time": 1786719597,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -495,7 +495,7 @@
         "scripts/muanctao_friend_sx_tra_tao.pyd": "37eb8cfc62d9a9d64888f07a6cbda1d1",
         "scripts/muantao_ban_sx_ttao_540tra.pyd": "33a43c8c25d0e72d4059a6a97329f222",
         "scripts/mua_cayhong_sx_hongsay.pyd": "e614f5d082461e929fc1c8f2ea3018cd",
-        "scripts/mua_cayhong_sx_vaido.pyd": "ca897a207bbe308d03c05f2bcc149aa3",
+        "scripts/mua_cayhong_sx_vaido.pyd": "b2be8b1051256c4ca838fb2722af286b",
         "scripts/mua_nctao_friend_sx_vai_vang.pyd": "fae73841be9cb4a61c601eabbe23faad",
         "scripts/nchanh9_oaisay8.pyd": "11e4c2d1f86ef19e3ca7a13cfc7a85a3",
         "scripts/nuoctao6_duasay7.pyd": "1681f0f91c90229d15d61ac4c7f7d0ce",
@@ -536,7 +536,7 @@
         "scripts/core/bot_core.pyd": "bc229688bc3ec7da39b834d43492c9da",
         "scripts/core/config_manager.pyd": "60b14670cd21cd94cce438b584cb2595",
         "scripts/core/database_manager.pyd": "930531db88a877655f2981371723b875",
-        "scripts/core/gui_core_scripts.pyd": "9997547cc2c6b8fc163c129b90872707",
+        "scripts/core/gui_core_scripts.pyd": "a255716e0f8f2d9a47f2728f3cec13b8",
         "scripts/core/startup_manager.pyd": "e1995f57af88d029aff54c092143f9d6",
         "scripts/core/sys_utils.pyd": "a468a7a8db7252f3f685525c7c1f93b1",
         "scripts/core/update_manager.pyd": "55bfbc14295dd1f0216a5ce00a4aea61",
