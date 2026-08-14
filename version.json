@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786720057,
+    "build_time": 1786720594,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -213,7 +213,7 @@
         "pic/kho_cay_chanh.png": "ca2a3dc5476c78961584119fb96bdc4e",
         "pic/kho_cay_cuc.png": "cf958b6327aed8a28bf304356c8feadb",
         "pic/kho_cay_dua.png": "c22b5547289d2732f014ef07fb4664df",
-        "pic/kho_cay_hong.png": "b8804f074d87ecbd8b9dc7f358414d36",
+        "pic/kho_cay_hong.png": "b7e634b7483f99a6281d98dde9c3810b",
         "pic/kho_cay_lai.png": "cd8fc13562eb787bd783533126a4227b",
         "pic/kho_cay_mit.png": "9c7a635e530e8bf3ab05ab75d53f3668",
         "pic/kho_cay_nho.png": "fabf131f0f281c2b021734846e6d004a",
@@ -512,7 +512,7 @@
         "scripts/tra_say_8.pyd": "8aa7413f601e5b3f6f0145f76fbf6bf3",
         "scripts/tra_tao_doi_chau.pyd": "355fb17ff3b7126d2977bbd344d121eb",
         "scripts/tra_tao_doi_chau_540tra.pyd": "068e0dea01ca080802c7005e3101defd",
-        "scripts/trongcay_va_ban.pyd": "9fd038cfe9dbb8c0cffcb63aca964abf",
+        "scripts/trongcay_va_ban.pyd": "52c16387ba62afadc8a52a68d37c7720",
         "scripts/trong_cay_su_kien.pyd": "5a656a919b91ca9d216a3ed8060ce87f",
         "scripts/vaido2_ntao3.pyd": "b93b5816dd9aaaa382ab22435ca86d7d",
         "scripts/vaido2_ntao6.pyd": "bbe3f5c27a9dac62ad88d1b4f13258df",
