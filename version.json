@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786724645,
+    "build_time": 1786725021,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -497,7 +497,7 @@
         "scripts/muanctao_friend_sx_tra_tao.pyd": "37eb8cfc62d9a9d64888f07a6cbda1d1",
         "scripts/muantao_ban_sx_ttao_540tra.pyd": "33a43c8c25d0e72d4059a6a97329f222",
         "scripts/mua_cayhong_sx_hongsay.pyd": "76e4aae32f49e1bcdebfe9b25ff20913",
-        "scripts/mua_cayhong_sx_vaido.pyd": "576b731f3750f7798257e337237e4f76",
+        "scripts/mua_cayhong_sx_vaido.pyd": "e415d740ed279de7ba279f30d68c9e3c",
         "scripts/mua_nctao_friend_sx_vai_vang.pyd": "fae73841be9cb4a61c601eabbe23faad",
         "scripts/nchanh9_oaisay8.pyd": "11e4c2d1f86ef19e3ca7a13cfc7a85a3",
         "scripts/nuoctao6_duasay7.pyd": "1681f0f91c90229d15d61ac4c7f7d0ce",
