@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786722056,
+    "build_time": 1786722510,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -167,6 +167,7 @@
         "pic/da_vang.png": "ffbdc9f5e1e02832bd5b6a69110223e2",
         "pic/da_xb.png": "076faef351ccd445a08da6cec283d89e",
         "pic/da_xl.png": "f5e5ffc42392aeabd5b8799699e23a64",
+        "pic/debug_roi_kho_cay_hong.png": "ddc5a1389a5d3ad2fb08a84668ffe8c7",
         "pic/dinh.png": "30e251e7533582ed87431a7d74d18679",
         "pic/dong_bao_hang.png": "b488b2fed6ea8350960110d5d9a841cf",
         "pic/dong_y.png": "49749f1ff763298d87507788716c4cf5",
@@ -214,7 +215,7 @@
         "pic/kho_cay_chanh.png": "ca2a3dc5476c78961584119fb96bdc4e",
         "pic/kho_cay_cuc.png": "cf958b6327aed8a28bf304356c8feadb",
         "pic/kho_cay_dua.png": "c22b5547289d2732f014ef07fb4664df",
-        "pic/kho_cay_hong.png": "b7e634b7483f99a6281d98dde9c3810b",
+        "pic/kho_cay_hong.png": "d745abb34da3bfc30bc09585aeb17775",
         "pic/kho_cay_lai.png": "cd8fc13562eb787bd783533126a4227b",
         "pic/kho_cay_mit.png": "9c7a635e530e8bf3ab05ab75d53f3668",
         "pic/kho_cay_nho.png": "fabf131f0f281c2b021734846e6d004a",
