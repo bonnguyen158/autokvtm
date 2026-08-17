@@ -1,6 +1,6 @@
 {
     "version": "1.1.25",
-    "build_time": 1786759667,
+    "build_time": 1786933682,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -483,7 +483,7 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "scripts/bat_bo_nha_ban.pyd": "6ae90f3f2c5a9891828083fcc97c00b0",
+        "scripts/bat_bo_nha_ban.pyd": "b14a0c857441507b6414dbfcca89f7c3",
         "scripts/duasay7_ncdua6.pyd": "a6a7d4d0d2463b5e484f4488158ecca0",
         "scripts/duasay8_ncdua9.pyd": "3700e970c345ce05b7b626d9f5b97c8e",
         "scripts/empty.pyd": "5381098fa7d15531bba8c69d20218365",
@@ -544,7 +544,7 @@
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
         "scripts/core/__pycache__/__init__.cpython-311.pyc": "43f57917326503fb3a6908fae5c8a889",
         "scripts/gui/main_window.pyd": "031081e0a61c87a742fe77666f5977b4",
-        "scripts/gui/components/config_modal.pyd": "681e70b9b3f797caa3830d32bfb7f0fb",
+        "scripts/gui/components/config_modal.pyd": "c424231f2e2d53a94569b70d1c91b8fd",
         "scripts/gui/components/custom_settings_modal.pyd": "863bea5bd7c0ac55987eb793c0502701",
         "scripts/gui/components/log_viewer.pyd": "34779694606384fd2f9d091a272445f3",
         "scripts/gui/components/menu_button.pyd": "8cd166c7b234e1c0bb9c1e2d8b112d63",
