@@ -1,6 +1,6 @@
 {
     "version": "1.1.26",
-    "build_time": 1787063215,
+    "build_time": 1787064269,
     "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -549,8 +549,8 @@
         "scripts/core/update_manager.pyd": "8acd7b5eca94b56cbfd1709e1ee6b12c",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
         "scripts/core/__pycache__/__init__.cpython-311.pyc": "43f57917326503fb3a6908fae5c8a889",
-        "scripts/gui/main_window.pyd": "4f9f05910cba39edff35f3967a9ffa72",
-        "scripts/gui/components/config_modal.pyd": "19d9c17068aec22092c9ed9ad1343dbd",
+        "scripts/gui/main_window.pyd": "66ac5119ab2c811188f2156b48c689b7",
+        "scripts/gui/components/config_modal.pyd": "30ada0cef219451311bfa891b1c6a276",
         "scripts/gui/components/custom_settings_modal.pyd": "863bea5bd7c0ac55987eb793c0502701",
         "scripts/gui/components/log_viewer.pyd": "34779694606384fd2f9d091a272445f3",
         "scripts/gui/components/menu_button.pyd": "8cd166c7b234e1c0bb9c1e2d8b112d63",
@@ -565,7 +565,7 @@
         "scripts/gui/pages/notify_page.pyd": "0a92434f389733e742a52432f08f0c6c",
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "310f2794a475aa5a9d40ca3119ee3258",
-        "scripts/gui/pages/tools_page.pyd": "0a4c03c5019c990af1b652a8678dbc49",
+        "scripts/gui/pages/tools_page.pyd": "b20608a0a5be9c88623b98bbde293423",
         "scripts/gui/pages/update_page.pyd": "10f7c19fb380b6d63bfe07547181ba98",
         "scripts/web/index.html": "1617945eefec698fe655598a0541c453",
         "scripts/__pycache__/__init__.cpython-311.pyc": "65850f7e77a792e6be8daf5ed24f9817"
