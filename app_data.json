@@ -1,7 +1,6 @@
 {
     "banners": {
-        "banner1.png": "https://zalo.me/",
-        "banner2.jpg": "action:open_recharge",
+        "banner1.jpg": "action:open_recharge",
         "default": "action:open_recharge"
     },
     "notifications": [
