@@ -1,7 +1,7 @@
 {
     "version": "1.1.28",
-    "build_time": 1787111986,
-    "message": "Thêm trang hỗ trợ",
+    "build_time": 1787112357,
+    "message": "Ban cap nhat moi",
     "files": {
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
@@ -561,7 +561,7 @@
         "scripts/gui/components/renew_dialog.pyd": "c95eba693585427a5c336cadf95cd89e",
         "scripts/gui/components/sidebar.pyd": "adbd6add6c1d2cbaefc9873917c44fc7",
         "scripts/gui/components/title_bar.pyd": "86e62615294f2bf0ab9f35357cb176b1",
-        "scripts/gui/pages/account_page.pyd": "34a2b0517e3903602e5aa6395c13c1e2",
+        "scripts/gui/pages/account_page.pyd": "906a25534c1367a4a9a95806d4c874da",
         "scripts/gui/pages/control_page.pyd": "0248bced8e51ff9c88a7e63d55d1d610",
         "scripts/gui/pages/custom_page.pyd": "aa44215769d32c542ed1bf83035fcc76",
         "scripts/gui/pages/home_page.pyd": "b04ccf2d69666977bd63f0500a31348f",
@@ -570,7 +570,7 @@
         "scripts/gui/pages/shop_page.pyd": "4d216019f7bc2ac9ca44af0b86ffbbf8",
         "scripts/gui/pages/support_page.pyd": "16d8cbd59cafba0750208708223f20ed",
         "scripts/gui/pages/tools_page.pyd": "f07dfdc56f55631227c82f423a92f735",
-        "scripts/gui/pages/update_page.pyd": "10f7c19fb380b6d63bfe07547181ba98",
+        "scripts/gui/pages/update_page.pyd": "aafa76c62ad35869f55ad473bc0593c0",
         "scripts/web/index.html": "1617945eefec698fe655598a0541c453",
         "scripts/__pycache__/__init__.cpython-311.pyc": "65850f7e77a792e6be8daf5ed24f9817"
     }
