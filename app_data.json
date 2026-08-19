@@ -1,0 +1,27 @@
+{
+    "banner": {
+        "url": "https://example.com/banner.png",
+        "link": "https://example.com",
+        "enabled": true
+    },
+    "notifications": [
+        {
+            "id": "1",
+            "date": "19/08/2026",
+            "title": "Chào mừng bạn đến với Auto KVTM",
+            "content": "Phần mềm đang được cập nhật các tính năng mới liên tục. Nếu gặp lỗi vui lòng liên hệ Admin.",
+            "is_new": true
+        }
+    ],
+    "contacts": {
+        "zalo": "https://zalo.me/",
+        "facebook": "https://facebook.com/",
+        "telegram": "https://t.me/"
+    },
+    "prices": {
+        "30": 50000,
+        "90": 120000,
+        "180": 250000,
+        "365": 500000
+    }
+}

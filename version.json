@@ -1,8 +1,9 @@
 {
     "version": "1.1.28",
-    "build_time": 1787112357,
+    "build_time": 1787113034,
     "message": "Ban cap nhat moi",
     "files": {
+        "app_data.json": "80cf30aa625b936f8d11ce631b1ef40e",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -22,7 +23,6 @@
         "assets/logo_1.jpg": "39a437c606eb5272f019b68c6e57157a",
         "assets/logo_transparent.ico": "60c1adf01151aaf0b8dd86d5a86a338c",
         "assets/logo_transparent.png": "663959b56887e6c510f2dd0602978f78",
-        "assets/mid_autumn_banner.png": "423b79f30d06cae8127dd5e24abfce06",
         "assets/pause.svg": "abcccf4726de743938affcd95d0f7b03",
         "assets/play.svg": "7719304499742a27318199ff06bf209d",
         "assets/refresh.svg": "a648f2e3886e22af661cd01c5bcc774a",
@@ -552,7 +552,7 @@
         "scripts/core/update_manager.pyd": "2f589cc54c77c1d23c00831a747fc891",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
         "scripts/core/__pycache__/__init__.cpython-311.pyc": "43f57917326503fb3a6908fae5c8a889",
-        "scripts/gui/main_window.pyd": "64fcc5241102cc1351f17ada966d10ce",
+        "scripts/gui/main_window.pyd": "37e9f95f1cec51c91b2d2aced4d995d7",
         "scripts/gui/components/config_modal.pyd": "30ada0cef219451311bfa891b1c6a276",
         "scripts/gui/components/custom_settings_modal.pyd": "863bea5bd7c0ac55987eb793c0502701",
         "scripts/gui/components/log_viewer.pyd": "34779694606384fd2f9d091a272445f3",
