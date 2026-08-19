@@ -1,6 +1,6 @@
 {
     "version": "1.1.29",
-    "build_time": 1787131311,
+    "build_time": 1787133202,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
@@ -560,7 +560,7 @@
         "scripts/gui/components/menu_button.pyd": "8cd166c7b234e1c0bb9c1e2d8b112d63",
         "scripts/gui/components/recharge_dialog.pyd": "7a14124f1490a0eee43fc5a96b242b64",
         "scripts/gui/components/renew_dialog.pyd": "c95eba693585427a5c336cadf95cd89e",
-        "scripts/gui/components/sidebar.pyd": "adbd6add6c1d2cbaefc9873917c44fc7",
+        "scripts/gui/components/sidebar.pyd": "2ba2543868420c80d4575dff21f492be",
         "scripts/gui/components/title_bar.pyd": "86e62615294f2bf0ab9f35357cb176b1",
         "scripts/gui/pages/account_page.pyd": "906a25534c1367a4a9a95806d4c874da",
         "scripts/gui/pages/control_page.pyd": "9cd671b0060f2e8d4067ad33c93501c8",
