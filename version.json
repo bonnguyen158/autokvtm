@@ -1,6 +1,6 @@
 {
     "version": "1.1.29",
-    "build_time": 1787133202,
+    "build_time": 1787133328,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
@@ -550,7 +550,7 @@
         "scripts/core/gui_core_scripts.pyd": "9ea99e62b483f16fceec8051fbd0e935",
         "scripts/core/startup_manager.pyd": "e1995f57af88d029aff54c092143f9d6",
         "scripts/core/sys_utils.pyd": "339b894f6be29afcdea6ba09d37dd65a",
-        "scripts/core/update_manager.pyd": "2f589cc54c77c1d23c00831a747fc891",
+        "scripts/core/update_manager.pyd": "a9150d5546233584616c3b0194b4ff37",
         "scripts/core/__init__.py": "d41d8cd98f00b204e9800998ecf8427e",
         "scripts/core/__pycache__/__init__.cpython-311.pyc": "43f57917326503fb3a6908fae5c8a889",
         "scripts/gui/main_window.pyd": "d47a71286b02648eb516a7bb1f28f1c9",
@@ -569,7 +569,7 @@
         "scripts/gui/pages/notify_page.pyd": "3f4bfb2d50d900fa56df60111388fdc5",
         "scripts/gui/pages/placeholder_page.pyd": "0781f4b5c89ccc45f9d0d2366bf51369",
         "scripts/gui/pages/shop_page.pyd": "4d216019f7bc2ac9ca44af0b86ffbbf8",
-        "scripts/gui/pages/support_page.pyd": "1da89205a9b4b29324a8621e07f8b1f5",
+        "scripts/gui/pages/support_page.pyd": "03d63adbf6168968989a63e638571f3a",
         "scripts/gui/pages/tools_page.pyd": "f07dfdc56f55631227c82f423a92f735",
         "scripts/gui/pages/update_page.pyd": "aafa76c62ad35869f55ad473bc0593c0",
         "scripts/web/index.html": "1617945eefec698fe655598a0541c453",
