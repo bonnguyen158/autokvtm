@@ -1,6 +1,6 @@
 {
     "version": "1.1.28",
-    "build_time": 1787113784,
+    "build_time": 1787113805,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "7fed312f5cf8c15c06dab02d7a32bb35",
@@ -44,7 +44,6 @@
         "assets/wrench.svg": "28f628c8dd26facf0f846b8b7c21e097",
         "assets/zalo.svg": "0104c049be2cbbc88214af5042b51a16",
         "assets/banner/banner1.png": "423b79f30d06cae8127dd5e24abfce06",
-        "assets/banner/banner2.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "pic/0.png": "6168c9a508375a1f989a7459e536c599",
         "pic/0_2.png": "869c255940510ee91ef358f06905357e",
         "pic/0_3.png": "b76be3f4b51d977203c383c0feb8d430",
