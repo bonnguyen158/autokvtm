@@ -1,8 +1,8 @@
 {
-    "banner": {
-        "url": "https://example.com/banner.png",
-        "link": "https://example.com",
-        "enabled": true
+    "banners": {
+        "banner1.png": "https://zalo.me/",
+        "banner2.jpg": "action:open_recharge",
+        "default": "action:open_recharge"
     },
     "notifications": [
         {
