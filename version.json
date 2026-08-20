@@ -1,6 +1,6 @@
 {
     "version": "1.1.29",
-    "build_time": 1787183121,
+    "build_time": 1787231349,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
@@ -225,6 +225,7 @@
         "pic/kho_cay_cuc.png": "cf958b6327aed8a28bf304356c8feadb",
         "pic/kho_cay_dua.png": "c22b5547289d2732f014ef07fb4664df",
         "pic/kho_cay_hong.png": "d745abb34da3bfc30bc09585aeb17775",
+        "pic/kho_cay_hong1.png": "5c5e7d770f03fabaaf966a0dff3d5c1b",
         "pic/kho_cay_lai.png": "cd8fc13562eb787bd783533126a4227b",
         "pic/kho_cay_mit.png": "9c7a635e530e8bf3ab05ab75d53f3668",
         "pic/kho_cay_nho.png": "fabf131f0f281c2b021734846e6d004a",
@@ -544,10 +545,10 @@
         "scripts/core/adb_capture.pyd": "50a8fbca6b2378ddcb0bf20f649e56d1",
         "scripts/core/api_server.pyd": "c3281461d68ba4d537e1add2602eeab5",
         "scripts/core/auth_gui.pyd": "86f03f1bd5db5f5eb719b2c8235d34a8",
-        "scripts/core/bot_core.pyd": "36502a33350009d8af52b439fd3b0c41",
+        "scripts/core/bot_core.pyd": "2b2572b4e2050b4b6ea7baee4007f22f",
         "scripts/core/config_manager.pyd": "60b14670cd21cd94cce438b584cb2595",
         "scripts/core/database_manager.pyd": "930531db88a877655f2981371723b875",
-        "scripts/core/gui_core_scripts.pyd": "9ea99e62b483f16fceec8051fbd0e935",
+        "scripts/core/gui_core_scripts.pyd": "0fad998a9939c985c34009584a1db2f9",
         "scripts/core/startup_manager.pyd": "e1995f57af88d029aff54c092143f9d6",
         "scripts/core/sys_utils.pyd": "339b894f6be29afcdea6ba09d37dd65a",
         "scripts/core/update_manager.pyd": "a9150d5546233584616c3b0194b4ff37",
