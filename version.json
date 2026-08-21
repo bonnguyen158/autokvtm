@@ -1,6 +1,6 @@
 {
     "version": "1.1.31",
-    "build_time": 1787303523,
+    "build_time": 1787304456,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
@@ -581,6 +581,7 @@
         "_internal/scripts/duasay7_ncdua6.pyd": "f9f5c0247dd1094a7eabe8f63f24fadd",
         "_internal/scripts/duasay8_ncdua9.pyd": "5a9c5c559cb06a0597fd74e4cce4b511",
         "_internal/scripts/empty.pyd": "02127e4e2dd5746287844b86ffba7187",
+        "_internal/scripts/empty1.pyd": "bae141cfa390a0bb069affe46edeaf4d",
         "_internal/scripts/hausay8_nhau9.pyd": "a721386ca3a12715aae69e4ef4fa3f04",
         "_internal/scripts/hau_say_8.pyd": "8ec745113b5c22cc20e160636b10c598",
         "_internal/scripts/hongsay2_nuoctao3.pyd": "56f022fc3dc9eb5a0cce6d306605961b",
@@ -632,7 +633,7 @@
         "_internal/scripts/core/bot_core.pyd": "00b80aab2c911dd1b91c2c64c92797e0",
         "_internal/scripts/core/config_manager.pyd": "5bcaae9f44edad3d413217dd84321d4a",
         "_internal/scripts/core/database_manager.pyd": "24efd535f9d699a6233d1ef0e08b7e8e",
-        "_internal/scripts/core/gui_core_scripts.pyd": "ed5dcca00e0112acb22e9bf7d7180364",
+        "_internal/scripts/core/gui_core_scripts.pyd": "8127f4f013f653a9dd77ab5ef67c4c66",
         "_internal/scripts/core/main_bootstrap.pyd": "4572f9afdb1af8328a5d597a74a3a08e",
         "_internal/scripts/core/startup_manager.pyd": "1fd6395fe8066cdde3cc6eb41c0aecbc",
         "_internal/scripts/core/sys_utils.pyd": "058aaa0fc5a5ebf86136c6a9c9f18568",
