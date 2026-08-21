@@ -1,6 +1,6 @@
 {
     "version": "1.1.31",
-    "build_time": 1787304456,
+    "build_time": 1787304575,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
@@ -633,7 +633,7 @@
         "_internal/scripts/core/bot_core.pyd": "00b80aab2c911dd1b91c2c64c92797e0",
         "_internal/scripts/core/config_manager.pyd": "5bcaae9f44edad3d413217dd84321d4a",
         "_internal/scripts/core/database_manager.pyd": "24efd535f9d699a6233d1ef0e08b7e8e",
-        "_internal/scripts/core/gui_core_scripts.pyd": "8127f4f013f653a9dd77ab5ef67c4c66",
+        "_internal/scripts/core/gui_core_scripts.pyd": "e73ce1ef04ecef6c915f85f7d6d8467f",
         "_internal/scripts/core/main_bootstrap.pyd": "4572f9afdb1af8328a5d597a74a3a08e",
         "_internal/scripts/core/startup_manager.pyd": "1fd6395fe8066cdde3cc6eb41c0aecbc",
         "_internal/scripts/core/sys_utils.pyd": "058aaa0fc5a5ebf86136c6a9c9f18568",
