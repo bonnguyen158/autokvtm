@@ -1,9 +1,9 @@
 {
     "version": "1.2.34",
-    "build_time": 1787553231,
-    "message": "Hoàn tất web-admin",
+    "build_time": 1787555928,
+    "message": "Ban cap nhat moi",
     "files": {
-        "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
+        "app_data.json": "aa2e47796adc1d31969a5d92b7cc853b",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
