@@ -1,7 +1,8 @@
 {
     "banners": {
-        "banner1.jpg": "action:open_recharge",
-        "default": "action:open_recharge"
+        "default": "action:open_recharge",
+        "banner1.png": "",
+        "quang-cao.png": "action:open_recharge"
     },
     "notifications": [
         {
@@ -15,13 +16,13 @@
     ],
     "contacts": {
         "zalo": "https://zalo.me/",
-        "facebook": "https://facebook.com/",
+        "facebook": "https://www.facebook.com/TMStore1703",
         "telegram": "https://t.me/"
     },
     "prices": {
-        "30": 50000,
-        "90": 120000,
-        "180": 250000,
-        "365": 500000
+        "30": 50,
+        "90": 120,
+        "180": 250,
+        "365": 500
     }
 }

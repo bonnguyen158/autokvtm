@@ -1,7 +1,7 @@
 {
-    "version": "1.2.33",
-    "build_time": 1787551020,
-    "message": "Ban cap nhat moi",
+    "version": "1.2.34",
+    "build_time": 1787553231,
+    "message": "Hoàn tất web-admin",
     "files": {
         "app_data.json": "d182c89e88692e4fbd0b0237b0bb8bc3",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -572,7 +572,7 @@
         "_internal/scripts/gui/pages/account_page.pyd": "bc741079d88b0828948b014de0dcc71b",
         "_internal/scripts/gui/pages/control_page.pyd": "dd177ae0ae4e04b7b7b4d0cb8bd9fc21",
         "_internal/scripts/gui/pages/custom_page.pyd": "0a94a2c831859d302de18ebc06340f50",
-        "_internal/scripts/gui/pages/home_page.pyd": "20b0fb56670baab0c01609694d6fa1aa",
+        "_internal/scripts/gui/pages/home_page.pyd": "8dfd3f16dc1c188c94496f70b076bce5",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
         "_internal/scripts/gui/pages/placeholder_page.pyd": "93ce0a08d3eeb5c0534684e9d8e47f05",
         "_internal/scripts/gui/pages/shop_page.pyd": "18b479fcd49d7d86e4a0a0a7405c8298",
