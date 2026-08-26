@@ -1,9 +1,9 @@
 {
     "version": "1.2.34",
-    "build_time": 1787562277,
+    "build_time": 1787748246,
     "message": "Ban cap nhat moi",
     "files": {
-        "app_data.json": "aa2e47796adc1d31969a5d92b7cc853b",
+        "app_data.json": "13120f13661dd805a90e114fcc43cd39",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -507,8 +507,8 @@
         "_internal/scripts/hongsay6_nuoctao6.pyd": "b24ed7aa73c9d355ed91bc4b93289037",
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
-        "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "374cb3baf184f8a50fd697b788b7965c",
-        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "fa3acf5fbd3ae500ed96171bbe9a8e9b",
+        "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a793fb71611e1e751e305946eae738bb",
+        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "72cfaee6b4b4978a689affd200c58329",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "cd89dbfe29c0dd6964509385ff2d6b59",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "16399dc826ec2d74f91f2ac6dd227bd5",
         "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "1e922e9f22ae559b88feb14aa1b101fa",
