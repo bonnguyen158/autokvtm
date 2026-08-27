@@ -1,6 +1,6 @@
 {
     "version": "1.2.34",
-    "build_time": 1787809788,
+    "build_time": 1787821298,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "13120f13661dd805a90e114fcc43cd39",
@@ -524,7 +524,7 @@
         "_internal/scripts/nuoc_tuyet_6.pyd": "177769b2be05bfa66ae5112783deade2",
         "_internal/scripts/nuoc_tuyet_9.pyd": "ae41c6d3901f0fe3d19e0a22b772cc3e",
         "_internal/scripts/oaisay8_ntuyet9.pyd": "b418cebae4b4670b0be474cc3d55a7c5",
-        "_internal/scripts/oai_say_8.pyd": "426d85c143cde71dd2e2da6bce73d6f9",
+        "_internal/scripts/oai_say_8.pyd": "0bbdfa0926bd88b46c49a0d17d3bb9ce",
         "_internal/scripts/tao_say_2.pyd": "9d142409f12be292e44f372c5473a5d7",
         "_internal/scripts/tra_say_8.pyd": "8fb7256021fe51f1af7fa60356a22a58",
         "_internal/scripts/tra_tao_doi_chau.pyd": "7da540f2c269a157e2fc9766c5b05b46",
