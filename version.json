@@ -1,6 +1,6 @@
 {
     "version": "1.2.34",
-    "build_time": 1788063743,
+    "build_time": 1788067904,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -550,7 +550,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "9e92d99e2c716e5cfc21c7491246366a",
+        "_internal/scripts/core/bot_core.pyd": "9e167f00c8da12d1fbe7dbd40fcd01fb",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "c685ccf3517e6f87134fac4c38f835ab",
         "_internal/scripts/core/gui_core_scripts.pyd": "d649f866e792ce203bd847cf4809ed13",
@@ -570,7 +570,7 @@
         "_internal/scripts/gui/components/sidebar.pyd": "253a9d832e786c31c635b652305618f8",
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
-        "_internal/scripts/gui/pages/account_page.pyd": "bc741079d88b0828948b014de0dcc71b",
+        "_internal/scripts/gui/pages/account_page.pyd": "58727e40a6659c81d9567dfd6684028c",
         "_internal/scripts/gui/pages/control_page.pyd": "dd177ae0ae4e04b7b7b4d0cb8bd9fc21",
         "_internal/scripts/gui/pages/custom_page.pyd": "0a94a2c831859d302de18ebc06340f50",
         "_internal/scripts/gui/pages/home_page.pyd": "8dfd3f16dc1c188c94496f70b076bce5",
