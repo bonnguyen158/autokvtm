@@ -1,6 +1,6 @@
 {
     "version": "1.2.35",
-    "build_time": 1788265679,
+    "build_time": 1788265956,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -502,7 +502,7 @@
         "_internal/scripts/empty.pyd": "d40950cfc41831a988d25f6812f392bf",
         "_internal/scripts/empty1.pyd": "7821e9a4d21164a5809502b802926551",
         "_internal/scripts/hausay8_nhau9.pyd": "f2b041fd6b162ca6b5b88fdcf2211354",
-        "_internal/scripts/hausay8_nmit9.pyd": "8e41d77a1e1a1d6df985b5a99b8fb12d",
+        "_internal/scripts/hausay8_nmit9.pyd": "9c1bc1c662d9efb0b8074f5d18b6f93f",
         "_internal/scripts/hau_say_8.pyd": "8f2e7edd1eb01a7b58c9c28a96303e09",
         "_internal/scripts/hongsay2_nuoctao3.pyd": "66808b300d7afa37c3290c9901567359",
         "_internal/scripts/hongsay6_nuoctao6.pyd": "b24ed7aa73c9d355ed91bc4b93289037",
