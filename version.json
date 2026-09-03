@@ -1,7 +1,7 @@
 {
     "version": "1.2.38",
-    "build_time": 1788417350,
-    "message": "Thêm kịch bản",
+    "build_time": 1788424209,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -295,6 +295,7 @@
         "pic/kho_vai_den.png": "e410e65ba5ff50276cd7e6a78ed23da5",
         "pic/kho_vai_do.png": "ccbe1473486336830edccab7cc39b7b5",
         "pic/kho_vai_tim.png": "ca2382fa9c7a9ee7ee39332a479b9d68",
+        "pic/kho_vai_tim1.png": "220913aa8d675f1d3f58d4821b8e3900",
         "pic/kho_vai_vang.png": "c58cca5ed251a60b1e1e5dabe838cc06",
         "pic/kho_vai_xanh.png": "62a9eb8b54e42c02d5bba75852ec5052",
         "pic/kho_vat_dung.png": "7ad9c9ba3490394edb3b7e23e7dc1ba3",
@@ -539,7 +540,7 @@
         "_internal/scripts/vaido6_ntao9.pyd": "7356c5fd7e934d60f61c34d727858c1f",
         "_internal/scripts/vaitim8_nchanh9.pyd": "95bfdd917f4b17ae3155bc50da583f43",
         "_internal/scripts/vaitim8_nhau9.pyd": "a704d2d01ae3478b5232d4029c9f3b3f",
-        "_internal/scripts/vaitim8_nmit9.pyd": "b415983ecf141c09faa39150a3295ecc",
+        "_internal/scripts/vaitim8_nmit9.pyd": "e26eed84ce6a5da194862b96558d1d3f",
         "_internal/scripts/vaivang3_taosay2.pyd": "382d6b0d4da0161b91613b2ba63d4919",
         "_internal/scripts/vaivang5_duasay7.pyd": "21dec140344c1c5128152b643617ce97",
         "_internal/scripts/vaivang6_oaisay8.pyd": "773a4200c2d5038481538d2b4bb59a00",
