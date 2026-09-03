@@ -1,6 +1,6 @@
 {
     "version": "1.2.36",
-    "build_time": 1788387594,
+    "build_time": 1788410866,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -508,8 +508,8 @@
         "_internal/scripts/hongsay6_nuoctao6.pyd": "b24ed7aa73c9d355ed91bc4b93289037",
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
-        "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "968797e61ea6c62150715a88723a4bcc",
-        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "08a4851b5ce4e2c2592b5ccda10d18cf",
+        "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "7b0fa53c80b32ee1f873127faa3c0260",
+        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "2ab665f4e6180c82a5b19efe1e616976",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "cd89dbfe29c0dd6964509385ff2d6b59",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "16399dc826ec2d74f91f2ac6dd227bd5",
         "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "1e922e9f22ae559b88feb14aa1b101fa",
@@ -524,7 +524,7 @@
         "_internal/scripts/nuoc_tao_9.pyd": "2d90598ed7cdc03a014302c6dca5a86a",
         "_internal/scripts/nuoc_tuyet_6.pyd": "177769b2be05bfa66ae5112783deade2",
         "_internal/scripts/nuoc_tuyet_9.pyd": "ae41c6d3901f0fe3d19e0a22b772cc3e",
-        "_internal/scripts/oaisay8_ntuyet9.pyd": "b418cebae4b4670b0be474cc3d55a7c5",
+        "_internal/scripts/oaisay8_ntuyet9.pyd": "b042280f4cf897a74b0f23ac370956b4",
         "_internal/scripts/oai_say_8.pyd": "1f8e510312e8b2c96d7d8d6b3b6b23d3",
         "_internal/scripts/tao_say_2.pyd": "9d142409f12be292e44f372c5473a5d7",
         "_internal/scripts/tra_say_8.pyd": "8fb7256021fe51f1af7fa60356a22a58",
