@@ -1,6 +1,6 @@
 {
     "version": "1.2.38",
-    "build_time": 1788424209,
+    "build_time": 1788424347,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -294,8 +294,7 @@
         "pic/kho_tui_tao.png": "d91381b977820fc3f35446d6946005c8",
         "pic/kho_vai_den.png": "e410e65ba5ff50276cd7e6a78ed23da5",
         "pic/kho_vai_do.png": "ccbe1473486336830edccab7cc39b7b5",
-        "pic/kho_vai_tim.png": "ca2382fa9c7a9ee7ee39332a479b9d68",
-        "pic/kho_vai_tim1.png": "220913aa8d675f1d3f58d4821b8e3900",
+        "pic/kho_vai_tim.png": "220913aa8d675f1d3f58d4821b8e3900",
         "pic/kho_vai_vang.png": "c58cca5ed251a60b1e1e5dabe838cc06",
         "pic/kho_vai_xanh.png": "62a9eb8b54e42c02d5bba75852ec5052",
         "pic/kho_vat_dung.png": "7ad9c9ba3490394edb3b7e23e7dc1ba3",
