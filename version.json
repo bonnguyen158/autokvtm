@@ -1,7 +1,7 @@
 {
     "version": "1.2.39",
-    "build_time": 1788528075,
-    "message": "Thêm chức năng dùng thử kịch bản",
+    "build_time": 1788559196,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -500,7 +500,7 @@
         "_internal/scripts/bat_bo_nha_ban.pyd": "d4932e59349f04398009c26d850e8b64",
         "_internal/scripts/duasay7_ncdua6.pyd": "6b327c6a85bcbea3a2d10c268f7e3545",
         "_internal/scripts/duasay8_ncdua9.pyd": "bcb6933cf12cb6f85897827e94be8c0e",
-        "_internal/scripts/empty.pyd": "d40950cfc41831a988d25f6812f392bf",
+        "_internal/scripts/empty.pyd": "a925b97e50c241ee4d91fbc8e98a37bd",
         "_internal/scripts/empty1.pyd": "7821e9a4d21164a5809502b802926551",
         "_internal/scripts/hausay8_nhau9.pyd": "f2b041fd6b162ca6b5b88fdcf2211354",
         "_internal/scripts/hausay8_nmit9.pyd": "e5aa1fc157f13afdfb64f82318f38f3d",
@@ -574,7 +574,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "58727e40a6659c81d9567dfd6684028c",
-        "_internal/scripts/gui/pages/control_page.pyd": "c3aa5ca03e0fad2547514d7d7990ea85",
+        "_internal/scripts/gui/pages/control_page.pyd": "2a118a16f630ec6f68058f04eff858dd",
         "_internal/scripts/gui/pages/custom_page.pyd": "0a94a2c831859d302de18ebc06340f50",
         "_internal/scripts/gui/pages/home_page.pyd": "8dfd3f16dc1c188c94496f70b076bce5",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
