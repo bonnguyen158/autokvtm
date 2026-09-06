@@ -1,7 +1,7 @@
 {
     "version": "1.2.41",
-    "build_time": 1788676246,
-    "message": "Hot fix nhận diện bán vải tím",
+    "build_time": 1788678476,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -582,7 +582,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "4d8666b4e575027e98cd02f51c9ec4f8",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
         "_internal/scripts/gui/pages/tools_page.pyd": "7ee3764bebe8f9353a840f60f32afcc1",
-        "_internal/scripts/gui/pages/update_page.pyd": "48510f789eae5f12fa229a6c27b4179c",
+        "_internal/scripts/gui/pages/update_page.pyd": "4e2675736177855fb7ad241c419ea51a",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
