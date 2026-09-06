@@ -1,7 +1,7 @@
 {
-    "version": "1.2.40",
-    "build_time": 1788618294,
-    "message": "Thêm tùy chọn cân bằng cả 2 kho 1 và 2",
+    "version": "1.2.41",
+    "build_time": 1788676246,
+    "message": "Hot fix nhận diện bán vải tím",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -540,7 +540,7 @@
         "_internal/scripts/vaido6_ntao9.pyd": "7356c5fd7e934d60f61c34d727858c1f",
         "_internal/scripts/vaitim8_nchanh9.pyd": "30aa37dd78b67efd89bd023b01c4ce9a",
         "_internal/scripts/vaitim8_nhau9.pyd": "72a04d36d1ac681c39e4e77c10aea098",
-        "_internal/scripts/vaitim8_nmit9.pyd": "c2c48e37740d143878ea8f1face465e7",
+        "_internal/scripts/vaitim8_nmit9.pyd": "fea327dcf2f07ae8453cfed2cd1bafb3",
         "_internal/scripts/vaivang3_taosay2.pyd": "382d6b0d4da0161b91613b2ba63d4919",
         "_internal/scripts/vaivang5_duasay7.pyd": "21dec140344c1c5128152b643617ce97",
         "_internal/scripts/vaivang6_oaisay8.pyd": "773a4200c2d5038481538d2b4bb59a00",
