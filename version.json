@@ -1,6 +1,6 @@
 {
     "version": "1.2.43",
-    "build_time": 1788763643,
+    "build_time": 1788763714,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -565,7 +565,7 @@
         "_internal/scripts/gui/main_window.pyd": "849583a4ddba8b3527edb1f479430af7",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
         "_internal/scripts/gui/components/config_modal.pyd": "d976518542b5b16c0492e628e09ccfec",
-        "_internal/scripts/gui/components/custom_settings_modal.pyd": "49352f9d619955196a6454c10ca205b7",
+        "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf1f1f198bbe109d50ba5a4d561aa3b",
         "_internal/scripts/gui/components/log_viewer.pyd": "a421646b5890eba25b480f93cfbf8030",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
         "_internal/scripts/gui/components/recharge_dialog.pyd": "36214c8f975436bffb95644908b1ac7b",
@@ -574,7 +574,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "58727e40a6659c81d9567dfd6684028c",
-        "_internal/scripts/gui/pages/control_page.pyd": "12ab2bc28d76107f9f6f8d6531be53dd",
+        "_internal/scripts/gui/pages/control_page.pyd": "080ca45464af03054edd0d29adcad810",
         "_internal/scripts/gui/pages/custom_page.pyd": "0a94a2c831859d302de18ebc06340f50",
         "_internal/scripts/gui/pages/home_page.pyd": "8dfd3f16dc1c188c94496f70b076bce5",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
