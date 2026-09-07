@@ -1,7 +1,7 @@
 {
-    "version": "1.2.42",
-    "build_time": 1788763366,
-    "message": "Chỉnh giới hạn lượt bán tính theo ngày",
+    "version": "1.2.43",
+    "build_time": 1788763451,
+    "message": "Chỉnh lại giới hạn lượt bán tính theo ngày",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
