@@ -1,6 +1,6 @@
 {
     "version": "1.2.43",
-    "build_time": 1788763917,
+    "build_time": 1788833026,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -198,7 +198,7 @@
         "pic/giao_bo_don_hang.png": "334c10a54bb8de27867bc0cfba727915",
         "pic/giao_don_hang_bo.png": "d305784b29360992f10c2fcb93cbc754",
         "pic/giao_don_on.png": "7f405c85dcf9e74bc7845f45cc19ccc6",
-        "pic/giao_hang.png": "a448c4d6c52e0bc745f1b9de7e4881ae",
+        "pic/giao_hang.png": "151dc2c23f695cc66f3146ea10684f05",
         "pic/gio_thuhoach_cay.png": "c0fb273debc90e7a4bfb7a1de106f670",
         "pic/go.png": "0c5942c91536df42a52558e74b0c5323",
         "pic/hau_say.png": "cc205e8acdf019a552faee3405e9913b",
@@ -558,7 +558,7 @@
         "_internal/scripts/core/database_manager.pyd": "c685ccf3517e6f87134fac4c38f835ab",
         "_internal/scripts/core/gui_core_scripts.pyd": "5f5d4905a3e15eb2b1378ffe080f4196",
         "_internal/scripts/core/main_bootstrap.pyd": "4f33cf6c9e56c0f7afbd02c3ca7bbed5",
-        "_internal/scripts/core/startup_manager.pyd": "3807e4546bcabd7433516e3878cd086e",
+        "_internal/scripts/core/startup_manager.pyd": "043225efcd116e02caf300c74b2fd38b",
         "_internal/scripts/core/sys_utils.pyd": "c6763e03d7070ba731e7840b571f382f",
         "_internal/scripts/core/update_manager.pyd": "0d6854b32459ce48daf9163afcd614b5",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
