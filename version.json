@@ -1,6 +1,6 @@
 {
     "version": "1.2.44",
-    "build_time": 1788924903,
+    "build_time": 1788927416,
     "message": "Cập nhật fix lỗi giao đơn hàng cú",
     "files": {
         "app_data.json": "00c6b609c38331392dd373c300e081db",
@@ -474,6 +474,7 @@
         "pic/xb_bi.png": "e372fb2f7b06af1e0da521fedf3c7bdc",
         "pic/xb_bong.png": "8d1c54d96410358e738dd51cded04dd8",
         "pic/xb_borua.png": "f5c46670f5ebb637c3c4d25ee68e0074",
+        "pic/xb_chuongchuong.png": "4b215643bdfeab912053962eca9fd6da",
         "pic/xb_domdom.png": "d622ed11d4ea5f0d343d7e8b9924781f",
         "pic/xb_dua.png": "6f57b825c9f0d206ee24b1d9741ef325",
         "pic/xb_duahau.png": "cc9cbd5f9bbbca2d108e2c9274e3748d",
@@ -567,7 +568,7 @@
         "_internal/scripts/core/main_bootstrap.pyd": "4f33cf6c9e56c0f7afbd02c3ca7bbed5",
         "_internal/scripts/core/startup_manager.pyd": "043225efcd116e02caf300c74b2fd38b",
         "_internal/scripts/core/sys_utils.pyd": "c6763e03d7070ba731e7840b571f382f",
-        "_internal/scripts/core/update_manager.pyd": "0d6854b32459ce48daf9163afcd614b5",
+        "_internal/scripts/core/update_manager.pyd": "77eca0afde5140b6c7bb0ecd2b593cfe",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "849583a4ddba8b3527edb1f479430af7",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
@@ -589,7 +590,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "4d8666b4e575027e98cd02f51c9ec4f8",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
         "_internal/scripts/gui/pages/tools_page.pyd": "7ee3764bebe8f9353a840f60f32afcc1",
-        "_internal/scripts/gui/pages/update_page.pyd": "4e2675736177855fb7ad241c419ea51a",
+        "_internal/scripts/gui/pages/update_page.pyd": "dc6448fce5c37e77a4452c573777b024",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }

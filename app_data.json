@@ -5,6 +5,14 @@
     },
     "notifications": [
         {
+            "id": "1788925426096",
+            "date": "09/09/2026",
+            "title": "Bản update mới version 1.2.44",
+            "preview": "Fix lỗi tính tăng giao đơn hàng cú",
+            "content": "Fix lỗi tính tăng giao đơn hàng cú",
+            "is_new": true
+        },
+        {
             "id": "1",
             "date": "19/08/2026",
             "title": "Chào mừng bạn đến với Auto KVTM",
