@@ -1,7 +1,7 @@
 {
-    "version": "1.2.44",
-    "build_time": 1788927626,
-    "message": "Cập nhật fix lỗi giao đơn hàng cú",
+    "version": "Cập nhật fix lỗi giao đơn hàng cú",
+    "build_time": 1788928007,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "cc05a8674115905ed49704512c786e96",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -561,7 +561,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "9cf6571b76544cc07830151be54bd389",
+        "_internal/scripts/core/bot_core.pyd": "1126b5fdbbe0ee6d38b00dd21e505f17",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "c685ccf3517e6f87134fac4c38f835ab",
         "_internal/scripts/core/gui_core_scripts.pyd": "5f5d4905a3e15eb2b1378ffe080f4196",
@@ -582,7 +582,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "58727e40a6659c81d9567dfd6684028c",
-        "_internal/scripts/gui/pages/control_page.pyd": "ff7c19ad71dfae9031ddae3e488bb476",
+        "_internal/scripts/gui/pages/control_page.pyd": "a2c828abde6f64493799102c986208a0",
         "_internal/scripts/gui/pages/custom_page.pyd": "0a94a2c831859d302de18ebc06340f50",
         "_internal/scripts/gui/pages/home_page.pyd": "8dfd3f16dc1c188c94496f70b076bce5",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
