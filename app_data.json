@@ -6,10 +6,10 @@
     "notifications": [
         {
             "id": "1788925426096",
-            "date": "09/09/2026",
-            "title": "Bản update mới version 1.2.44",
-            "preview": "Fix lỗi tính tăng giao đơn hàng cú",
-            "content": "Fix lỗi tính tăng giao đơn hàng cú",
+            "date": "10/09/2026",
+            "title": "Bản update mới version 1.2.45",
+            "preview": "Fix lỗi tính tăng giao đơn hàng cú và thêm kịch bản đổi chậu theo vị trí chậu",
+            "content": "Fix lỗi tính tăng giao đơn hàng cú và thêm kịch bản đổi chậu theo vị trí chậu",
             "is_new": true
         },
         {
