@@ -1,6 +1,6 @@
 {
     "version": "1.2.45",
-    "build_time": 1789015735,
+    "build_time": 1789018741,
     "message": "Thêm kịch bản đổi chậu lẻ theo vị trí chậu",
     "files": {
         "app_data.json": "cc05a8674115905ed49704512c786e96",
@@ -587,7 +587,7 @@
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
         "_internal/scripts/bat_bo_nha_ban.pyd": "d4932e59349f04398009c26d850e8b64",
-        "_internal/scripts/doichau_le.pyd": "d1f52112c6e5efedd2cd5cebea26fea1",
+        "_internal/scripts/doichau_le.pyd": "6a79f73b7cc5ed097655e939e88fdfdb",
         "_internal/scripts/duasay7_ncdua6.pyd": "6b327c6a85bcbea3a2d10c268f7e3545",
         "_internal/scripts/duasay8_ncdua9.pyd": "bcb6933cf12cb6f85897827e94be8c0e",
         "_internal/scripts/empty.pyd": "a925b97e50c241ee4d91fbc8e98a37bd",
@@ -654,7 +654,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "849583a4ddba8b3527edb1f479430af7",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "330bce3c952cbad403c0234ec9767c80",
+        "_internal/scripts/gui/components/config_modal.pyd": "94b48a13518f96c20189398377ca95b1",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "4395d2b5e1817c71dc89cf63836b99c0",
         "_internal/scripts/gui/components/log_viewer.pyd": "a421646b5890eba25b480f93cfbf8030",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
