@@ -1,6 +1,6 @@
 {
     "version": "1.2.46",
-    "build_time": 1789100210,
+    "build_time": 1789100790,
     "message": "Thêm kịch bản Đổi Chậu Theo Bộ",
     "files": {
         "app_data.json": "633d2fe6429cb0913334683884ef8711",
@@ -647,7 +647,7 @@
         "_internal/scripts/core/bot_core.pyd": "872d3a87aec3f547c7e6d02b403c0b77",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
-        "_internal/scripts/core/gui_core_scripts.pyd": "6915c95bf1419bd9e0af1cb9c82af1d1",
+        "_internal/scripts/core/gui_core_scripts.pyd": "2c8e1b91cddf21e9ffbbb87f8485af37",
         "_internal/scripts/core/main_bootstrap.pyd": "4f33cf6c9e56c0f7afbd02c3ca7bbed5",
         "_internal/scripts/core/startup_manager.pyd": "043225efcd116e02caf300c74b2fd38b",
         "_internal/scripts/core/sys_utils.pyd": "c6763e03d7070ba731e7840b571f382f",
