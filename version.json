@@ -1,6 +1,6 @@
 {
     "version": "1.2.48",
-    "build_time": 1789217955,
+    "build_time": 1789247090,
     "message": "Thêm thời gian chờ cây chín trong kịch bản trồng cây và bán",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -599,8 +599,8 @@
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
         "_internal/scripts/bat_bo_nha_ban.pyd": "d4932e59349f04398009c26d850e8b64",
-        "_internal/scripts/doichau_bo.pyd": "b3256cc5e4090ecb88af96c92c214f32",
-        "_internal/scripts/doichau_le.pyd": "f1479822cd8e98632c9c728e0741cf8f",
+        "_internal/scripts/doichau_bo.pyd": "4383c163c9430f4977678b27c5818f0f",
+        "_internal/scripts/doichau_le.pyd": "38ba7c966e37aeb68981c0696e14c610",
         "_internal/scripts/doitrangtri_bo.pyd": "794a1ad7acc02c6570d76432147f5bda",
         "_internal/scripts/duasay7_ncdua6.pyd": "6b327c6a85bcbea3a2d10c268f7e3545",
         "_internal/scripts/duasay8_ncdua9.pyd": "bcb6933cf12cb6f85897827e94be8c0e",
