@@ -1,6 +1,6 @@
 {
     "version": "1.2.48",
-    "build_time": 1789247090,
+    "build_time": 1789248026,
     "message": "Thêm thời gian chờ cây chín trong kịch bản trồng cây và bán",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -661,12 +661,12 @@
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "528d4a65832ecdd602dd414c790561e9",
-        "_internal/scripts/core/main_bootstrap.pyd": "4f33cf6c9e56c0f7afbd02c3ca7bbed5",
+        "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
         "_internal/scripts/core/sys_utils.pyd": "2efdf54f6d1a61ed4f99faa5726920db",
         "_internal/scripts/core/update_manager.pyd": "77eca0afde5140b6c7bb0ecd2b593cfe",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
-        "_internal/scripts/gui/main_window.pyd": "cfe370665129e89691d224402143b542",
+        "_internal/scripts/gui/main_window.pyd": "5e06c7ae6071fa72ccbac097987ac0b4",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
         "_internal/scripts/gui/components/config_modal.pyd": "468de8b013248a9560ed190044636221",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "4395d2b5e1817c71dc89cf63836b99c0",
