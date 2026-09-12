@@ -1,6 +1,6 @@
 {
     "version": "1.2.47",
-    "build_time": 1789188710,
+    "build_time": 1789189139,
     "message": "Thêm kịch bản đổi trang trí theo bộ",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -657,7 +657,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "3bd59c74bbb8decff3d508d2d6766109",
+        "_internal/scripts/core/bot_core.pyd": "d03e4ff487d06aadca30f0451bc47071",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "528d4a65832ecdd602dd414c790561e9",
