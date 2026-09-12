@@ -1,6 +1,6 @@
 {
-    "version": "1.2.8",
-    "build_time": 1789217563,
+    "version": "1.2.48",
+    "build_time": 1789217753,
     "message": "Thêm thời gian chờ cây chín trong kịch bản trồng cây và bán",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
