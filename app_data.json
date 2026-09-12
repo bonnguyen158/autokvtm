@@ -5,11 +5,11 @@
     },
     "notifications": [
         {
-            "id": "1788925426096",
-            "date": "10/09/2026",
-            "title": "Bản update mới version 1.2.45",
-            "preview": "Fix lỗi tính tăng giao đơn hàng cú và thêm kịch bản đổi chậu theo vị trí chậu",
-            "content": "Fix lỗi tính tăng giao đơn hàng cú và thêm kịch bản đổi chậu theo vị trí chậu",
+            "id": "1789112262066",
+            "date": "11/09/2026",
+            "title": "Thêm kịch bản mới",
+            "preview": "Thêm các kịch bản mới",
+            "content": "Thêm kịch bản:\n1. Đổi chậu theo từng vị trí\n2. Đổi chậu theo bộ\n3. Đổi trang trí theo bộ",
             "is_new": true
         },
         {
