@@ -1,9 +1,9 @@
 {
     "version": "1.2.47",
-    "build_time": 1789178135,
+    "build_time": 1789183952,
     "message": "Thêm kịch bản đổi trang trí theo bộ",
     "files": {
-        "app_data.json": "633d2fe6429cb0913334683884ef8711",
+        "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -657,7 +657,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "27bb23020987ef98efe0a5dcbd2db403",
+        "_internal/scripts/core/bot_core.pyd": "11138004f1b4053905e664b28d49acdc",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "528d4a65832ecdd602dd414c790561e9",
