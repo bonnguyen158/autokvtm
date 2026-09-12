@@ -1,6 +1,6 @@
 {
     "version": "1.2.47",
-    "build_time": 1789183952,
+    "build_time": 1789185311,
     "message": "Thêm kịch bản đổi trang trí theo bộ",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -662,8 +662,8 @@
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "528d4a65832ecdd602dd414c790561e9",
         "_internal/scripts/core/main_bootstrap.pyd": "4f33cf6c9e56c0f7afbd02c3ca7bbed5",
-        "_internal/scripts/core/startup_manager.pyd": "043225efcd116e02caf300c74b2fd38b",
-        "_internal/scripts/core/sys_utils.pyd": "c6763e03d7070ba731e7840b571f382f",
+        "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
+        "_internal/scripts/core/sys_utils.pyd": "2efdf54f6d1a61ed4f99faa5726920db",
         "_internal/scripts/core/update_manager.pyd": "77eca0afde5140b6c7bb0ecd2b593cfe",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "cfe370665129e89691d224402143b542",
