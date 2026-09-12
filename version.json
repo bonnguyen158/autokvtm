@@ -1,6 +1,6 @@
 {
     "version": "1.2.48",
-    "build_time": 1789253496,
+    "build_time": 1789254209,
     "message": "Thêm thời gian chờ cây chín trong kịch bản trồng cây và bán",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -618,7 +618,7 @@
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "0f2c4168ef8d5d4683d144daaffebfc4",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "9e4a9224d64ae9055d53750e37ab53fb",
         "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "29e734fb9b207c9b5454e53a9a143806",
-        "_internal/scripts/nchanh9_oaisay8.pyd": "d3d68159950b2f6daae534a3f9f7a404",
+        "_internal/scripts/nchanh9_oaisay8.pyd": "a4b6fac2cdac405a96029e3eac75873c",
         "_internal/scripts/ntao6_oaisay6.pyd": "5bb96e1046f84968fcaa9034cd7e93f6",
         "_internal/scripts/ntao9_oaisay8.pyd": "1c7d450a33d7abce24b5ca57a21c6afa",
         "_internal/scripts/nuoctao6_duasay7.pyd": "68d96fb7e297b43d0c528d740588ae93",
@@ -668,7 +668,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "5e06c7ae6071fa72ccbac097987ac0b4",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "258d5f1863cbe18705836e47dc6624e7",
+        "_internal/scripts/gui/components/config_modal.pyd": "7f52ae6f9e0efbe863a8d23ba5bfd619",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "4395d2b5e1817c71dc89cf63836b99c0",
         "_internal/scripts/gui/components/log_viewer.pyd": "a421646b5890eba25b480f93cfbf8030",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
@@ -685,7 +685,7 @@
         "_internal/scripts/gui/pages/placeholder_page.pyd": "93ce0a08d3eeb5c0534684e9d8e47f05",
         "_internal/scripts/gui/pages/shop_page.pyd": "244532e8499eb58e47d2917e6aeb0209",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
-        "_internal/scripts/gui/pages/tools_page.pyd": "7ee3764bebe8f9353a840f60f32afcc1",
+        "_internal/scripts/gui/pages/tools_page.pyd": "a27cddd6bc4e578fa10ccb437e566e71",
         "_internal/scripts/gui/pages/update_page.pyd": "dc6448fce5c37e77a4452c573777b024",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
