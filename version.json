@@ -1,7 +1,7 @@
 {
-    "version": "1.2.51",
-    "build_time": 1789483915,
-    "message": "Tối ưu hàm bán vl kho",
+    "version": "1.2.52",
+    "build_time": 1789484355,
+    "message": "Sửa lỗi kịch bản 6 Vải vàng và 8 Oải Sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -649,7 +649,7 @@
         "_internal/scripts/vaitim8_nmit9.pyd": "fea327dcf2f07ae8453cfed2cd1bafb3",
         "_internal/scripts/vaivang3_taosay2.pyd": "382d6b0d4da0161b91613b2ba63d4919",
         "_internal/scripts/vaivang5_duasay7.pyd": "21dec140344c1c5128152b643617ce97",
-        "_internal/scripts/vaivang6_oaisay8.pyd": "773a4200c2d5038481538d2b4bb59a00",
+        "_internal/scripts/vaivang6_oaisay8.pyd": "ce2d9b6bf08fc115812b90c643f121e0",
         "_internal/scripts/vai_do_2.pyd": "aad40c1f45ab8ef8e7cb9600e561fa6b",
         "_internal/scripts/vai_do_8.pyd": "725ddfd776a9c8c0b66a562ae4b77dcb",
         "_internal/scripts/vai_tim_8.pyd": "00162d0d26860b4049692215f73bf16c",
