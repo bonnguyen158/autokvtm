@@ -1,6 +1,6 @@
 {
     "version": "1.2.51",
-    "build_time": 1789482679,
+    "build_time": 1789483640,
     "message": "Tối ưu hàm bán vl kho",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -638,7 +638,7 @@
         "_internal/scripts/tra_tao_doi_chau.pyd": "31831e95838c2d6fb2cbbb5e04f465ee",
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "326e3ed904dcb138d83dc210d3fc8694",
         "_internal/scripts/trongcay_va_ban.pyd": "cfa8faeedc4b091b1b2cdd32b9b82742",
-        "_internal/scripts/trong_cay_su_kien.pyd": "d17d848e463c73b7cf3d6102cae0c8ea",
+        "_internal/scripts/trong_cay_su_kien.pyd": "3785988a4b0a725817118ace3b74f982",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
         "_internal/scripts/vaido2_ntao6_6nhh.pyd": "3a202c658b6810a10c8193e89d04a0c7",
@@ -670,7 +670,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "5e06c7ae6071fa72ccbac097987ac0b4",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "fe10e1824e01783eceb054b18726fe0b",
+        "_internal/scripts/gui/components/config_modal.pyd": "829288a09b7d9184818dc1ceed6d65f2",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "ee8bfd18e27944ed0126e64151672483",
         "_internal/scripts/gui/components/log_viewer.pyd": "a421646b5890eba25b480f93cfbf8030",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
