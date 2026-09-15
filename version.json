@@ -1,6 +1,6 @@
 {
     "version": "1.2.49",
-    "build_time": 1789457460,
+    "build_time": 1789458226,
     "message": "Thêm kịch bản kết hợp kịch bản",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -636,7 +636,7 @@
         "_internal/scripts/tra_say_8.pyd": "8fb7256021fe51f1af7fa60356a22a58",
         "_internal/scripts/tra_tao_doi_chau.pyd": "31831e95838c2d6fb2cbbb5e04f465ee",
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "326e3ed904dcb138d83dc210d3fc8694",
-        "_internal/scripts/trongcay_va_ban.pyd": "b54af4cae639ddbd66b2415bb795a5b4",
+        "_internal/scripts/trongcay_va_ban.pyd": "9bd52c2cadcd3341c74256c5b373e9f4",
         "_internal/scripts/trong_cay_su_kien.pyd": "d17d848e463c73b7cf3d6102cae0c8ea",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
