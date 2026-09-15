@@ -1,6 +1,6 @@
 {
     "version": "1.2.49",
-    "build_time": 1789456781,
+    "build_time": 1789457460,
     "message": "Thêm kịch bản kết hợp kịch bản",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -661,7 +661,7 @@
         "_internal/scripts/core/bot_core.pyd": "312e14b770bbab5f30a4bbd68fe93bb0",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
-        "_internal/scripts/core/gui_core_scripts.pyd": "097c8e3fbb2d8656b0117fc8ac7b9c98",
+        "_internal/scripts/core/gui_core_scripts.pyd": "d0b9f4185431673f012bd7335ecf00da",
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
         "_internal/scripts/core/sys_utils.pyd": "2efdf54f6d1a61ed4f99faa5726920db",
