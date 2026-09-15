@@ -1,6 +1,6 @@
 {
     "version": "1.2.51",
-    "build_time": 1789483640,
+    "build_time": 1789483915,
     "message": "Tối ưu hàm bán vl kho",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -614,7 +614,7 @@
         "_internal/scripts/hongsay6_nuoctao6.pyd": "b24ed7aa73c9d355ed91bc4b93289037",
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
-        "_internal/scripts/ket_hop_kich_ban.pyd": "030f3d9124136a9a8fcf50b8bf07150a",
+        "_internal/scripts/ket_hop_kich_ban.pyd": "5faab18518b8c34a7f3f2a44fb573bcc",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "9d293aa8be93b9ddbc09ca850161614a",
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "29d1d652801aaa86e66eed1a8bfd8a25",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "0f2c4168ef8d5d4683d144daaffebfc4",
