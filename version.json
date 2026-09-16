@@ -1,6 +1,6 @@
 {
     "version": "1.2.55",
-    "build_time": 1789562809,
+    "build_time": 1789563179,
     "message": "Sửa lại giao diện trang cập nhật",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -689,7 +689,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "e5184c31506d45e35a15286372d8010d",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
         "_internal/scripts/gui/pages/tools_page.pyd": "fa9832d38e56e34636a50590ea1e7945",
-        "_internal/scripts/gui/pages/update_page.pyd": "4572c237d929efed787bb29cf20724b8",
+        "_internal/scripts/gui/pages/update_page.pyd": "68f6a31e3d8f82758afccd7c70f8f0c8",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
