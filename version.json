@@ -1,6 +1,6 @@
 {
     "version": "1.2.55",
-    "build_time": 1789593426,
+    "build_time": 1789598221,
     "message": "Sửa lại giao diện trang cập nhật \nFix lỗi kịch bản 6 vải vàng + 8 oải sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -624,7 +624,7 @@
         "_internal/scripts/ntao6_oaisay6.pyd": "5bb96e1046f84968fcaa9034cd7e93f6",
         "_internal/scripts/ntao9_oaisay8.pyd": "1c7d450a33d7abce24b5ca57a21c6afa",
         "_internal/scripts/nuoctao6_duasay7.pyd": "68d96fb7e297b43d0c528d740588ae93",
-        "_internal/scripts/nuoc_chanh_9.pyd": "69a7a36eb7b5606e8b43610409f86409",
+        "_internal/scripts/nuoc_chanh_9.pyd": "baae368ce03e9364592c3a264430fa47",
         "_internal/scripts/nuoc_hau_9.pyd": "54ed3007f8d4fbec17e590882180b70c",
         "_internal/scripts/nuoc_tao_3.pyd": "695525ee978cd2ad1317d9643fa9ddf4",
         "_internal/scripts/nuoc_tao_6.pyd": "5dc42223dc695fb210c8bc049afb20a3",
