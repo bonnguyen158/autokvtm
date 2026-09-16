@@ -1,7 +1,7 @@
 {
     "version": "1.2.55",
-    "build_time": 1789572960,
-    "message": "Fix lỗi kịch bản 6 vải vàng + 8 oải sấy",
+    "build_time": 1789574135,
+    "message": "Sửa lại giao diện trang cập nhật \nFix lỗi kịch bản 6 vải vàng + 8 oải sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
