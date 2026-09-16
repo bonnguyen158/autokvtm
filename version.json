@@ -1,7 +1,7 @@
 {
     "version": "1.2.55",
-    "build_time": 1789565593,
-    "message": "Sửa lại giao diện trang cập nhật \nFix lỗi kịch bản 6 vải vàng + 8 oải sấy",
+    "build_time": 1789572960,
+    "message": "Fix lỗi kịch bản 6 vải vàng + 8 oải sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -660,7 +660,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "7b50fc7202adeb1ce988041017ada30f",
+        "_internal/scripts/core/bot_core.pyd": "30d041dc963e0e3328410dd163f5a33e",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "de56c3bf5fa90f0d9d29903996a2b5a8",
