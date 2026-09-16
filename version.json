@@ -1,7 +1,7 @@
 {
-    "version": "1.2.54",
-    "build_time": 1789558405,
-    "message": "Thêm kịch bản 9 Trà táo đổi chậu + 9 nước hoa hồng",
+    "version": "1.2.55",
+    "build_time": 1789562809,
+    "message": "Sửa lại giao diện trang cập nhật",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -667,7 +667,7 @@
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
         "_internal/scripts/core/sys_utils.pyd": "2efdf54f6d1a61ed4f99faa5726920db",
-        "_internal/scripts/core/update_manager.pyd": "77eca0afde5140b6c7bb0ecd2b593cfe",
+        "_internal/scripts/core/update_manager.pyd": "0b89aa7da3f60c76c677d6c8608398c1",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "5e06c7ae6071fa72ccbac097987ac0b4",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
@@ -689,7 +689,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "e5184c31506d45e35a15286372d8010d",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
         "_internal/scripts/gui/pages/tools_page.pyd": "fa9832d38e56e34636a50590ea1e7945",
-        "_internal/scripts/gui/pages/update_page.pyd": "f19ab6a6df214d9f56b5fe78098e55b9",
+        "_internal/scripts/gui/pages/update_page.pyd": "4572c237d929efed787bb29cf20724b8",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
