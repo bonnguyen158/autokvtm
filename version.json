@@ -1,6 +1,6 @@
 {
     "version": "1.2.54",
-    "build_time": 1789554397,
+    "build_time": 1789554561,
     "message": "Thêm kịch bản 9 Trà táo đổi chậu + 9 nước hoa hồng",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -639,7 +639,7 @@
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "ae0cdf372dc832431decf5a72a4395ae",
         "_internal/scripts/trongcay_va_ban.pyd": "cfa8faeedc4b091b1b2cdd32b9b82742",
         "_internal/scripts/trong_cay_su_kien.pyd": "3785988a4b0a725817118ace3b74f982",
-        "_internal/scripts/ttaodoichau9_nhh9.pyd": "b9664aa190bc1c7bf18008efbbd24d4f",
+        "_internal/scripts/ttaodoichau9_nhh9.pyd": "04b98733f37319dc1a687f8af751fa88",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
         "_internal/scripts/vaido2_ntao6_6nhh.pyd": "3838a1f6703003e74f0dde416a160b1d",
