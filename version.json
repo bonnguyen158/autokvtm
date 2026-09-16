@@ -1,7 +1,7 @@
 {
     "version": "1.2.53",
-    "build_time": 1789534195,
-    "message": "- Sửa kịch bản 9 nước chanh trồng chanh từ tầng 3 đến tầng 5\\n- Sửa đổi chậu tầng 5 thành hoàng đạo 1 cho kịch bản trà táo 540 trà và mua ntao và sx trà táo 540 trà",
+    "build_time": 1789534390,
+    "message": "- Sửa kịch bản 9 nước chanh trồng chanh từ tầng 3 đến tầng 5\n- Sửa đổi chậu tầng 5 thành hoàng đạo 1 cho kịch bản trà táo 540 trà và mua ntao và sx trà táo 540 trà",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -688,7 +688,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "96b8df998c713a77f5c8db9b5e0a5c53",
         "_internal/scripts/gui/pages/support_page.pyd": "9c3af250d57f1ae46289fa628b6e0dbd",
         "_internal/scripts/gui/pages/tools_page.pyd": "fa9832d38e56e34636a50590ea1e7945",
-        "_internal/scripts/gui/pages/update_page.pyd": "dc6448fce5c37e77a4452c573777b024",
+        "_internal/scripts/gui/pages/update_page.pyd": "f19ab6a6df214d9f56b5fe78098e55b9",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
