@@ -1,7 +1,7 @@
 {
     "version": "1.2.55",
-    "build_time": 1789563179,
-    "message": "Sửa lại giao diện trang cập nhật",
+    "build_time": 1789565593,
+    "message": "Sửa lại giao diện trang cập nhật \nFix lỗi kịch bản 6 vải vàng + 8 oải sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -650,7 +650,7 @@
         "_internal/scripts/vaitim8_nmit9.pyd": "fea327dcf2f07ae8453cfed2cd1bafb3",
         "_internal/scripts/vaivang3_taosay2.pyd": "382d6b0d4da0161b91613b2ba63d4919",
         "_internal/scripts/vaivang5_duasay7.pyd": "21dec140344c1c5128152b643617ce97",
-        "_internal/scripts/vaivang6_oaisay8.pyd": "477beb892981e2d3c297f895b0388fb0",
+        "_internal/scripts/vaivang6_oaisay8.pyd": "5dccdc4d851547b76397fb829c8fb801",
         "_internal/scripts/vai_do_2.pyd": "aad40c1f45ab8ef8e7cb9600e561fa6b",
         "_internal/scripts/vai_do_8.pyd": "725ddfd776a9c8c0b66a562ae4b77dcb",
         "_internal/scripts/vai_tim_8.pyd": "00162d0d26860b4049692215f73bf16c",
@@ -660,7 +660,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "f180d121775c217ddb4bf3ff36a0c684",
+        "_internal/scripts/core/bot_core.pyd": "7b50fc7202adeb1ce988041017ada30f",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "de56c3bf5fa90f0d9d29903996a2b5a8",
