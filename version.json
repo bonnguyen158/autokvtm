@@ -1,6 +1,6 @@
 {
     "version": "1.2.52",
-    "build_time": 1789527216,
+    "build_time": 1789528105,
     "message": "Sửa lỗi kịch bản 6 Vải vàng và 8 Oải Sấy",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -670,7 +670,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "5e06c7ae6071fa72ccbac097987ac0b4",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "829288a09b7d9184818dc1ceed6d65f2",
+        "_internal/scripts/gui/components/config_modal.pyd": "d0e29e30d0561c5913cc8e5df0903f3c",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "ee8bfd18e27944ed0126e64151672483",
         "_internal/scripts/gui/components/log_viewer.pyd": "a421646b5890eba25b480f93cfbf8030",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
