@@ -1,6 +1,6 @@
 {
     "version": "1.2.56",
-    "build_time": 1789649206,
+    "build_time": 1789649548,
     "message": "Thêm kịch bản Mua nước táo nhà bạn và sản xuất nước táo - V3\nThêm kịch bản Auto Mini Game Trung Thu",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -618,7 +618,7 @@
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
         "_internal/scripts/ket_hop_kich_ban.pyd": "e5ea9e556c339904ae4a215117e7a856",
-        "_internal/scripts/minigame_trungthu.pyd": "b393796682c6bc22e2185e3e2bf532b9",
+        "_internal/scripts/minigame_trungthu.pyd": "bd7b0b7bae6ebacf07a73061f9cac41b",
         "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "08f6cbffdf4008445f7fd9d032e53119",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a2ab8333fd32ed2ad794192b6501021a",
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "0752e838fc673186dd2f2c4a318a25ff",
