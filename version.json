@@ -1,9 +1,9 @@
 {
     "version": "1.2.58",
-    "build_time": 1789735947,
-    "message": "Tối ưu lại tốc độ kịch bản mini game trung thu\nThêm kịch bản 9 nước hấu + 9 hấu sấy đổi chậu_v1",
+    "build_time": 1789745061,
+    "message": "Tối ưu lại kịch bản mini game trung thu",
     "files": {
-        "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
+        "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -625,7 +625,7 @@
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
         "_internal/scripts/ket_hop_kich_ban.pyd": "e5ea9e556c339904ae4a215117e7a856",
-        "_internal/scripts/minigame_trungthu.pyd": "6bffbea2ead0d0c8c44171b0efd06d77",
+        "_internal/scripts/minigame_trungthu.pyd": "d96eb00aaa4fed7a982852870311d35d",
         "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "08f6cbffdf4008445f7fd9d032e53119",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a2ab8333fd32ed2ad794192b6501021a",
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "0752e838fc673186dd2f2c4a318a25ff",
