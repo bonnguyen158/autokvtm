@@ -1,6 +1,6 @@
 {
     "version": "1.2.57",
-    "build_time": 1789709863,
+    "build_time": 1789711917,
     "message": "Thêm các loại cây vào kịch bản trồng cây và bán\nChỉnh lại giao diện điều khiển",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -606,7 +606,7 @@
         "pic/x_lixi.png": "6853e94f9ef47fdc51843cd4d20bf38b",
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
-        "_internal/scripts/bat_bo_nha_ban.pyd": "d4932e59349f04398009c26d850e8b64",
+        "_internal/scripts/bat_bo_nha_ban.pyd": "65f09b76c1e1322c9d56eb09d0332030",
         "_internal/scripts/chuyen_vp_sk.pyd": "2ac007be1d38d1c8d6ebf49eee07734f",
         "_internal/scripts/doichau_bo.pyd": "4383c163c9430f4977678b27c5818f0f",
         "_internal/scripts/doichau_le.pyd": "38ba7c966e37aeb68981c0696e14c610",
@@ -671,7 +671,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "74875bf19543b3b03614b44158022b1f",
+        "_internal/scripts/core/bot_core.pyd": "2509c0cdd824596d6d18111eed0d14fe",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "b03a66d76bb0dc616419dc710d055c22",
