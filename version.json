@@ -1,6 +1,6 @@
 {
     "version": "1.2.57",
-    "build_time": 1789707155,
+    "build_time": 1789709863,
     "message": "Thêm các loại cây vào kịch bản trồng cây và bán\nChỉnh lại giao diện điều khiển",
     "files": {
         "app_data.json": "166ea2c7f5efdbdf7456b45423ec2851",
@@ -617,6 +617,7 @@
         "_internal/scripts/empty1.pyd": "7821e9a4d21164a5809502b802926551",
         "_internal/scripts/hausay8_nhau9.pyd": "f2b041fd6b162ca6b5b88fdcf2211354",
         "_internal/scripts/hausay8_nmit9.pyd": "e5aa1fc157f13afdfb64f82318f38f3d",
+        "_internal/scripts/hausay9_nhau9_doichau_v1.pyd": "204e2423c18745828a6c9dd856bf6c1f",
         "_internal/scripts/hau_say_8.pyd": "8f2e7edd1eb01a7b58c9c28a96303e09",
         "_internal/scripts/hongsay2_nuoctao3.pyd": "66808b300d7afa37c3290c9901567359",
         "_internal/scripts/hongsay6_nuoctao6.pyd": "b24ed7aa73c9d355ed91bc4b93289037",
@@ -670,7 +671,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "b05198866390508c5b7ee064e6c076ca",
+        "_internal/scripts/core/bot_core.pyd": "74875bf19543b3b03614b44158022b1f",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "b03a66d76bb0dc616419dc710d055c22",
