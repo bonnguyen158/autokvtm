@@ -1,6 +1,6 @@
 {
     "version": "1.2.59",
-    "build_time": 1789797206,
+    "build_time": 1789799346,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
@@ -626,7 +626,7 @@
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
         "_internal/scripts/ket_hop_kich_ban.pyd": "e5ea9e556c339904ae4a215117e7a856",
         "_internal/scripts/minigame_trungthu.pyd": "995609b3827679777b1849d0a85968ec",
-        "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "c4541c4792be2aee99c41aa58e3a5754",
+        "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "7e7a4cff67d64e9e5a30e4c92ccd5638",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a2ab8333fd32ed2ad794192b6501021a",
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "0752e838fc673186dd2f2c4a318a25ff",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "0f2c4168ef8d5d4683d144daaffebfc4",
@@ -651,7 +651,7 @@
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "00514e840ebc7cd234583dd03751526a",
         "_internal/scripts/trongcay_va_ban.pyd": "30646920feb790d2d1ec838d4e8f0bce",
         "_internal/scripts/trong_cay_su_kien.pyd": "3785988a4b0a725817118ace3b74f982",
-        "_internal/scripts/ttaodoichau9_nhh9.pyd": "d5bd3aa89f989a4cb3ff4a6698441681",
+        "_internal/scripts/ttaodoichau9_nhh9.pyd": "7a06104aff3d0f386b07c3ff24b86702",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
         "_internal/scripts/vaido2_ntao6_6nhh.pyd": "3838a1f6703003e74f0dde416a160b1d",
