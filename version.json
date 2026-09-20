@@ -1,6 +1,6 @@
 {
     "version": "1.2.59",
-    "build_time": 1789821934,
+    "build_time": 1789879333,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
@@ -307,6 +307,7 @@
         "pic/icon_game.png": "ea8a88d1cd82278b659560e282d8337a",
         "pic/icon_home.png": "cce9797765f2f1fa8a126bc875ca7534",
         "pic/icon_kvtm.png": "f5cb13909da060c524ac58cc456b9057",
+        "pic/icon_minigame.png": "22d30c194365d4fff4bf2f9c06ba8193",
         "pic/icon_nha_kho.png": "e5621df9e0e058f1f8f47520d1845503",
         "pic/icon_tai_khoan.png": "fee46bd7e26991deb4a8b44b5b41b6b2",
         "pic/kc_ads.png": "c594b15ebcee8d9b1970296953c2f321",
@@ -625,7 +626,7 @@
         "_internal/scripts/hong_say_2.pyd": "8644190a922e35a9ad3e840ba2c6e7d4",
         "_internal/scripts/hong_say_4.pyd": "47ff3d9a50a1ad6c6f12ea7c9161b88e",
         "_internal/scripts/ket_hop_kich_ban.pyd": "e5ea9e556c339904ae4a215117e7a856",
-        "_internal/scripts/minigame_trungthu.pyd": "995609b3827679777b1849d0a85968ec",
+        "_internal/scripts/minigame_trungthu.pyd": "ec1db7556618df23354fb5b205a5555c",
         "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "7e7a4cff67d64e9e5a30e4c92ccd5638",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a2ab8333fd32ed2ad794192b6501021a",
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "0752e838fc673186dd2f2c4a318a25ff",
