@@ -1,6 +1,6 @@
 {
     "version": "1.2.62",
-    "build_time": 1790184018,
+    "build_time": 1790198777,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
@@ -655,7 +655,7 @@
         "_internal/scripts/trongcay_va_ban.pyd": "6193ab4d255ddeaf7e0bb19386923af3",
         "_internal/scripts/trong_cay_su_kien.pyd": "3785988a4b0a725817118ace3b74f982",
         "_internal/scripts/ttaodoichau9_nhh9.pyd": "2c0c9e97e0b0924117ee3d35d7739974",
-        "_internal/scripts/ttaodoichau9_nhh9_v2.pyd": "d8ca130f9dc108c1b306bd3e2501b8d1",
+        "_internal/scripts/ttaodoichau9_nhh9_v2.pyd": "d6227ce6ceba7935709dcbf397fd4797",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
         "_internal/scripts/vaido2_ntao6_6nhh.pyd": "0ebb1e2903cf78a102a7e584a17e5b5f",
