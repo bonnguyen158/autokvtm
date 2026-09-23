@@ -1,7 +1,7 @@
 {
     "version": "1.2.62",
-    "build_time": 1790174717,
-    "message": "Thêm kịch bản mới 9 Trà Táo Đổi Chậu + 9 Nước Hoa Hồng - V2",
+    "build_time": 1790177816,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -676,7 +676,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "6ea8f821a1ccd6eba86432afcb6705f4",
+        "_internal/scripts/core/bot_core.pyd": "7b092fad3c2390dd354a7d921caf55d4",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "e635e0f655684a2c06676f3e7fe6f813",
