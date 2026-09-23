@@ -1,6 +1,6 @@
 {
     "version": "1.2.62",
-    "build_time": 1790154519,
+    "build_time": 1790156824,
     "message": "Thêm kịch bản mới 9 Trà Táo Đổi Chậu + 9 Nước Hoa Hồng - V2",
     "files": {
         "app_data.json": "78ffd54b8e8e62a26a72da0b2e7e7916",
@@ -661,7 +661,7 @@
         "_internal/scripts/trongcay_va_ban.pyd": "12f70cd904de778731629a020dd838d1",
         "_internal/scripts/trong_cay_su_kien.pyd": "3785988a4b0a725817118ace3b74f982",
         "_internal/scripts/ttaodoichau9_nhh9.pyd": "2c0c9e97e0b0924117ee3d35d7739974",
-        "_internal/scripts/ttaodoichau9_nhh9_v2.pyd": "6a7f8a2bf7fcc4ee7abd55d565ffbca1",
+        "_internal/scripts/ttaodoichau9_nhh9_v2.pyd": "d8ca130f9dc108c1b306bd3e2501b8d1",
         "_internal/scripts/vaido2_ntao3.pyd": "12cc4d69a0cc65647f3b29879eeafffa",
         "_internal/scripts/vaido2_ntao6.pyd": "4e352dfb266292dcbdca55d0c624f62b",
         "_internal/scripts/vaido2_ntao6_6nhh.pyd": "0ebb1e2903cf78a102a7e584a17e5b5f",
@@ -682,7 +682,8 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "f5cba219bf0d4a5203dae768405b42aa",
+        "_internal/scripts/core/bot_core.pyd": "24274c2531a69c965cfdc1e32fbaf6e1",
+        "_internal/scripts/core/bot_core.pyi": "1b05be72cf585557f6eb1d3566a821fc",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "7d1bd145e856b164fc9eb5f5542fa6ed",
         "_internal/scripts/core/gui_core_scripts.pyd": "e635e0f655684a2c06676f3e7fe6f813",
