@@ -1,6 +1,6 @@
 {
     "version": "1.2.63",
-    "build_time": 1790405534,
+    "build_time": 1790405776,
     "message": "Thêm kịch bản Xả Tồn Kho",
     "files": {
         "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
@@ -694,7 +694,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "306596857ef073bc00098f4a693eaa2a",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "8389579555180723d16f7d0e93826a35",
+        "_internal/scripts/gui/components/config_modal.pyd": "e6d3010c828ed9fc56650c85df345a1e",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/log_viewer.pyd": "714e19da3a8e36224a2e96f6e9b02754",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
