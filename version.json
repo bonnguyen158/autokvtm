@@ -1,6 +1,6 @@
 {
     "version": "1.2.64",
-    "build_time": 1790454480,
+    "build_time": 1790650029,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
@@ -326,7 +326,7 @@
         "pic/kho_cay_chanh.png": "ca2a3dc5476c78961584119fb96bdc4e",
         "pic/kho_cay_cuc.png": "cf958b6327aed8a28bf304356c8feadb",
         "pic/kho_cay_dau.png": "7cc87d305f9b9babfdd469d62740e224",
-        "pic/kho_cay_dua.png": "c22b5547289d2732f014ef07fb4664df",
+        "pic/kho_cay_dua.png": "e4c217c7142b964fd11b8ab9aed58c33",
         "pic/kho_cay_hong.png": "d745abb34da3bfc30bc09585aeb17775",
         "pic/kho_cay_hong1.png": "5c5e7d770f03fabaaf966a0dff3d5c1b",
         "pic/kho_cay_huongduong.png": "3a6b7b763569ebaaaf8d26a3e7c17e60",
@@ -686,7 +686,7 @@
         "_internal/scripts/core/bot_core.pyd": "0e75d0718557fabb7e092925be390752",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "cb14bb443e8676a0ea9a56a939c56919",
-        "_internal/scripts/core/gui_core_scripts.pyd": "93a3efdc842ca57ec36dd1f3daa91f14",
+        "_internal/scripts/core/gui_core_scripts.pyd": "e809761e866d148c66a22806e5031cd4",
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
         "_internal/scripts/core/sys_utils.pyd": "f333f4cbe74f6d62298d9c82eb30012a",
