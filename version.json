@@ -1,6 +1,6 @@
 {
     "version": "1.2.65",
-    "build_time": 1790734715,
+    "build_time": 1790734994,
     "message": "Fix lỗi kịch bản 8 Hấu sấy + 9 Nước Hấu\nFix lỗi kịch bản Mua ntáo bạn và sx ttáo (Trồng trà tầng 2-3-4)\nThêm chỗ điều chỉnh tốc độ khi cần (tốc độ mở/đóng quầy, delay thu hoạch/trồng cây và tốc độ thu vàng trước khi bán)",
     "files": {
         "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
@@ -714,7 +714,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "d2473b3e496447a736ed46cdd34cf972",
         "_internal/scripts/gui/pages/support_page.pyd": "970ae8138184bb206d877657e989bb0d",
         "_internal/scripts/gui/pages/tools_page.pyd": "fa9832d38e56e34636a50590ea1e7945",
-        "_internal/scripts/gui/pages/update_page.pyd": "9acd139e36032f0b3f6d958b7537141b",
+        "_internal/scripts/gui/pages/update_page.pyd": "e1e186449b1cdf66df6dbd7f6604c061",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
