@@ -1,7 +1,7 @@
 {
     "version": "1.2.65",
-    "build_time": 1790734994,
-    "message": "Fix lỗi kịch bản 8 Hấu sấy + 9 Nước Hấu\nFix lỗi kịch bản Mua ntáo bạn và sx ttáo (Trồng trà tầng 2-3-4)\nThêm chỗ điều chỉnh tốc độ khi cần (tốc độ mở/đóng quầy, delay thu hoạch/trồng cây và tốc độ thu vàng trước khi bán)",
+    "build_time": 1790735873,
+    "message": "Fix lỗi kịch bản 8 Hấu sấy + 9 Nước Hấu\nFix lỗi kịch bản Mua ntáo bạn và sx ttáo (Trồng trà tầng 2-3-4)\nThêm chỗ điều chỉnh tốc độ khi cần (tốc độ mở/đóng quầy, delay thu hoạch/trồng cây và tốc độ thu vàng trước khi bán)\nThêm chức năng lọc trạng thái giả lập Online",
     "files": {
         "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -32,6 +32,7 @@
         "assets/shop.svg": "285d6c4d582fff81f47d9152d186e1e1",
         "assets/status.svg": "3e387be91d332aa41a3e5b6a8196768a",
         "assets/status_not_added.svg": "38ef61c424cbd1dbbfa751a512b5c8f6",
+        "assets/status_online.svg": "29b83a6f0fdbbcf74fdaa212480adfec",
         "assets/status_paused.svg": "be8198979a13be6a0afa0d02d766de19",
         "assets/status_ready.svg": "adb7f0da7ef0636bc9469cf9d1ac88ae",
         "assets/status_running.svg": "e4fcc9ebce8d64aad3bd509e8b5eb0a4",
@@ -706,7 +707,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "a36b3890a287485f54a76b02c0e33830",
-        "_internal/scripts/gui/pages/control_page.pyd": "19856f2194d45356097e1a27996ede71",
+        "_internal/scripts/gui/pages/control_page.pyd": "d483e1ddbd215fd60d8f711a3d7a7614",
         "_internal/scripts/gui/pages/custom_page.pyd": "527b500ce105dfe8a61a63b64c8a96fa",
         "_internal/scripts/gui/pages/home_page.pyd": "42aa230eb356374f01c23f12c577ff18",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
