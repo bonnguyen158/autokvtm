@@ -1,6 +1,6 @@
 {
     "version": "1.2.66",
-    "build_time": 1791185850,
+    "build_time": 1791186160,
     "message": "Thêm kịch bản Mua VP 8 ô nhà bạn",
     "files": {
         "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
@@ -663,7 +663,7 @@
         "_internal/scripts/tra_tao_doi_chau.pyd": "6614db5f485ee9f0593401c4abc7799d",
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "759727d50a146f121a5b6f6f1339cae9",
         "_internal/scripts/trongcay_va_ban.pyd": "6193ab4d255ddeaf7e0bb19386923af3",
-        "_internal/scripts/trong_cay_su_kien.pyd": "69331ae6cfa45da7ed38a1c5ddafca63",
+        "_internal/scripts/trong_cay_su_kien.pyd": "defdb4b62e9030bf4056a25cfbdeaf11",
         "_internal/scripts/ttaodoichau9_nhh9.pyd": "cbf22e6ac6bcf5cd4498484702cf1c65",
         "_internal/scripts/ttaodoichau9_nhh9_v2.pyd": "17e9bc876af70c271e035b7beccfe2f9",
         "_internal/scripts/vaido2_ntao3.pyd": "e877518b122a6928ea382c2b3565ab28",
@@ -687,7 +687,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "927d17a062ecb3e43052bfeac70789f5",
+        "_internal/scripts/core/bot_core.pyd": "de11095781fd39f3225cc5cb7ae157a9",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "86967776e543be08f1ecefa01f13fe09",
         "_internal/scripts/core/gui_core_scripts.pyd": "032d8171edbe70ba6c55f2175e20674c",
