@@ -1,9 +1,9 @@
 {
     "version": "1.2.66",
-    "build_time": 1791193997,
+    "build_time": 1791253985,
     "message": "Thêm kịch bản Mua VP 8 ô nhà bạn",
     "files": {
-        "app_data.json": "af437ba4f52e63f903cb942d5142ce95",
+        "app_data.json": "ee329dcc7b5e00401ebcfd6150fd7336",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -687,7 +687,7 @@
         "_internal/scripts/core/adb_capture.pyd": "b609a27c04e640758f4ac1080541128a",
         "_internal/scripts/core/api_server.pyd": "37889ae547ee6de25eec60c2d6ac61a8",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "2a425a6f31009beef2a90373b4334c6f",
+        "_internal/scripts/core/bot_core.pyd": "3342e406f4ecfb349116e74b60babc2f",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "92bcc9d9b9cc2336afc18875799c0cef",
         "_internal/scripts/core/gui_core_scripts.pyd": "032d8171edbe70ba6c55f2175e20674c",
