@@ -1,6 +1,6 @@
 {
     "version": "1.2.71",
-    "build_time": 1792148144,
+    "build_time": 1792148811,
     "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
     "files": {
         "app_data.json": "ee329dcc7b5e00401ebcfd6150fd7336",
@@ -649,7 +649,7 @@
         "_internal/scripts/minigame_trungthu.pyd": "83f66bd776648cb026d4b5380d728ff0",
         "_internal/scripts/muanctao_ban_sx_tra_tao_v3.pyd": "f7d77ba4450f9dc2124a9cdc4212f963",
         "_internal/scripts/muanctao_friend_sx_tra_tao.pyd": "a12b908631937ce49a92faedd92331d8",
-        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "ee15fc7970e10932e010d89877ecf3b6",
+        "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "2cf407915bed5eecbb3d0f009c7429f8",
         "_internal/scripts/mua_8o_nha_ban.pyd": "64bb6e0aa2bb1442acff926f84dc3086",
         "_internal/scripts/mua_ban_vp_nha_ban.pyd": "10b3919fc8e5115009d4662c8905b571",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "1f31105deab2424cb469f50eb5efbbfc",
