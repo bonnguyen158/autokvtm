@@ -1,6 +1,6 @@
 {
     "version": "1.2.70",
-    "build_time": 1792121003,
+    "build_time": 1792121435,
     "message": "Thêm kịch bản Bán vật phẩm tùy chọn 8 ô",
     "files": {
         "app_data.json": "ee329dcc7b5e00401ebcfd6150fd7336",
@@ -628,7 +628,7 @@
         "pic/x_popup_event.png": "a3eab4075b97477212b3a017b7071ff0",
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
         "pic/custom_items/custom_111.png": "2f77606e87d59f62f815688b9b458c47",
-        "_internal/scripts/ban_vat_pham_tuy_chon.pyd": "9f866731c775267f29c126b35c8d5e23",
+        "_internal/scripts/ban_vat_pham_tuy_chon.pyd": "127804e79da73f2c17635443fcc136bc",
         "_internal/scripts/bat_bo_nha_ban.pyd": "aa7368d41ec57a9d63ee2e8f8625eaa5",
         "_internal/scripts/chuyen_vp_sk.pyd": "2ac007be1d38d1c8d6ebf49eee07734f",
         "_internal/scripts/doichau_bo.pyd": "4383c163c9430f4977678b27c5818f0f",
