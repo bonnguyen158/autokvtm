@@ -1,6 +1,6 @@
 {
     "version": "1.2.71",
-    "build_time": 1792190125,
+    "build_time": 1792225934,
     "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
     "files": {
         "app_data.json": "ee329dcc7b5e00401ebcfd6150fd7336",
@@ -697,9 +697,9 @@
         "_internal/scripts/core/adb_capture.pyd": "05d8509dc18fde812437f016b5579d01",
         "_internal/scripts/core/api_server.pyd": "f2ec7836f234006d4c139c902eed2ca2",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "d47e1a5377780b2060c2f79f14d69906",
+        "_internal/scripts/core/bot_core.pyd": "740640b4738761af36e37fbff7b59787",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
-        "_internal/scripts/core/database_manager.pyd": "92bcc9d9b9cc2336afc18875799c0cef",
+        "_internal/scripts/core/database_manager.pyd": "b918b5b6cf93ef87aa5c898a7852a510",
         "_internal/scripts/core/gui_core_scripts.pyd": "3a45e70854cdddb273fb3d9cbfddbe82",
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
@@ -708,7 +708,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "bbeb1610d1318069bad03b90b00ed95e",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "6055dd2e91cb184aa485bae24f1ed92a",
+        "_internal/scripts/gui/components/config_modal.pyd": "9f5347d7ef86628fa0a5f0ef205a8643",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "c46989d0d5eea448a7bdd5206477709e",
         "_internal/scripts/gui/components/log_viewer.pyd": "9f9d1b9d42b7dd62f4ce70613a56e0ef",
