@@ -1,9 +1,9 @@
 {
     "version": "1.2.71",
-    "build_time": 1792225934,
+    "build_time": 1792226235,
     "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
     "files": {
-        "app_data.json": "ee329dcc7b5e00401ebcfd6150fd7336",
+        "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -699,7 +699,7 @@
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
         "_internal/scripts/core/bot_core.pyd": "740640b4738761af36e37fbff7b59787",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
-        "_internal/scripts/core/database_manager.pyd": "b918b5b6cf93ef87aa5c898a7852a510",
+        "_internal/scripts/core/database_manager.pyd": "f6d5d5c3860d3ac4b407c6f8a8499371",
         "_internal/scripts/core/gui_core_scripts.pyd": "3a45e70854cdddb273fb3d9cbfddbe82",
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
