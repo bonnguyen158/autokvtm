@@ -1,6 +1,6 @@
 {
     "version": "1.2.71",
-    "build_time": 1792320545,
+    "build_time": 1792363723,
     "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
     "files": {
         "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
@@ -711,7 +711,7 @@
         "_internal/scripts/gui/components/config_modal.pyd": "cb7de101668bc321695a265a323a72ad",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "c46989d0d5eea448a7bdd5206477709e",
-        "_internal/scripts/gui/components/log_viewer.pyd": "9f9d1b9d42b7dd62f4ce70613a56e0ef",
+        "_internal/scripts/gui/components/log_viewer.pyd": "eaecc8fca45de47fdd5c108d5b0ddfb9",
         "_internal/scripts/gui/components/manage_hidden_modal.pyd": "eb0caea68d3d97814780cda76f80cb67",
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
         "_internal/scripts/gui/components/recharge_dialog.pyd": "36214c8f975436bffb95644908b1ac7b",
