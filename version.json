@@ -1,6 +1,6 @@
 {
     "version": "1.2.71",
-    "build_time": 1792310398,
+    "build_time": 1792320545,
     "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
     "files": {
         "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
@@ -708,7 +708,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "bbeb1610d1318069bad03b90b00ed95e",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "2a80548c8f59d6ce56dbe1ef6656542e",
+        "_internal/scripts/gui/components/config_modal.pyd": "cb7de101668bc321695a265a323a72ad",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "c46989d0d5eea448a7bdd5206477709e",
         "_internal/scripts/gui/components/log_viewer.pyd": "9f9d1b9d42b7dd62f4ce70613a56e0ef",
