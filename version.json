@@ -1,6 +1,6 @@
 {
     "version": "1.2.72",
-    "build_time": 1792376753,
+    "build_time": 1792377265,
     "message": "Fix lỗi chuyển vpsk",
     "files": {
         "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
@@ -630,7 +630,7 @@
         "pic/custom_items/custom_111.png": "2f77606e87d59f62f815688b9b458c47",
         "_internal/scripts/ban_vat_pham_tuy_chon.pyd": "127804e79da73f2c17635443fcc136bc",
         "_internal/scripts/bat_bo_nha_ban.pyd": "aa7368d41ec57a9d63ee2e8f8625eaa5",
-        "_internal/scripts/chuyen_vp_sk.pyd": "2ac007be1d38d1c8d6ebf49eee07734f",
+        "_internal/scripts/chuyen_vp_sk.pyd": "ff5bea7aaff1a568cd8d5d9765f5f9e0",
         "_internal/scripts/doichau_bo.pyd": "4383c163c9430f4977678b27c5818f0f",
         "_internal/scripts/doichau_le.pyd": "38ba7c966e37aeb68981c0696e14c610",
         "_internal/scripts/doitrangtri_bo.pyd": "794a1ad7acc02c6570d76432147f5bda",
