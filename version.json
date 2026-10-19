@@ -1,7 +1,7 @@
 {
-    "version": "1.2.71",
-    "build_time": 1792363723,
-    "message": "Thêm kịch bản Mua Bán vật phẩm tùy chọn",
+    "version": "1.2.72",
+    "build_time": 1792376753,
+    "message": "Fix lỗi chuyển vpsk",
     "files": {
         "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -654,6 +654,7 @@
         "_internal/scripts/mua_ban_vp_nha_ban.pyd": "c3e0a4087ac447fdebc3f9244de46620",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "1f31105deab2424cb469f50eb5efbbfc",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "554c520028841320c00a5d4bf874eec0",
+        "_internal/scripts/mua_ncchanh_ban_sx_vai_xl.pyd": "8f3683637decc275cc9e57fd6b3de7da",
         "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "ac8bba018db45c4964dfd84a7d9a9ddb",
         "_internal/scripts/nchanh9_oaisay8.pyd": "53f72c7ae9c86afdf14239e75766e8f1",
         "_internal/scripts/ntao6_oaisay6.pyd": "bd70669eeaa409aab0e08ce85dd419a4",
@@ -700,7 +701,7 @@
         "_internal/scripts/core/bot_core.pyd": "77321e9d52ffbc91ac0cc1a96ea2823f",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/database_manager.pyd": "4aa8a806266ac1e526373fadc266adfd",
-        "_internal/scripts/core/gui_core_scripts.pyd": "5e0f247f5250ae992586a72f27f49e33",
+        "_internal/scripts/core/gui_core_scripts.pyd": "64950b3681d14bf6a12dca1810b99872",
         "_internal/scripts/core/main_bootstrap.pyd": "1f5e2ddd21ab6f9068063ea6b1b85d1a",
         "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
         "_internal/scripts/core/sys_utils.pyd": "f333f4cbe74f6d62298d9c82eb30012a",
