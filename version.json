@@ -1,6 +1,6 @@
 {
     "version": "1.2.73",
-    "build_time": 1792422563,
+    "build_time": 1792422824,
     "message": "Thêm kịch bản mua nước chanh và sản xuất vải xanh lá",
     "files": {
         "app_data.json": "f559044b3e240c58fcf1abaf5e8ebc30",
@@ -710,7 +710,7 @@
         "_internal/scripts/core/sys_utils.pyd": "5f4e698ed29448980b871d46e4661d0c",
         "_internal/scripts/core/update_manager.pyd": "79d04619dbeefaf5e1b005d6101232fb",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
-        "_internal/scripts/gui/main_window.pyd": "2c0f173a7df4c00eabbd6b049888307c",
+        "_internal/scripts/gui/main_window.pyd": "cee4654b08c667cc18c7516dd2177856",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
         "_internal/scripts/gui/components/config_modal.pyd": "29718c1af782db77881c17ce663edceb",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
