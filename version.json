@@ -1,9 +1,9 @@
 {
     "version": "1.2.72",
-    "build_time": 1792382921,
+    "build_time": 1792384858,
     "message": "Fix lỗi chuyển vpsk",
     "files": {
-        "app_data.json": "4f36c6e83e81a2bca3ef8b46bb8cca8f",
+        "app_data.json": "50981242ffbcdb59bf798aad3e916f3f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -709,7 +709,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "b097f51cad6baa9c5e00e2192f9d64d8",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "cb7de101668bc321695a265a323a72ad",
+        "_internal/scripts/gui/components/config_modal.pyd": "ef2715e130240b0ea845a4ab9bc4f317",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "3b6c9505acf5d93688ebfc948c648218",
         "_internal/scripts/gui/components/log_viewer.pyd": "eaecc8fca45de47fdd5c108d5b0ddfb9",
