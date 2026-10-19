@@ -1,6 +1,6 @@
 {
     "version": "1.2.73",
-    "build_time": 1792423012,
+    "build_time": 1792423567,
     "message": "Thêm kịch bản mua nước chanh và sản xuất vải xanh lá",
     "files": {
         "app_data.json": "f559044b3e240c58fcf1abaf5e8ebc30",
@@ -654,10 +654,10 @@
         "_internal/scripts/muantao_ban_sx_ttao_540tra.pyd": "d9e0c6c1112fcadf96117c76d596b3c2",
         "_internal/scripts/mua_8o_nha_ban.pyd": "64bb6e0aa2bb1442acff926f84dc3086",
         "_internal/scripts/mua_ban_vp_nha_ban.pyd": "c3e0a4087ac447fdebc3f9244de46620",
-        "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "612715ef9e5d0593f3c8ec9f9f5c0cae",
+        "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "a49749a4087d6263aa38f3a86b7ebd17",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "bfefaa076343f278682b267b4a1e785c",
         "_internal/scripts/mua_ncchanh_ban_sx_vai_xl.pyd": "4168ae3670c29575c171ba9b94aab5e7",
-        "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "f8261274681b0540eb246dd6bf00c767",
+        "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "3d3e261ff9341b9ec90268410839acb3",
         "_internal/scripts/nchanh9_oaisay8.pyd": "53f72c7ae9c86afdf14239e75766e8f1",
         "_internal/scripts/ntao6_oaisay6.pyd": "bd70669eeaa409aab0e08ce85dd419a4",
         "_internal/scripts/ntao9_oaisay8.pyd": "5a78965689ff66e3f46f6ec51c7db6c1",
