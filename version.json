@@ -1,9 +1,9 @@
 {
     "version": "1.2.72",
-    "build_time": 1792394949,
+    "build_time": 1792395179,
     "message": "Fix kb chuyển vp sk",
     "files": {
-        "app_data.json": "5fbe78c12e6f9a748563bf8b68503336",
+        "app_data.json": "20e635da92eab520ce0d1ae10993aff9",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -728,7 +728,7 @@
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
         "_internal/scripts/gui/pages/placeholder_page.pyd": "93ce0a08d3eeb5c0534684e9d8e47f05",
         "_internal/scripts/gui/pages/shop_page.pyd": "d2473b3e496447a736ed46cdd34cf972",
-        "_internal/scripts/gui/pages/support_page.pyd": "aad2d185fdd88dc008cd79102836f1d4",
+        "_internal/scripts/gui/pages/support_page.pyd": "e41d6f3fd5a7137173be2f462b419cf2",
         "_internal/scripts/gui/pages/tools_page.pyd": "58ea636debad2fe131777f48ef32e279",
         "_internal/scripts/gui/pages/update_page.pyd": "b06ab2b6d35b7637264061a9df687da3",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
