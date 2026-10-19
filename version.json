@@ -1,6 +1,6 @@
 {
     "version": "1.2.73",
-    "build_time": 1792422465,
+    "build_time": 1792422563,
     "message": "Thêm kịch bản mua nước chanh và sản xuất vải xanh lá",
     "files": {
         "app_data.json": "f559044b3e240c58fcf1abaf5e8ebc30",
@@ -656,7 +656,7 @@
         "_internal/scripts/mua_ban_vp_nha_ban.pyd": "c3e0a4087ac447fdebc3f9244de46620",
         "_internal/scripts/mua_cayhong_sx_hongsay.pyd": "612715ef9e5d0593f3c8ec9f9f5c0cae",
         "_internal/scripts/mua_cayhong_sx_vaido.pyd": "bfefaa076343f278682b267b4a1e785c",
-        "_internal/scripts/mua_ncchanh_ban_sx_vai_xl.pyd": "54dec1058b9564f97035330186ce9b71",
+        "_internal/scripts/mua_ncchanh_ban_sx_vai_xl.pyd": "96b73e5fa1904d4dafdb07735e205280",
         "_internal/scripts/mua_nctao_friend_sx_vai_vang.pyd": "f8261274681b0540eb246dd6bf00c767",
         "_internal/scripts/nchanh9_oaisay8.pyd": "53f72c7ae9c86afdf14239e75766e8f1",
         "_internal/scripts/ntao6_oaisay6.pyd": "bd70669eeaa409aab0e08ce85dd419a4",
