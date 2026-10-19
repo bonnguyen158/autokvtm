@@ -19,17 +19,13 @@
         "facebook": "https://www.facebook.com/TMStore1703"
     },
     "prices": {
-        "1": 10,
-        "30": 99,
-        "180": 299,
-        "365": 363,
         "1d": 10,
         "1m": 99,
         "6m": 299,
-        "1y": 363,
-        "forever": 1000000,
-        "vip_full": 1500000,
-        "combo_forever_vip": 2000000
+        "1y": 365,
+        "forever": 699,
+        "vip_full": 720,
+        "combo_forever_vip": 1299
     },
     "pricing_packages": [
         {
@@ -61,7 +57,7 @@
             "name": "Gói 1 Năm",
             "type": "days",
             "days": 365,
-            "price": 363,
+            "price": 365,
             "badge": "Ưu đãi"
         },
         {
@@ -69,7 +65,7 @@
             "name": "Gói Vĩnh Viễn",
             "type": "forever",
             "days": 36500,
-            "price": 1000000,
+            "price": 699,
             "badge": "Trọn đời"
         },
         {
@@ -77,7 +73,7 @@
             "name": "Full Kịch Bản",
             "type": "vip",
             "days": 0,
-            "price": 1500000,
+            "price": 720,
             "badge": "Full Kịch Bản"
         },
         {
@@ -85,7 +81,7 @@
             "name": "Vĩnh Viễn + Full Chức Năng",
             "type": "combo",
             "days": 36500,
-            "price": 2000000,
+            "price": 1299,
             "badge": "Combo VIP"
         }
     ]
