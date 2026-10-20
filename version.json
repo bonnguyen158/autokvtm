@@ -1,9 +1,9 @@
 {
     "version": "1.2.74",
-    "build_time": 1792490092,
+    "build_time": 1792490618,
     "message": "Thêm kịch bản 4 Trà hoa hồng + 8 Nước hoa hồng",
     "files": {
-        "app_data.json": "f559044b3e240c58fcf1abaf5e8ebc30",
+        "app_data.json": "539b7401bb59a325a4c2ff1982955591",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -728,7 +728,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "c952c4f80ccbd9de454d13fbe9c95795",
-        "_internal/scripts/gui/pages/control_page.pyd": "2aa746b14359dc176cd631563047229c",
+        "_internal/scripts/gui/pages/control_page.pyd": "85efd120d079f21bd6703313e0f836bc",
         "_internal/scripts/gui/pages/custom_page.pyd": "527b500ce105dfe8a61a63b64c8a96fa",
         "_internal/scripts/gui/pages/home_page.pyd": "42aa230eb356374f01c23f12c577ff18",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
