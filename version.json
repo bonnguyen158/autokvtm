@@ -1,6 +1,6 @@
 {
     "version": "1.2.74",
-    "build_time": 1792504386,
+    "build_time": 1792537353,
     "message": "Thêm kịch bản 4 Trà hoa hồng + 8 Nước hoa hồng",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -675,7 +675,7 @@
         "_internal/scripts/oaisay8_ntuyet9.pyd": "d06a3a651f1f3a5c9fd53d84cd6c2b79",
         "_internal/scripts/oai_say_8.pyd": "e4b1985ce22b9a47e8f6e5df39a4ec09",
         "_internal/scripts/tao_say_2.pyd": "4230d25565c7cb8c1cfc127f1b2b4b1a",
-        "_internal/scripts/tra_hh4_nhh8.pyd": "ff6b229c53938f41eae875a7caf8c3a9",
+        "_internal/scripts/tra_hh4_nhh8.pyd": "f2a56fab512cba828a3647382a752a51",
         "_internal/scripts/tra_say_8.pyd": "9bd97f05571bf6b80bd412bb48a25001",
         "_internal/scripts/tra_tao_doi_chau.pyd": "3ed3e054e84e498fc58ab61ba3f6d0dd",
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "966f3f0d4e1f7bb7807be6204d91cf1c",
@@ -704,7 +704,7 @@
         "_internal/scripts/core/adb_capture.pyd": "1f8393a5a3a60aa71f2a041fdca93a54",
         "_internal/scripts/core/api_server.pyd": "f2ec7836f234006d4c139c902eed2ca2",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "a05643091c7f0624d148b995cd33b37e",
+        "_internal/scripts/core/bot_core.pyd": "f18d6b3517b5bce34be605796fd0acef",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "fce82eca2de73d8e40ddb82ad1b84f27",
         "_internal/scripts/core/database_manager.pyd": "3df554ecc7e86dbecdb00d56eea3fe1b",
