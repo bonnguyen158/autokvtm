@@ -2,7 +2,7 @@
     "banners": {
         "default": "action:open_recharge",
         "banner1.png": "",
-        "bannergiatien.jpg": "action:open_recharge"
+        "bannergiatien.jpg": "action:switch_page:support"
     },
     "notifications": [
         {
