@@ -1,6 +1,6 @@
 {
     "version": "1.2.75",
-    "build_time": 1792574925,
+    "build_time": 1792575698,
     "message": "Thêm tùy chọn bổ sung thuê tôm",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -711,7 +711,7 @@
         "_internal/scripts/core/database_manager.pyd": "3eafdb0c43d24b6f99912e2220ba995b",
         "_internal/scripts/core/gui_core_scripts.pyd": "e83d7a9876647ae57e4f7d23cc540466",
         "_internal/scripts/core/main_bootstrap.pyd": "1177a4a20e999514152996c6c6848c63",
-        "_internal/scripts/core/startup_manager.pyd": "da1df272aa66d7960285cf0e3d2157ca",
+        "_internal/scripts/core/startup_manager.pyd": "77ce022932a541c9f438360365d6b754",
         "_internal/scripts/core/sys_utils.pyd": "5f4e698ed29448980b871d46e4661d0c",
         "_internal/scripts/core/update_manager.pyd": "79d04619dbeefaf5e1b005d6101232fb",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
@@ -728,8 +728,8 @@
         "_internal/scripts/gui/components/sidebar.pyd": "8be54903253969cd132daea217fe7be3",
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
-        "_internal/scripts/gui/pages/account_page.pyd": "c952c4f80ccbd9de454d13fbe9c95795",
-        "_internal/scripts/gui/pages/control_page.pyd": "189fa1238761ff5428f5563191588092",
+        "_internal/scripts/gui/pages/account_page.pyd": "bb3b14aae682303f0ddde499edd43297",
+        "_internal/scripts/gui/pages/control_page.pyd": "bed85506e41afc24d7431e7d32c9ae02",
         "_internal/scripts/gui/pages/custom_page.pyd": "527b500ce105dfe8a61a63b64c8a96fa",
         "_internal/scripts/gui/pages/home_page.pyd": "42aa230eb356374f01c23f12c577ff18",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
