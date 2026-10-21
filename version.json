@@ -1,6 +1,6 @@
 {
     "version": "1.2.75",
-    "build_time": 1792566127,
+    "build_time": 1792573986,
     "message": "Thêm tùy chọn bổ sung thuê tôm",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -717,7 +717,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "cee4654b08c667cc18c7516dd2177856",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
-        "_internal/scripts/gui/components/config_modal.pyd": "5d9f7d2b3cc0ee9f7d12ca5f296156c4",
+        "_internal/scripts/gui/components/config_modal.pyd": "253fc880c34b37186a3b9ad1af3eb83b",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "43e0f99a57d8ccf4933051ebc281c01b",
         "_internal/scripts/gui/components/log_viewer.pyd": "eaecc8fca45de47fdd5c108d5b0ddfb9",
