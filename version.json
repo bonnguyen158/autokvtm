@@ -1,7 +1,7 @@
 {
     "version": "1.2.75",
-    "build_time": 1792619253,
-    "message": "Thêm kịch bản 4 Trà hoa hồng + 8 Nước hoa hồng",
+    "build_time": 1792619276,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -677,7 +677,7 @@
         "_internal/scripts/oaisay8_ntuyet9.pyd": "d06a3a651f1f3a5c9fd53d84cd6c2b79",
         "_internal/scripts/oai_say_8.pyd": "e4b1985ce22b9a47e8f6e5df39a4ec09",
         "_internal/scripts/tao_say_2.pyd": "4230d25565c7cb8c1cfc127f1b2b4b1a",
-        "_internal/scripts/tra_hh4_nhh8.pyd": "3e2ed414477a791782b2406616f5492e",
+        "_internal/scripts/tra_hh4_nhh8.pyd": "d8be05a146886860b2ed86c895f4ff97",
         "_internal/scripts/tra_say_8.pyd": "9bd97f05571bf6b80bd412bb48a25001",
         "_internal/scripts/tra_tao_doi_chau.pyd": "3ed3e054e84e498fc58ab61ba3f6d0dd",
         "_internal/scripts/tra_tao_doi_chau_540tra.pyd": "966f3f0d4e1f7bb7807be6204d91cf1c",
