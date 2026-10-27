@@ -1,7 +1,7 @@
 {
     "version": "1.2.76",
-    "build_time": 1793076584,
-    "message": "Thêm xóa kim cương cho kịch bản bán vp 8 ô nhà bạn",
+    "build_time": 1793110111,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -707,7 +707,8 @@
         "_internal/scripts/core/adb_capture.pyd": "9d700fc03760e112815542cf0382b66b",
         "_internal/scripts/core/api_server.pyd": "f2ec7836f234006d4c139c902eed2ca2",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "e18925b140889aadc58586fee96ba05a",
+        "_internal/scripts/core/bot_core.pyd": "bb4da6646ed5e0149056eefbdc473368",
+        "_internal/scripts/core/bot_core.pyi": "1cfe92455763350305cea260b7f4cadc",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "fce82eca2de73d8e40ddb82ad1b84f27",
         "_internal/scripts/core/database_manager.pyd": "3eafdb0c43d24b6f99912e2220ba995b",
