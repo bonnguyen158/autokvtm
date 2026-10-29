@@ -1,6 +1,6 @@
 {
     "version": "1.2.78",
-    "build_time": 1793271200,
+    "build_time": 1793272825,
     "message": "Thêm tùy chọn bổ sung sản xuất ngọc",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -709,7 +709,7 @@
         "_internal/scripts/core/adb_capture.pyd": "c49731950b65d794edcaa8598522ff45",
         "_internal/scripts/core/api_server.pyd": "f2ec7836f234006d4c139c902eed2ca2",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "45d76cbc4f525ea162cacecb4f26e080",
+        "_internal/scripts/core/bot_core.pyd": "a6e1d661a492b87abe104a65b9e6ad2b",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/database_manager.pyd": "182cba460545b75eb965aaf5901a3b20",
