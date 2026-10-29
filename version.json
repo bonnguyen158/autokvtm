@@ -1,6 +1,6 @@
 {
     "version": "1.2.78",
-    "build_time": 1793265474,
+    "build_time": 1793271200,
     "message": "Thêm tùy chọn bổ sung sản xuất ngọc",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -709,11 +709,11 @@
         "_internal/scripts/core/adb_capture.pyd": "c49731950b65d794edcaa8598522ff45",
         "_internal/scripts/core/api_server.pyd": "f2ec7836f234006d4c139c902eed2ca2",
         "_internal/scripts/core/auth_gui.pyd": "b19d0202437600be2aedd4a8e3836763",
-        "_internal/scripts/core/bot_core.pyd": "c57dc46c48a22b4c422eb685b2979dcf",
+        "_internal/scripts/core/bot_core.pyd": "45d76cbc4f525ea162cacecb4f26e080",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
-        "_internal/scripts/core/crash_recovery.pyd": "fce82eca2de73d8e40ddb82ad1b84f27",
+        "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/database_manager.pyd": "182cba460545b75eb965aaf5901a3b20",
-        "_internal/scripts/core/gui_core_scripts.pyd": "c79c7ea2de8b68efaec0c7629f43729b",
+        "_internal/scripts/core/gui_core_scripts.pyd": "73930a6902cda7c7b06e52e621caa33e",
         "_internal/scripts/core/main_bootstrap.pyd": "1177a4a20e999514152996c6c6848c63",
         "_internal/scripts/core/startup_manager.pyd": "77ce022932a541c9f438360365d6b754",
         "_internal/scripts/core/sys_utils.pyd": "5f4e698ed29448980b871d46e4661d0c",
