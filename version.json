@@ -1,6 +1,6 @@
 {
     "version": "1.2.79",
-    "build_time": 1793330504,
+    "build_time": 1793331079,
     "message": "Thêm tùy chọn Vòng quay chú hề (free)",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -720,7 +720,7 @@
         "_internal/scripts/core/sys_utils.pyd": "5f4e698ed29448980b871d46e4661d0c",
         "_internal/scripts/core/update_manager.pyd": "79d04619dbeefaf5e1b005d6101232fb",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
-        "_internal/scripts/gui/main_window.pyd": "eb9291cdbae95a58092edf73b2f65c4e",
+        "_internal/scripts/gui/main_window.pyd": "8ed874a39274361e3ad339784f461e42",
         "_internal/scripts/gui/__init__.py": "213f3439a44376959d8b446445799170",
         "_internal/scripts/gui/components/config_modal.pyd": "a885f399ffbb8287c692f89326e4c56e",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
@@ -742,7 +742,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "d2473b3e496447a736ed46cdd34cf972",
         "_internal/scripts/gui/pages/support_page.pyd": "7f8b2270bbc0fcc2517fd1123e8da0b0",
         "_internal/scripts/gui/pages/tools_page.pyd": "58ea636debad2fe131777f48ef32e279",
-        "_internal/scripts/gui/pages/update_page.pyd": "4f2ef236f83d3dc199242379cd4eee08",
+        "_internal/scripts/gui/pages/update_page.pyd": "957352252923920cfc2d4894c03a11e5",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
