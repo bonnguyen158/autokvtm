@@ -1,6 +1,6 @@
 {
     "version": "1.2.79",
-    "build_time": 1793338529,
+    "build_time": 1793341592,
     "message": "Thêm tùy chọn Vòng quay chú hề",
     "files": {
         "app_data.json": "539b7401bb59a325a4c2ff1982955591",
@@ -730,7 +730,7 @@
         "_internal/scripts/gui/components/menu_button.pyd": "0b12dfb8cb6bf3782b8b966c443c9c4b",
         "_internal/scripts/gui/components/recharge_dialog.pyd": "bc8c6ddb70ae330a88f963b9dfbfb84b",
         "_internal/scripts/gui/components/renew_dialog.pyd": "a992170b794941ba5c5fbabc4bd2ae31",
-        "_internal/scripts/gui/components/sidebar.pyd": "aaa8bb88cf571324b1fe9990f0a30ebf",
+        "_internal/scripts/gui/components/sidebar.pyd": "3821158cf0ee7fe2d67f767119966c88",
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "bb3b14aae682303f0ddde499edd43297",
