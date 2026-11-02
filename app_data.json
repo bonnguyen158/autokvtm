@@ -1,8 +1,7 @@
 {
     "banners": {
         "default": "action:open_recharge",
-        "banner1.png": "",
-        "bannergiatien.jpg": "action:switch_page:support"
+        "banner1.png": "action:switch_page:support"
     },
     "notifications": [
         {
