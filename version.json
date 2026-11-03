@@ -1,6 +1,6 @@
 {
     "version": "1.2.81",
-    "build_time": 1793660782,
+    "build_time": 1793667364,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "463e9b3cc271feac3496756680a42072",
@@ -731,7 +731,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "50be53e474b90ec2a6ab34339b39c619",
         "_internal/scripts/core/database_manager.pyd": "c2b2156f35c6fdaba3e238acf33b00e8",
-        "_internal/scripts/core/game_ws_bridge.pyd": "4e3853f17e30ade4be066833dd2e848c",
+        "_internal/scripts/core/game_ws_bridge.pyd": "e5c13721c474ed581152e4851801218e",
         "_internal/scripts/core/gui_core_scripts.pyd": "35165c590ca80e9d72113cf77ea27eb3",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "27a379ce2f99cc1fe8e66c9fc7fe8e88",
         "_internal/scripts/core/main_bootstrap.pyd": "1177a4a20e999514152996c6c6848c63",
