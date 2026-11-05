@@ -1,7 +1,7 @@
 {
     "banners": {
         "default": "action:open_recharge",
-        "1000009120.jpg": "action:switch_page:support"
+        "banner1600x550.jpg": "action:switch_page:support"
     },
     "notifications": [
         {
