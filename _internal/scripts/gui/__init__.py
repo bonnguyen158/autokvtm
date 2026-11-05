@@ -19,7 +19,7 @@ def run():
         app.setWindowIcon(QIcon(icon_path))
         try:
             import ctypes
-            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID('kvtm.launcher.pyqt6')
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID('kvtm.toolkit.pyqt6')
         except Exception:
             pass
     window = MainWindow(exe_dir)
