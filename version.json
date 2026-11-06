@@ -1,7 +1,7 @@
 {
     "version": "1.2.83",
-    "build_time": 1793998441,
-    "message": "Fix lỗi treo kết nối adb",
+    "build_time": 1793999429,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -661,7 +661,7 @@
         "pic/custom_items/custom_111.png": "2f77606e87d59f62f815688b9b458c47",
         "_internal/scripts/ban_vat_pham_tuy_chon.pyd": "9e432bd6458de2e60f6b19f393f84e81",
         "_internal/scripts/bat_bo_nha_ban.pyd": "ccd7e802fa90d346485979b5ff7bdf6d",
-        "_internal/scripts/bat_bo_nha_ban_bak.pyd": "44a22c64c4431dc8c585613ceb7f2893",
+        "_internal/scripts/bat_bo_nha_ban_bak.pyd": "cec544bb70d038157d64e8216e9fe731",
         "_internal/scripts/chuyen_vp_sk.pyd": "334b1c005e28d40f17e0fa9ec5c036f7",
         "_internal/scripts/doichau_bo.pyd": "4383c163c9430f4977678b27c5818f0f",
         "_internal/scripts/doichau_le.pyd": "38ba7c966e37aeb68981c0696e14c610",
@@ -736,7 +736,7 @@
         "_internal/scripts/core/adb_capture.pyd": "34c9fe21104deb87884bbbcc03978ed9",
         "_internal/scripts/core/api_server.pyd": "2068853bc4818544ca2dc3c402a09faa",
         "_internal/scripts/core/auth_gui.pyd": "4c55ff5ff2cf0f82f32241f4dfd0c8bd",
-        "_internal/scripts/core/bot_core.pyd": "865ecb00c82a54f12b9791fa1e622f40",
+        "_internal/scripts/core/bot_core.pyd": "98a042c80b9cc5ea980560a61b766297",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
