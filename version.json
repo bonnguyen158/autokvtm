@@ -1,6 +1,6 @@
 {
     "version": "1.2.85",
-    "build_time": 1794063075,
+    "build_time": 1794064782,
     "message": "update tính năng cân bằng kho",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -741,7 +741,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
-        "_internal/scripts/core/game_ws_bridge.pyd": "2a965e0f2cb7691068f1ffde96f008cc",
+        "_internal/scripts/core/game_ws_bridge.pyd": "88652750f53ddd4812550245573c8264",
         "_internal/scripts/core/gui_core_scripts.pyd": "38d49096c2a22146d9e037d4485269bc",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
