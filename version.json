@@ -1,6 +1,6 @@
 {
     "version": "1.2.85",
-    "build_time": 1794060869,
+    "build_time": 1794063075,
     "message": "update tính năng cân bằng kho",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -736,7 +736,7 @@
         "_internal/scripts/core/adb_capture.pyd": "34c9fe21104deb87884bbbcc03978ed9",
         "_internal/scripts/core/api_server.pyd": "2068853bc4818544ca2dc3c402a09faa",
         "_internal/scripts/core/auth_gui.pyd": "20dd89ccba8482dd42b1a8d4b8eb02f7",
-        "_internal/scripts/core/bot_core.pyd": "60723c05f6032f9054f7b1446ae93198",
+        "_internal/scripts/core/bot_core.pyd": "99361216376221c47dde6d98362a5065",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
