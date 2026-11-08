@@ -1,6 +1,6 @@
 {
     "version": "1.2.86",
-    "build_time": 1794114105,
+    "build_time": 1794114512,
     "message": "Thêm kịch bản 4 Nước Hoa Hồng, 8 Trà Hoa Hồng & 9 Vải Xanh Lá (Mua nước chanh)",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -743,7 +743,7 @@
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
         "_internal/scripts/core/game_ws_bridge.pyd": "20988cbdad36797d95d98506f8b84dde",
-        "_internal/scripts/core/gui_core_scripts.pyd": "b9984b21bd844d37b4b3edf651a70366",
+        "_internal/scripts/core/gui_core_scripts.pyd": "18dedd02cbd2ec65fd0f09d49e497329",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
         "_internal/scripts/core/nong_hoi_manager.pyd": "f7d1b163d987d5739ed11de5e2d8bb3b",
