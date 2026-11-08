@@ -1,6 +1,6 @@
 {
     "version": "1.2.86",
-    "build_time": 1794113475,
+    "build_time": 1794114105,
     "message": "Thêm kịch bản 4 Nước Hoa Hồng, 8 Trà Hoa Hồng & 9 Vải Xanh Lá (Mua nước chanh)",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -725,7 +725,7 @@
         "_internal/scripts/vaivang3_taosay2.pyd": "2fd56c80c8da817f3e03d294b5f8ded9",
         "_internal/scripts/vaivang5_duasay7.pyd": "21dec140344c1c5128152b643617ce97",
         "_internal/scripts/vaivang6_oaisay8.pyd": "26a4ce36c1ad0e32ce3a88e4fbf7c23a",
-        "_internal/scripts/vaixl_9_trahh_4_nhh_8_mua_nchanh.pyd": "6d5903f131d7d9a43f51e1227153d484",
+        "_internal/scripts/vaixl_9_trahh_4_nhh_8_mua_nchanh.pyd": "bd70c4a1e8f1958624770ac4518ee1d6",
         "_internal/scripts/vai_do_2.pyd": "2bbc0fac491893d494e86b96999a46d1",
         "_internal/scripts/vai_do_8.pyd": "0900d4b497450b70e04f858c312d79b5",
         "_internal/scripts/vai_tim_8.pyd": "841bb3ea55b79c5fb3fcccfe0469d37c",
