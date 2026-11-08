@@ -1,6 +1,6 @@
 {
     "version": "1.2.87",
-    "build_time": 1794140266,
+    "build_time": 1794174663,
     "message": "Update hàm bán",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -742,7 +742,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
-        "_internal/scripts/core/game_ws_bridge.pyd": "7718421537436a31e0e4b16afeb1ac98",
+        "_internal/scripts/core/game_ws_bridge.pyd": "fa3cb4828799e6b96c61270b78465222",
         "_internal/scripts/core/gui_core_scripts.pyd": "18dedd02cbd2ec65fd0f09d49e497329",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
