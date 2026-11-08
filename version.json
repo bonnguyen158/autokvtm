@@ -1,6 +1,6 @@
 {
     "version": "1.2.87",
-    "build_time": 1794135975,
+    "build_time": 1794140266,
     "message": "Update hàm bán",
     "files": {
         "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
@@ -737,12 +737,12 @@
         "_internal/scripts/core/adb_capture.pyd": "34c9fe21104deb87884bbbcc03978ed9",
         "_internal/scripts/core/api_server.pyd": "2068853bc4818544ca2dc3c402a09faa",
         "_internal/scripts/core/auth_gui.pyd": "20dd89ccba8482dd42b1a8d4b8eb02f7",
-        "_internal/scripts/core/bot_core.pyd": "468917196ae3bd178fd6c300ade0e90e",
+        "_internal/scripts/core/bot_core.pyd": "f7dad66c97668b973ee773592c4233f4",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
-        "_internal/scripts/core/game_ws_bridge.pyd": "7f56ad0894d6e223f6ac1ccdd80ce45e",
+        "_internal/scripts/core/game_ws_bridge.pyd": "7718421537436a31e0e4b16afeb1ac98",
         "_internal/scripts/core/gui_core_scripts.pyd": "18dedd02cbd2ec65fd0f09d49e497329",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
