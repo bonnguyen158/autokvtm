@@ -5,6 +5,14 @@
     },
     "notifications": [
         {
+            "id": "1794224810811",
+            "date": "09/11/2026",
+            "title": "Tối ưu và thêm kịch bản mới",
+            "preview": "Tối ưu và thêm kịch bản mới",
+            "content": "Thêm kịch bản mới:\n   - 8 Vải XL, 4 Trà HH, 4 Nước HTáo (Mua NChanh)\n   - 9 Trà HH (Mua Hồng Sấy) \n   - 4 Trà HH, 8 Nước HH và 9 Vải XL ( Mua NChanh)\n\nTối ưu: Sản xuất, trồng cây và Bán sản phẩm",
+            "is_new": true
+        },
+        {
             "id": "1",
             "date": "19/08/2026",
             "title": "Chào mừng bạn đến với Auto KVTM",
