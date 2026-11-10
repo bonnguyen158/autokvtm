@@ -1,6 +1,6 @@
 {
     "version": "1.2.89",
-    "build_time": 1794314077,
+    "build_time": 1794351694,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -740,12 +740,12 @@
         "_internal/scripts/core/adb_capture.pyd": "34c9fe21104deb87884bbbcc03978ed9",
         "_internal/scripts/core/api_server.pyd": "2068853bc4818544ca2dc3c402a09faa",
         "_internal/scripts/core/auth_gui.pyd": "8d8356404e7deefc34b5d099394fdf22",
-        "_internal/scripts/core/bot_core.pyd": "9b077622e6904996bbf802db87f69a27",
+        "_internal/scripts/core/bot_core.pyd": "2f89c63d27ee69c84b7eb89ff6d44a46",
         "_internal/scripts/core/config_manager.pyd": "257af8ad8edf9a3f6ebf2d7e2029137d",
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
-        "_internal/scripts/core/game_ws_bridge.pyd": "bde6e70fa52bc8c71d9113607e93180b",
+        "_internal/scripts/core/game_ws_bridge.pyd": "03da7a9be2ef8e581371d7e5e227eb07",
         "_internal/scripts/core/gui_core_scripts.pyd": "3a142e4252172982a57cb4b5b9974074",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
