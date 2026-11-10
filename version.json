@@ -1,9 +1,9 @@
 {
     "version": "1.2.88",
-    "build_time": 1794278803,
-    "message": "Thêm kịch bản 8 Vải XL, 4 Trà HH, 4 Nước Htáo (Mua NChanh)\nThêm kịch bản 9 Trà HH (Mua Hồng Sấy)\nThêm kịch bản 4 Trà HH, 8 Nước HH và 9 Vải XL ( Mua NChanh)",
+    "build_time": 1794283319,
+    "message": "Ban cap nhat moi",
     "files": {
-        "app_data.json": "60b6b3caad17f134669c2803eac7ed59",
+        "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -744,7 +744,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "e40551b1a24c873f3f565c65627247fb",
-        "_internal/scripts/core/game_ws_bridge.pyd": "578f3d85bd1e2f98cc9fab6ec9e29f1d",
+        "_internal/scripts/core/game_ws_bridge.pyd": "45d0c04ef2e478e72e951dffb4731c91",
         "_internal/scripts/core/gui_core_scripts.pyd": "6be709d3b13871fd2de46735038b5144",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
