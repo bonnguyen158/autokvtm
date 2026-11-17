@@ -1,6 +1,6 @@
 {
     "version": "1.2.92",
-    "build_time": 1794910343,
+    "build_time": 1794911800,
     "message": "Thêm kịch bản tự động giao xe bò",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -763,7 +763,7 @@
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
-        "_internal/scripts/gui/components/config_modal.pyd": "5b76fd348035d0bc18fa10211e5cb814",
+        "_internal/scripts/gui/components/config_modal.pyd": "c6472f04d78337178059c61ead6d28d3",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "ae69ea5b4483383948ddcb59448fe547",
         "_internal/scripts/gui/components/log_viewer.pyd": "186530eab02764aada29fc8d11545f69",
