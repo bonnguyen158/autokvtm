@@ -1,6 +1,6 @@
 {
     "version": "1.2.91",
-    "build_time": 1794887916,
+    "build_time": 1794889554,
     "message": "Tối ưu và thêm các trang trí mới cho kịch bản đổi bộ trang trí\nTối ưu kịch bản mua vp 8 ô nhà bạn",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -748,7 +748,7 @@
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "206231e7fc99f0cea3b1df2fc4b00062",
         "_internal/scripts/core/game_ws_bridge.pyd": "697ab78e08ec7aa901500f1dd50b4d71",
-        "_internal/scripts/core/gui_core_scripts.pyd": "cf4b228cb8f7f16a5d864464ff767acd",
+        "_internal/scripts/core/gui_core_scripts.pyd": "2f669a89e04b38b3e79b2c7df60b0e89",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
         "_internal/scripts/core/nong_hoi_manager.pyd": "2cdfd6f1f42c8ec51097fe2b8b0fbdb1",
@@ -775,7 +775,7 @@
         "_internal/scripts/gui/components/title_bar.pyd": "9c11843bb77b47ca2095b098062a3aed",
         "_internal/scripts/gui/components/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/gui/pages/account_page.pyd": "ac11c9424e6451ffba324dada99578f6",
-        "_internal/scripts/gui/pages/control_page.pyd": "74675f13bc5e151bc92d4268aa865d86",
+        "_internal/scripts/gui/pages/control_page.pyd": "b13f41410f1323158d62583f3d377c5f",
         "_internal/scripts/gui/pages/custom_page.pyd": "527b500ce105dfe8a61a63b64c8a96fa",
         "_internal/scripts/gui/pages/home_page.pyd": "02893785804c966f16305faddcdd0894",
         "_internal/scripts/gui/pages/notify_page.pyd": "e5853c0c4a066d38ce632961019d94b9",
