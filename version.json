@@ -1,7 +1,7 @@
 {
     "version": "1.2.92",
-    "build_time": 1794911800,
-    "message": "Thêm kịch bản tự động giao xe bò",
+    "build_time": 1794919902,
+    "message": "Hoàn tất tự động giao bò",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -747,7 +747,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "206231e7fc99f0cea3b1df2fc4b00062",
-        "_internal/scripts/core/game_ws_bridge.pyd": "64bb71734ba8a5befe1b52c597bce727",
+        "_internal/scripts/core/game_ws_bridge.pyd": "28b40076293b06f4d953739b1aae41ba",
         "_internal/scripts/core/gui_core_scripts.pyd": "2f669a89e04b38b3e79b2c7df60b0e89",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "4a712700406e4473e01837f4bdb112eb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
@@ -759,7 +759,7 @@
         "_internal/scripts/core/update_manager.pyd": "4c413d094471573a7a21ef159f908334",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "77782eaa8fbf71c42544097ec615a5b4",
-        "_internal/scripts/core/xe_bo_manager.pyd": "7e9c65a1a00aff04e300ef83c88df2bd",
+        "_internal/scripts/core/xe_bo_manager.pyd": "80ae723f239df2bc6943b3c56e7df736",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
