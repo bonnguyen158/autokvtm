@@ -1,7 +1,7 @@
 {
     "version": "1.2.94",
-    "build_time": 1794993084,
-    "message": "Tối ưu sản xuất",
+    "build_time": 1794993927,
+    "message": "Tự động giao khinh khí cầu",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -761,7 +761,7 @@
         "_internal/scripts/core/update_manager.pyd": "4c413d094471573a7a21ef159f908334",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "d8aa0c229eadec5b6f4d030c23fdf87b",
-        "_internal/scripts/core/xe_bo_manager.pyd": "71db08c8032f128c85ca232f7da83eef",
+        "_internal/scripts/core/xe_bo_manager.pyd": "b8ac30e8b51c2e4ea7a6de77d883df33",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
