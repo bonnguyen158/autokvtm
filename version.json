@@ -1,6 +1,6 @@
 {
     "version": "1.2.92",
-    "build_time": 1794927723,
+    "build_time": 1794964819,
     "message": "Thêm kịch bản tự động giao xe bò",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -759,11 +759,11 @@
         "_internal/scripts/core/update_manager.pyd": "4c413d094471573a7a21ef159f908334",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "77782eaa8fbf71c42544097ec615a5b4",
-        "_internal/scripts/core/xe_bo_manager.pyd": "78c68f9c457319a6df2991ddb5260140",
+        "_internal/scripts/core/xe_bo_manager.pyd": "3944103d1314d5f83b1dd70ddb3ae5b7",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
-        "_internal/scripts/gui/components/config_modal.pyd": "29399c4487b6d7c5677310d4f2002a03",
+        "_internal/scripts/gui/components/config_modal.pyd": "6403886f9c3a74445265f27dddabd089",
         "_internal/scripts/gui/components/custom_settings_modal.pyd": "dcf5ba8e1b2ae9e800fbd7ad53c6e501",
         "_internal/scripts/gui/components/devtool_modal.pyd": "ae69ea5b4483383948ddcb59448fe547",
         "_internal/scripts/gui/components/log_viewer.pyd": "186530eab02764aada29fc8d11545f69",
