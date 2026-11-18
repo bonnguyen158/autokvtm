@@ -1,6 +1,6 @@
 {
     "version": "1.2.95",
-    "build_time": 1795008020,
+    "build_time": 1795009236,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -662,7 +662,7 @@
         "pic/yes_ban_tom.png": "4fcb9a147cfdfbded91404c055a79015",
         "pic/custom_items/custom_111.png": "2f77606e87d59f62f815688b9b458c47",
         "_internal/scripts/ban_vat_pham_tuy_chon.pyd": "a00970463ea1d47e49ee9889ad79e294",
-        "_internal/scripts/bat_bo_nha_ban.pyd": "e4b3bb0648030f3a7f0d80335dbdf282",
+        "_internal/scripts/bat_bo_nha_ban.pyd": "e5225cc58b27d1a97500f8a4995bb92f",
         "_internal/scripts/bat_bo_nha_ban_bak.pyd": "cec544bb70d038157d64e8216e9fe731",
         "_internal/scripts/chuyen_vp_sk.pyd": "334b1c005e28d40f17e0fa9ec5c036f7",
         "_internal/scripts/doichau_bo.pyd": "6921fa05b88bc44f4e5c9c7b908a7a03",
@@ -748,7 +748,7 @@
         "_internal/scripts/core/crash_recovery.pyd": "592ac260b0d1462969e5d93a480a8016",
         "_internal/scripts/core/dao_mo_manager.pyd": "03c79448a82eec7ea32061f9364cf2a8",
         "_internal/scripts/core/database_manager.pyd": "c67ddc6b178f21226594a48d4a60de6b",
-        "_internal/scripts/core/game_ws_bridge.pyd": "0238673f9008835a75a2522cffb48c24",
+        "_internal/scripts/core/game_ws_bridge.pyd": "839ffe4e125121d6db79ecba253bc2b8",
         "_internal/scripts/core/gui_core_scripts.pyd": "5b053a62f1f31b0a17bb6dfd82708820",
         "_internal/scripts/core/khinh_khi_cau_manager.pyd": "c44d28694985cd6746dcc8662ab686fe",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "55994fb9e30c6c57efb098b94c3cee2d",
