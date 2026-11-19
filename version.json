@@ -1,7 +1,7 @@
 {
     "version": "1.2.96",
-    "build_time": 1795083870,
-    "message": "Thêm kịch bản Trồng cây theo tầng",
+    "build_time": 1795093229,
+    "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
@@ -763,7 +763,7 @@
         "_internal/scripts/core/update_manager.pyd": "4c413d094471573a7a21ef159f908334",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "0b856fb1c2560e8ab5530b952cf0c2bd",
-        "_internal/scripts/core/xe_bo_manager.pyd": "da4b4b92a6007d65971b53352fe2d27d",
+        "_internal/scripts/core/xe_bo_manager.pyd": "9f7ede095f492b9b7d81b11e160debb9",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
