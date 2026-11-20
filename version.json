@@ -1,6 +1,6 @@
 {
     "version": "1.2.96",
-    "build_time": 1795093229,
+    "build_time": 1795149086,
     "message": "Ban cap nhat moi",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -751,7 +751,7 @@
         "_internal/scripts/core/database_manager.pyd": "6b7694fa3b88151b043648756ddae755",
         "_internal/scripts/core/game_ws_bridge.pyd": "1d10de1c1b925d79181d7213d7de84fd",
         "_internal/scripts/core/gui_core_scripts.pyd": "ac4b623855e268d1ad578871096a6da2",
-        "_internal/scripts/core/khinh_khi_cau_manager.pyd": "c44d28694985cd6746dcc8662ab686fe",
+        "_internal/scripts/core/khinh_khi_cau_manager.pyd": "d98e9c6b3bf01c4416e70ebad42691bc",
         "_internal/scripts/core/lac_da_ba_tu_manager.pyd": "e8a9cff3be566b9d0ad90b010a74eecb",
         "_internal/scripts/core/main_bootstrap.pyd": "b2952b04c61c459b56a28881c63dba72",
         "_internal/scripts/core/nong_hoi_manager.pyd": "c3a3df3928454a1cfca455ca998f5013",
@@ -763,7 +763,7 @@
         "_internal/scripts/core/update_manager.pyd": "4c413d094471573a7a21ef159f908334",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "0b856fb1c2560e8ab5530b952cf0c2bd",
-        "_internal/scripts/core/xe_bo_manager.pyd": "9f7ede095f492b9b7d81b11e160debb9",
+        "_internal/scripts/core/xe_bo_manager.pyd": "e1e45c396532ec058393e02654ca8865",
         "_internal/scripts/core/__init__.py": "c38af78520faba187feade22ed929376",
         "_internal/scripts/gui/main_window.pyd": "45b30a0cd1bf9ca991072a36c9e78a03",
         "_internal/scripts/gui/__init__.py": "0cb2bf21c907514382ccb76f00f6075c",
