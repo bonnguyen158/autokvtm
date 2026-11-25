@@ -1,9 +1,8 @@
 {
     "version": "1.3.3",
-    "build_time": 1795578708,
+    "build_time": 1795580129,
     "message": "Thêm tiêu phí kim cương và nhận nhiệm vụ nông hội",
     "files": {
-        "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
         "background.jpg": "d832273555cf2e3513c69cb6a3f52e22",
         "logo-tool.ico": "1483ba8ed9ca0f5a4939d7935c5ccc01",
         "assets/avatar.png": "9caca6115e46ad5e6c13fbe8db06a514",
@@ -763,7 +762,7 @@
         "_internal/scripts/core/sys_utils.pyd": "9bfd67f832c6d8f42562eeb1cee06715",
         "_internal/scripts/core/thue_tom_manager.pyd": "2f93a6897a2a51334cdab4efbcd874d7",
         "_internal/scripts/core/trong_cay_tu_van.pyd": "8e00a22fd10ca1162814717ab2ca7d6f",
-        "_internal/scripts/core/update_manager.pyd": "99455f9ad3121875bf2949a4bb8ed449",
+        "_internal/scripts/core/update_manager.pyd": "f531b2b780712ccba491780b81f0ae00",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "0b856fb1c2560e8ab5530b952cf0c2bd",
         "_internal/scripts/core/xe_bo_manager.pyd": "584619a420be86d2772b0a7080eb95bf",
@@ -790,7 +789,7 @@
         "_internal/scripts/gui/pages/shop_page.pyd": "729bb20d279e90fafa6932d1be382f0c",
         "_internal/scripts/gui/pages/support_page.pyd": "4b47e46608d38d736289c1c01a88b7e1",
         "_internal/scripts/gui/pages/tools_page.pyd": "cf89424210514e6ea9dd0601427409fa",
-        "_internal/scripts/gui/pages/update_page.pyd": "62349479e3fdae2f24578ed80f2573f9",
+        "_internal/scripts/gui/pages/update_page.pyd": "621587d395dabc512589117bc9333a54",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
