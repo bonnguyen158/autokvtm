@@ -1,6 +1,6 @@
 {
     "version": "1.3.3",
-    "build_time": 1795576161,
+    "build_time": 1795578708,
     "message": "Thêm tiêu phí kim cương và nhận nhiệm vụ nông hội",
     "files": {
         "app_data.json": "ab221e49c7f767368a0c3c50f04cf94f",
@@ -763,7 +763,7 @@
         "_internal/scripts/core/sys_utils.pyd": "9bfd67f832c6d8f42562eeb1cee06715",
         "_internal/scripts/core/thue_tom_manager.pyd": "2f93a6897a2a51334cdab4efbcd874d7",
         "_internal/scripts/core/trong_cay_tu_van.pyd": "8e00a22fd10ca1162814717ab2ca7d6f",
-        "_internal/scripts/core/update_manager.pyd": "be89bec3f14a7ec4deeff549c38f8b59",
+        "_internal/scripts/core/update_manager.pyd": "99455f9ad3121875bf2949a4bb8ed449",
         "_internal/scripts/core/vong_quay_he_manager.pyd": "be343d0dc8ba9eec6da6a79aefba15b0",
         "_internal/scripts/core/xa_ton_kho_manager.pyd": "0b856fb1c2560e8ab5530b952cf0c2bd",
         "_internal/scripts/core/xe_bo_manager.pyd": "584619a420be86d2772b0a7080eb95bf",
@@ -784,13 +784,13 @@
         "_internal/scripts/gui/pages/account_page.pyd": "33b179153923d573239c77083ce298c3",
         "_internal/scripts/gui/pages/control_page.pyd": "cb5294924841e3afb80fcafcd4850232",
         "_internal/scripts/gui/pages/custom_page.pyd": "5a2c76b02b8bab17d629c0b90527fc10",
-        "_internal/scripts/gui/pages/home_page.pyd": "0890cb98e95bcd540b8e2a7c1eaaef4a",
+        "_internal/scripts/gui/pages/home_page.pyd": "c862d1b4e91ec557a4f53da95a019b86",
         "_internal/scripts/gui/pages/notify_page.pyd": "0b386f83f8d6be685e9d2f1e1c934acb",
         "_internal/scripts/gui/pages/placeholder_page.pyd": "93ce0a08d3eeb5c0534684e9d8e47f05",
         "_internal/scripts/gui/pages/shop_page.pyd": "729bb20d279e90fafa6932d1be382f0c",
         "_internal/scripts/gui/pages/support_page.pyd": "4b47e46608d38d736289c1c01a88b7e1",
         "_internal/scripts/gui/pages/tools_page.pyd": "cf89424210514e6ea9dd0601427409fa",
-        "_internal/scripts/gui/pages/update_page.pyd": "957352252923920cfc2d4894c03a11e5",
+        "_internal/scripts/gui/pages/update_page.pyd": "62349479e3fdae2f24578ed80f2573f9",
         "_internal/scripts/gui/pages/__init__.py": "cbd61d0f2dc2ed227541c8119499463e",
         "_internal/scripts/web/index.html": "1617945eefec698fe655598a0541c453"
     }
